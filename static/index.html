@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover ERNIE Image Prompts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    :root {
+      --bg:#040a04;
+      --bg-card:#0a1a0a;
+      --bg-card-hover:#122212;
+      --green-crt:#33ff66;
+      --green-dim:#1a7a33;
+      --green-glow:rgba(51,255,102,0.15);
+      --cyan:#00e5ff;
+      --cyan-dim:rgba(0,229,255,0.12);
+      --text:#e0e0e6;
+      --text-dim:#8888a0;
+      --accent:#33ff66;
+      --border:#1e1e2e;
+      --font-mono:'Space Mono','Courier New',monospace;
+      --font-crt:'VT323',monospace;
+      --font-body:'Inter',-apple-system,sans-serif;
+    }
+    html { scroll-behavior:smooth; }
+    body { background:var(--bg); color:var(--text); font-family:var(--font-body); line-height:1.7; overflow-x:hidden; }
+    ::selection { background:var(--green-crt); color:var(--bg); }
+
+    /* ===== NAV ===== */
+    .nav {
+      position:fixed; top:0; left:0; right:0; z-index:1000;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:.8rem 2.5rem;
+      background:rgba(4,10,4,.88);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid var(--border);
+    }
+    .nav-logo { font-family:var(--font-crt); font-size:1.5rem; color:var(--green-crt); text-shadow:0 0 10px var(--green-glow); letter-spacing:2px; }
+    .nav-logo span { color:var(--text-dim); font-size:.85rem; margin-left:.5rem; letter-spacing:0; }
+    .nav-count { font-family:var(--font-mono); font-size:.8rem; color:var(--text-dim); }
+    .nav-count b { color:var(--green-crt); }
+
+    /* ===== HERO ===== */
+    .hero {
+      position:relative; display:flex; align-items:center; justify-content:center;
+      min-height:100vh; padding:6rem 2rem 4rem; overflow:hidden; background:#040a04;
+    }
+    /* Morse canvas background */
+    #heroCanvas { position:absolute; inset:0; z-index:1; width:100%; height:100%; }
+    .hero::before {
+      content:''; position:absolute; inset:0; z-index:3; pointer-events:none;
+      background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0px,rgba(0,0,0,.12) 1px,transparent 1px,transparent 3px);
+    }
+    .hero::after {
+      content:''; position:absolute; inset:0; z-index:3; pointer-events:none;
+      background:radial-gradient(ellipse 80% 75% at 50% 50%,transparent 20%,rgba(3,8,3,.35) 65%,rgba(2,5,2,.75) 100%);
+    }
+    .hero-scanline { display:none; }
+    /* 居中不限宽，让 nowrap 标题自然撑开并居中 */
+    .hero-content { position:relative; z-index:5; text-align:center; width:90vw; }
+    .crt-header { font-family:var(--font-crt); color:rgba(100,220,130,.7); text-shadow:0 0 15px rgba(51,255,102,.3); margin-bottom:.5rem; font-size:1rem; letter-spacing:3px; }
+    .crt-title {
+      font-family:var(--font-crt); font-size:clamp(1.8rem,4.8vw,4.8rem);
+      color:#d0ffd8; letter-spacing:4px; line-height:1.05; margin-bottom:.4rem;
+      white-space:nowrap;
+      text-shadow:0 0 30px rgba(51,255,102,.5),0 0 60px rgba(51,255,102,.2),0 0 120px rgba(51,255,102,.08);
+    }
+    .crt-subtitle { font-family:var(--font-crt); font-size:1.25rem; color:rgba(100,220,130,.6); letter-spacing:2px; margin-bottom:2rem; }
+    .crt-stats { display:flex; justify-content:center; gap:2.5rem; margin-bottom:1.5rem; flex-wrap:wrap; }
+    .crt-stat { text-align:center; font-family:var(--font-crt); }
+    .crt-stat-value { font-size:2rem; color:#a0ffb8; text-shadow:0 0 12px rgba(51,255,102,.4); }
+    .crt-stat-label { font-size:.9rem; color:rgba(100,220,130,.45); letter-spacing:1px; }
+    .scroll-hint { font-family:var(--font-crt); color:rgba(100,220,130,.5); font-size:1rem; letter-spacing:2px; animation:pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
+
+    /* ===== GALLERY SECTION ===== */
+    .gallery-section { padding:3rem 1.5rem 4rem; max-width:1400px; margin:0 auto; }
+    .gallery-header { margin-bottom:1.5rem; display:flex; align-items:center; gap:1rem; }
+    .section-tag {
+      display:inline-block; font-family:var(--font-mono); font-size:.7rem; letter-spacing:2px;
+      text-transform:uppercase; color:var(--green-crt); padding:.3rem .8rem;
+      border:1px solid rgba(51,255,102,.25); border-radius:3px; background:rgba(51,255,102,.05);
+    }
+    .gallery-title { font-size:1.5rem; font-weight:700; color:#fff; }
+
+    /* ===== MASONRY (JS columns — no reflow) ===== */
+    .masonry {
+      display:flex; gap:16px; align-items:flex-start;
+    }
+    .masonry-col {
+      flex:1; min-width:0; display:flex; flex-direction:column; gap:16px;
+    }
+
+    .card {
+      margin:0;
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:8px; overflow:hidden; cursor:pointer;
+      transition:transform .25s, border-color .25s, box-shadow .25s;
+      position:relative;
+    }
+    /* 用 JS 管理 is-hovered，避免 CSS columns reflow 丢失 :hover */
+    .card.is-hovered { border-color:rgba(51,255,102,.5); box-shadow:0 0 0 1px rgba(51,255,102,.2), 0 8px 40px rgba(51,255,102,.15); }
+
+    .card-img-wrap { position:relative; overflow:hidden; }
+    .card-img-wrap img { width:100%; display:block; transition:transform .4s; }
+    .card.is-hovered .card-img-wrap img { transform:scale(1.03); }
+
+    /* 常驻类型角标 */
+    .card-badge {
+      position:absolute; top:8px; left:8px; z-index:4;
+      font-family:var(--font-mono); font-size:.6rem; letter-spacing:1px; text-transform:uppercase;
+      padding:.15rem .45rem; border-radius:3px;
+      backdrop-filter:blur(6px);
+    }
+    .card-badge.t2i   { color:var(--green-crt); background:rgba(10,40,10,.7); border:1px solid rgba(51,255,102,.3); }
+    .card-badge.editing { color:var(--cyan); background:rgba(0,20,30,.7); border:1px solid rgba(0,229,255,.3); }
+    .card-badge.other { color:#ffcc00; background:rgba(30,25,0,.7); border:1px solid rgba(255,204,0,.3); }
+
+    /* number collision overlay */
+    .card-nums {
+      position:absolute; inset:0; pointer-events:none; z-index:2;
+    }
+    .num-particle {
+      position:absolute; font-family:var(--font-crt);
+      color:var(--green-crt); font-size:1.1rem;
+      text-shadow:0 0 8px rgba(51,255,102,.7);
+      will-change:transform; transition:none;
+    }
+
+    /* prompt overlay — 绝对定位在图片底部，不撑开卡片高度 */
+    .card-prompt {
+      position:absolute; bottom:0; left:0; right:0; z-index:3;
+      padding:0 1rem;
+      max-height:0; overflow:hidden;
+      background:linear-gradient(to top, rgba(4,10,4,.97) 0%, rgba(4,10,4,.88) 70%, transparent 100%);
+      transition:max-height .35s ease, padding .35s ease;
+      border-radius:0 0 8px 8px;
+    }
+    .card.is-hovered .card-prompt { max-height:180px; padding:.6rem 1rem .9rem; }
+    .card-prompt p {
+      font-size:.78rem; color:rgba(200,240,210,.85); line-height:1.55;
+    }
+    .card-title { font-size:.78rem; font-weight:600; color:#d0ffd8; margin-bottom:.25rem; }
+
+    /* ===== LOAD MORE / SPINNER ===== */
+    #loadMore { text-align:center; padding:2rem 0; }
+    .spinner {
+      display:inline-block; width:28px; height:28px;
+      border:2px solid var(--border); border-top-color:var(--green-crt);
+      border-radius:50%; animation:spin .7s linear infinite;
+    }
+    @keyframes spin { to{transform:rotate(360deg)} }
+    .load-end { font-family:var(--font-crt); color:var(--text-dim); letter-spacing:2px; font-size:1rem; }
+
+    /* ===== MODAL ===== */
+    .modal-overlay {
+      position:fixed; inset:0; z-index:2000; display:flex; align-items:center; justify-content:center;
+      background:rgba(4,10,4,.92); backdrop-filter:blur(8px);
+      opacity:0; pointer-events:none; transition:opacity .25s;
+    }
+    .modal-overlay.open { opacity:1; pointer-events:all; }
+    .modal {
+      position:relative; max-width:900px; width:92vw; max-height:92vh; overflow-y:auto;
+      background:var(--bg-card); border:1px solid rgba(51,255,102,.2);
+      border-radius:12px; padding:0;
+      transform:scale(.95); transition:transform .25s;
+      scrollbar-width:thin; scrollbar-color:var(--green-dim) transparent;
+    }
+    .modal-overlay.open .modal { transform:scale(1); }
+    .modal-img { width:100%; display:block; max-height:60vh; object-fit:contain; background:#000; border-radius:12px 12px 0 0; }
+    .modal-body { padding:1.5rem 2rem 2rem; }
+    .modal-title { font-family:var(--font-crt); font-size:1.5rem; color:var(--green-crt); margin-bottom:.3rem; }
+    .modal-type { font-family:var(--font-mono); font-size:.7rem; color:var(--cyan); letter-spacing:1px; text-transform:uppercase; margin-bottom:.8rem; }
+    .modal-label { font-family:var(--font-mono); font-size:.7rem; color:var(--text-dim); letter-spacing:2px; text-transform:uppercase; margin:.8rem 0 .3rem; }
+    .modal-prompt-zh {
+      font-size:1rem; color:var(--text); line-height:1.8;
+      white-space:pre-wrap; word-break:break-all;
+      user-select:text; -webkit-user-select:text;
+      background:rgba(51,255,102,.03); border-left:2px solid rgba(51,255,102,.25);
+      padding:.6rem .8rem; border-radius:0 4px 4px 0;
+    }
+    .modal-prompt-en {
+      font-size:.88rem; color:var(--text-dim); line-height:1.7;
+      white-space:pre-wrap; word-break:break-all;
+      user-select:text; -webkit-user-select:text;
+      background:rgba(0,229,255,.03); border-left:2px solid rgba(0,229,255,.2);
+      padding:.6rem .8rem; border-radius:0 4px 4px 0;
+    }
+    .modal-source { display:inline-flex; align-items:center; gap:.4rem; margin-top:1rem; font-size:.8rem; color:var(--cyan); }
+    .modal-author-row { display:flex; align-items:center; gap:.8rem; margin-top:.8rem; }
+    .modal-author-link { font-family:var(--font-mono); font-size:.82rem; color:var(--green-crt); text-decoration:none; border-bottom:1px solid rgba(51,255,102,.3); padding-bottom:1px; transition:border-color .2s; }
+    .modal-author-link:hover { border-color:var(--green-crt); }
+    .modal-close {
+      position:absolute; top:1rem; right:1rem; z-index:10;
+      background:rgba(10,10,15,.8); border:1px solid var(--border);
+      color:var(--text-dim); font-size:1.2rem; width:32px; height:32px;
+      border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center;
+      transition:all .2s;
+    }
+    .modal-close:hover { border-color:var(--green-crt); color:var(--green-crt); }
+
+    /* ===== FOOTER ===== */
+    footer { text-align:center; padding:2rem; font-family:var(--font-mono); font-size:.75rem; color:var(--text-dim); border-top:1px solid var(--border); }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-logo">ERNIE<span>/ IMAGE PROMPTS</span></div>
+  <div class="nav-count">TOTAL <b id="totalCount">—</b> IMAGES</div>
+</nav>
+
+<!-- HERO with canvas -->
+<section class="hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-scanline"></div>
+  <div class="hero-content">
+    <div class="crt-header">// BAIDU ERNIE · TEXT-TO-IMAGE</div>
+    <h1 class="crt-title">DISCOVER ERNIE IMAGE PROMPTS</h1>
+    <p class="crt-subtitle">EXPLORE · INSPIRE · CREATE</p>
+    <div class="scroll-hint">▼ SCROLL TO EXPLORE ▼</div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<div class="gallery-section">
+  <div class="gallery-header">
+    <span class="section-tag">gallery</span>
+    <span class="gallery-title">Image Prompts</span>
+  </div>
+  <div class="masonry" id="masonry">
+    <div class="masonry-col" id="col0"></div>
+    <div class="masonry-col" id="col1"></div>
+    <div class="masonry-col" id="col2"></div>
+    <div class="masonry-col" id="col3"></div>
+  </div>
+  <div id="loadMore"><div class="spinner"></div></div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <img class="modal-img" id="modalImg" src="" alt=""/>
+    <div class="modal-body">
+      <div class="modal-type" id="modalType"></div>
+      <div class="modal-title" id="modalTitle"></div>
+      <div class="modal-label">PROMPT</div>
+      <div class="modal-prompt-zh" id="modalPromptZh"></div>
+      <div id="modalEnWrap" style="display:none">
+        <div class="modal-label">ENGLISH PROMPT</div>
+        <div class="modal-prompt-en" id="modalPromptEn"></div>
+      </div>
+      <div id="modalAuthorRow" class="modal-author-row" style="display:none">
+        <span class="modal-label" style="margin:0">AUTHOR</span>
+        <a id="modalAuthor" class="modal-author-link" href="#"></a>
+      </div>
+      <a class="modal-source" id="modalSource" href="#" target="_blank">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        View Source
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 ERNIE Image · Powered by Baidu · <span style="color:var(--green-crt)">Discover ERNIE Image Prompts</span>
+</footer>
+
+<script>
+/* ============================================================
+   HERO CANVAS — binary stream background, title stays static
+   ============================================================ */
+(function(){
+  const canvas = document.getElementById('heroCanvas');
+  const ctx    = canvas.getContext('2d');
+  let W, H;
+
+  // The given binary string — split on spaces to get tokens
+  const BIN_STR = "1000 1011 100001 100 010 0 01 11 000 100001 1000 1011 100001 111 010 01 1010 0100 0 000 100001 01 10 100 100001 0 0001 0 10 100001 00 10 100001 1 0000 0 100001 1 0000 00 10 110 000 100001 01 1000 111 001 1 100001 011 0000 00 1010 0000 100001 1 0000 0 1011 100001 01 010 0 100001 11 111 000 1 100001 0 01 110 0 010 100001 00 100001 0000 01 0001 0 100001 010 0 1010 0 00 0001 0 100 100001 100 00 0001 00 10 0 100001 01 00 100 000 100001 00 10 100001 100 010 0 01 11 000 100001 011 0 100001 1010 01 10 10 111 1 100001 010 0 1010 101 111 10 100001 011 00 1 0000 100001 0010 111 010 1 001 10 0 100001 111 010 100001 0100 01 1011 100001 111 001 010 100001 01 1010 1010 111 001 10 1 100001 011 00 1 0000 100001 0010 01 11 0 100001 00 10 100001 0010 00 10 0 100001 1 0000 0 100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001 1000 111 100 011 100001 00 000 100001 1000 001 1 100001 01 100001 010 00 0001 0 010 100001 01 10 100 100001 1 0000 0 100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001 000 111 001 0100 100001 01 100001 11 00 000 1 1011 100001 100 010 0 01 11 100001 000 111 1000 0 010 100001 1011 111 001 010 000 0 0100 0010 100001 010 0 1010 01 0100 0100 100001 1011 111 001 010 100001 000 0 10 000 0 000 100001 000 0000 01 101 0 100001 000 0100 0 0 0110 100001 0010 010 111 11 100001 1011 111 001 100001 01 10 100 100001 101 10 111 011 100001 1 0000 01 1 100001 00 1 100001 011 01 000 100001 01 100001 100 010 0 01 11 100001 1 0000 01 1 100001 1 010 111 001 1000 0100 0 100001 1011 111 001 100001 01 10 100 100001 10 111 011 100001 1 0000 01 1 100001 1011 111 001 100001 01 010 0 100001 1000 010 111 01 100 100001 01 011 01 101 0 100001 0110 01 00 10 100001 010 0 110 01 010 100 100001 1 0000 0 100001 011 01 101 00 10 110 100001 011 111 010 0100 100 100001 01 000 100001 1011 111 001 100001 100 00 100 100001 1 0000 0 100001 100 010 0 01 11";
+  const tokens = BIN_STR.split(' ').filter(t => t.length > 0);
+  const particles = [];
+
+  /* ── 3 display layers ──
+     Layer 0: tiny, fast, dense (deep background)
+     Layer 1: medium, moderate speed
+     Layer 2: large, slow, sparse (foreground glow)                */
+  const LAYERS = [
+    { count:260, minSz:9,  maxSz:14, minAlpha:.15, maxAlpha:.50, minVy:.18, maxVy:.55, vxAmp:.25 },
+    { count:130, minSz:14, maxSz:20, minAlpha:.10, maxAlpha:.38, minVy:.10, maxVy:.30, vxAmp:.15 },
+    { count: 55, minSz:22, maxSz:32, minAlpha:.07, maxAlpha:.22, minVy:.05, maxVy:.15, vxAmp:.08 },
+  ];
+
+  class BP {
+    constructor(layer, init){
+      this.layer = layer;
+      this.tokenIdx = Math.floor(Math.random() * tokens.length);
+      this._init(init);
+    }
+    _init(init){
+      const L = LAYERS[this.layer];
+      this.x  = Math.random() * (W || 1400);
+      this.y  = init ? Math.random() * (H || 900) : -(Math.random()*80+10);
+      this.vy = Math.random()*(L.maxVy-L.minVy)+L.minVy;
+      this.vx = (Math.random()-.5)*L.vxAmp*2;
+      this.size = Math.random()*(L.maxSz-L.minSz)+L.minSz;
+      this.baseAlpha = Math.random()*(L.maxAlpha-L.minAlpha)+L.minAlpha;
+      this.phase = Math.random()*Math.PI*2;
+      this.freq  = Math.random()*0.009+0.004;
+      // 85% green, 15% cyan — subtle palette
+      this.color = Math.random()>.15 ? 'rgba(51,255,102,' : 'rgba(0,229,255,';
+      // advance token pointer
+      this.tokenIdx = (this.tokenIdx + Math.floor(Math.random()*13+1)) % tokens.length;
+    }
+    tick(t){
+      this.x += this.vx;
+      this.y += this.vy;
+      if(this.y > H+30){ this._init(false); return; }
+      if(this.x < -20) this.x = W+20;
+      if(this.x > W+20) this.x = -20;
+      // slowly step to next token (streaming feel)
+      if(Math.random() < 0.004) this.tokenIdx = (this.tokenIdx+1)%tokens.length;
+      const pulse = this.baseAlpha + Math.sin(t*this.freq+this.phase)*this.baseAlpha*0.4;
+      this.alpha = Math.max(0.01, Math.min(0.7, pulse));
+    }
+    draw(){
+      const tok = tokens[this.tokenIdx];
+      ctx.globalAlpha = this.alpha;
+      ctx.fillStyle   = this.color + this.alpha + ')';
+      ctx.font        = `${this.size}px 'VT323',monospace`;
+      ctx.fillText(tok, this.x, this.y);
+    }
+  }
+
+  function resize(){
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = canvas.parentElement.offsetHeight || window.innerHeight;
+  }
+  function init(){
+    resize();
+    LAYERS.forEach((L,li)=>{
+      for(let i=0;i<L.count;i++) particles.push(new BP(li, true));
+    });
+  }
+
+  let t = 0;
+  function loop(){
+    ctx.clearRect(0,0,W,H);
+    t++;
+    for(const p of particles){ p.tick(t); p.draw(); }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(loop);
+  }
+
+  window.addEventListener('resize', resize);
+  // window.load 确保字体渲染、布局尺寸全部就绪
+  window.addEventListener('load', ()=>{ init(); loop(); });
+})();
+
+/* ============================================================
+   CARD number scatter on hover (per-card canvas)
+   ============================================================ */
+function attachCardEffect(card, imgEl){
+  const wrap = card.querySelector('.card-img-wrap');
+  const overlay = card.querySelector('.card-nums');
+  let particles = [], raf = null, entered = false;
+  const CHARS = '0123456789';
+
+  function spawnParticles(){
+    particles = [];
+    const W = wrap.offsetWidth, H = wrap.offsetHeight;
+    for(let i=0;i<28;i++){
+      particles.push({
+        x: Math.random()*W, y: Math.random()*H,
+        vx:(Math.random()-.5)*6, vy:(Math.random()-.5)*6,
+        alpha:1, char:CHARS[Math.floor(Math.random()*10)],
+        el: null
+      });
+    }
+    overlay.innerHTML='';
+    for(const p of particles){
+      const span = document.createElement('span');
+      span.className='num-particle';
+      span.textContent = p.char;
+      span.style.left = p.x+'px';
+      span.style.top  = p.y+'px';
+      overlay.appendChild(span);
+      p.el = span;
+    }
+  }
+
+  function animateParticles(){
+    let allDone = true;
+    for(const p of particles){
+      p.x += p.vx; p.y += p.vy;
+      p.vx *= .92; p.vy *= .92;
+      p.alpha -= .018;
+      if(p.alpha>0) allDone=false;
+      p.el.style.left = p.x+'px';
+      p.el.style.top  = p.y+'px';
+      p.el.style.opacity = Math.max(0,p.alpha);
+    }
+    if(!allDone) raf = requestAnimationFrame(animateParticles);
+  }
+
+  card.addEventListener('mouseenter', ()=>{
+    if(raf) cancelAnimationFrame(raf);
+    spawnParticles();
+    raf = requestAnimationFrame(animateParticles);
+  });
+}
+
+/* ============================================================
+   INFINITE SCROLL GALLERY
+   ============================================================ */
+let page = 1, loading = false, done = false;
+const cols = [
+  document.getElementById('col0'),
+  document.getElementById('col1'),
+  document.getElementById('col2'),
+  document.getElementById('col3'),
+];
+const loadMore = document.getElementById('loadMore');
+
+function getShortestCol(){
+  let min = Infinity, idx = 0;
+  cols.forEach((c,i)=>{ const h = c.offsetHeight; if(h < min){ min=h; idx=i; } });
+  return cols[idx];
+}
+
+async function fetchPage(){
+  if(loading || done) return;
+  loading = true;
+  loadMore.innerHTML = '<div class="spinner"></div>';
+  try {
+    const res = await fetch(`/api/images?page=${page}&size=12`);
+    const data = await res.json();
+    if(page===1){
+      document.getElementById('totalCount').textContent = data.total;
+    }
+    await renderCards(data.items);
+    page++;
+    if(!data.has_more){
+      done = true;
+      loadMore.innerHTML = '<div class="load-end">— END OF COLLECTION —</div>';
+    } else {
+      loadMore.innerHTML = '';
+    }
+  } catch(e){
+    loadMore.innerHTML = '<div class="load-end" style="color:#ff4444">LOAD ERROR</div>';
+  }
+  loading = false;
+}
+
+async function renderCards(items){
+  for(const item of items){
+    const card = document.createElement('div');
+    card.className = 'card';
+    const badgeClass = item.type === 't2i' || item.type === 'editing' ? 't2i' : 'other';
+    const badgeLabel = (item.type === 't2i' || item.type === 'editing') ? 'T2I' : (item.type || '');
+    card.innerHTML = `
+      <div class="card-img-wrap">
+        <img src="/images/${item.filename}" alt="${item.title||''}"/>
+        ${badgeLabel ? `<span class="card-badge ${badgeClass}">${badgeLabel}</span>` : ''}
+        <div class="card-nums"></div>
+        <div class="card-prompt">
+          ${item.title ? `<div class="card-title">${item.title}</div>` : ''}
+          <p>${item.prompt}</p>
+        </div>
+      </div>`;
+
+    card.addEventListener('mouseenter', () => card.classList.add('is-hovered'));
+    card.addEventListener('mouseleave', () => card.classList.remove('is-hovered'));
+
+    attachCardEffect(card, card.querySelector('img'));
+    card.addEventListener('click', ()=>openModal(item));
+    getShortestCol().appendChild(card);
+
+    // 等图片加载完再插下一张，确保列高计算准确
+    const img = card.querySelector('img');
+    if(img && !img.complete){
+      await new Promise(r => { img.onload = r; img.onerror = r; });
+    }
+  }
+}
+
+/* ============================================================
+   MODAL
+   ============================================================ */
+const overlay = document.getElementById('modalOverlay');
+const modalClose = document.getElementById('modalClose');
+
+function openModal(item){
+  document.getElementById('modalImg').src = `/images/${item.filename}`;
+  document.getElementById('modalType').textContent = '// T2I';
+  document.getElementById('modalTitle').textContent = item.title || `#${item.index}`;
+  document.getElementById('modalPromptZh').textContent = item.prompt;
+  const enWrap = document.getElementById('modalEnWrap');
+  if(item.prompt_en && item.prompt_en.trim()){
+    document.getElementById('modalPromptEn').textContent = item.prompt_en;
+    enWrap.style.display='block';
+  } else {
+    enWrap.style.display='none';
+  }
+  const src = document.getElementById('modalSource');
+  if(item.source){
+    src.href = item.source; src.style.display='inline-flex';
+  } else { src.style.display='none'; }
+  // author
+  const authorEl = document.getElementById('modalAuthor');
+  const authorRow = document.getElementById('modalAuthorRow');
+  if(item.author){
+    authorEl.textContent = item.author;
+    authorEl.href = item.author_link || '#';
+    authorEl.target = item.author_link ? '_blank' : '';
+    authorRow.style.display = 'flex';
+  } else {
+    authorRow.style.display = 'none';
+  }
+  overlay.classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(){
+  overlay.classList.remove('open');
+  document.body.style.overflow='';
+}
+modalClose.addEventListener('click', closeModal);
+overlay.addEventListener('click', e=>{ if(e.target===overlay) closeModal(); });
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
+
+/* ============================================================
+   INTERSECTION OBSERVER + SCROLL 兜底
+   ============================================================ */
+const observer = new IntersectionObserver(entries=>{
+  if(entries[0].isIntersecting && !loading && !done) fetchPage();
+}, { threshold: 0.1 });
+observer.observe(loadMore);
+
+// 滚到底部附近也触发加载（兜底）
+window.addEventListener('scroll', ()=>{
+  if(loading || done) return;
+  const distToBottom = document.documentElement.scrollHeight - window.scrollY - window.innerHeight;
+  if(distToBottom < 300) fetchPage();
+}, { passive: true });
+
+// kick off first page
+fetchPage();
+</script>
+</body>
+</html>

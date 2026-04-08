@@ -473,7 +473,7 @@ async function renderCards(items){
     const badgeLabel = (item.type === 't2i' || item.type === 'editing') ? 'T2I' : (item.type || '');
     card.innerHTML = `
       <div class="card-img-wrap">
-        <img src="images/${item.filename}" alt="${item.title||''}"/>
+        <img src="https://nlp-sr-share.bj.bcebos.com/liujiaxiang/workfiles/ernieimageprompt/images/${item.filename}" alt="${item.title||''}"/>
         ${badgeLabel ? `<span class="card-badge ${badgeClass}">${badgeLabel}</span>` : ''}
         <div class="card-nums"></div>
         <div class="card-prompt">
@@ -504,7 +504,7 @@ const overlay = document.getElementById('modalOverlay');
 const modalClose = document.getElementById('modalClose');
 
 function openModal(item){
-  document.getElementById('modalImg').src = `images/${item.filename}`;
+  document.getElementById('modalImg').src = `https://nlp-sr-share.bj.bcebos.com/liujiaxiang/workfiles/ernieimageprompt/images/${item.filename}`;
   document.getElementById('modalType').textContent = '// T2I';
   document.getElementById('modalTitle').textContent = item.title || `#${item.index}`;
   document.getElementById('modalPromptZh').textContent = item.prompt;

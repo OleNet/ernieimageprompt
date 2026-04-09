@@ -838,331 +838,331 @@ window.__GALLERY_DATA__ = [
   {
     "filename": "item_107_1.png",
     "index": 3526,
-    "title": "",
-    "prompt": "\u8bf7\u751f\u6210\u4e00\u5f20\u513f\u7ae5\u8bc6\u5b57\u5c0f\u62a5\u300a\u6e38\u4e50\u56ed\u300b\uff0c\u7ad6\u7248 A4\uff0c\u5b66\u4e60\u5c0f\u62a5\u7248\u5f0f\uff0c\u9002\u5408 5\u20139 \u5c81\u5b69\u5b50 \u8ba4\u5b57\u4e0e\u770b\u56fe\u8bc6\u7269\u3002 \u4e00\u3001\u5c0f\u62a5\u6807\u9898\u533a\uff08\u9876\u90e8\uff09 \u9876\u90e8\u5c45\u4e2d\u5927\u6807\u9898\uff1a\u300a\u6e38\u4e50\u56ed\u8bc6\u5b57\u5c0f\u62a5\u300b \u98ce\u683c\uff1a\u5341\u5b57\u5c0f\u62a5 / \u513f\u7ae5\u5b66\u4e60\u62a5\u611f \u6587\u672c\u8981\u6c42\uff1a\u5927\u5b57\u3001\u9192\u76ee\u3001\u5361\u901a\u624b\u5199\u4f53\u3001\u5f69\u8272\u63cf\u8fb9 \u88c5\u9970\uff1a\u5468\u56f4\u6dfb\u52a0\u4e0e \u6e38\u4e50\u56ed \u76f8\u5173\u7684\u8d34\u7eb8\u98ce\u88c5\u9970\uff0c\u989c\u8272\u9c9c\u8273 \u4e8c\u3001\u5c0f\u62a5\u4e3b\u4f53\uff08\u4e2d\u95f4\u4e3b\u753b\u9762\uff09 \u753b\u9762\u4e2d\u5fc3\u662f\u4e00\u5e45 \u5361\u901a\u63d2\u753b\u98ce\u7684\u300c\u6e38\u4e50\u56ed\u300d\u573a\u666f\uff1a \u6574\u4f53\u6c14\u6c1b\uff1a\u660e\u4eae\u3001\u6e29\u6696\u3001\u79ef\u6781 \u6784\u56fe\uff1a\u7269\u4f53\u8fb9\u754c\u6e05\u6670\uff0c\u65b9\u4fbf\u5bf9\u5e94\u6587\u5b57\uff0c\u4e0d\u8981\u8fc7\u4e8e\u62e5\u6324\u3002 \u573a\u666f\u5206\u533a\u4e0e\u6838\u5fc3\u5185\u5bb9 \u6838\u5fc3\u533a\u57df A\uff08\u4e3b\u8981\u5bf9\u8c61\uff09\uff1a\u8868\u73b0 \u6e38\u4e50\u56ed \u7684\u6838\u5fc3\u6d3b\u52a8\uff08\u5b69\u5b50\u4eec\u5728\u73a9\u6e38\u4e50\u8bbe\u65bd\uff09\u3002 \u6838\u5fc3\u533a\u57df B\uff08\u914d\u5957\u8bbe\u65bd\uff09\uff1a\u5c55\u793a\u76f8\u5173\u7684\u5de5\u5177\u6216\u7269\u54c1\uff08\u552e\u7968\u3001\u96f6\u98df\u3001\u6307\u793a\u8bbe\u65bd\uff09\u3002 \u6838\u5fc3\u533a\u57df C\uff08\u73af\u5883\u80cc\u666f\uff09\uff1a\u4f53\u73b0\u73af\u5883\u7279\u5f81\uff08\u5165\u53e3\u3001\u8def\u724c\u3001\u5f69\u65d7\u3001\u7eff\u5730\u7b49\uff09\u3002 \u4e3b\u9898\u4eba\u7269 \u89d2\u8272\uff1a1 \u4f4d\u53ef\u7231\u5361\u901a\u4eba\u7269\uff08\u8eab\u4efd\uff1a\u6e38\u4e50\u56ed\u5de5\u4f5c\u4eba\u5458/\u6e38\u5ba2\u5c0f\u670b\u53cb\u7686\u53ef\uff09\u3002 \u52a8\u4f5c\uff1a\u6b63\u5728\u8fdb\u884c\u4e0e\u573a\u666f\u76f8\u5173\u7684\u81ea\u7136\u4e92\u52a8\uff08\u5982\u5fae\u7b11\u6307\u8def\u3001\u6325\u624b\u6b22\u8fce\u3001\u966a\u5b69\u5b50\u73a9\uff09\u3002 \u4e09\u3001\u5fc5\u753b\u7269\u4f53\u4e0e\u8bc6\u5b57\u6e05\u5355\uff08Generated Content\uff09 \u8bf7\u52a1\u5fc5\u5728\u753b\u9762\u4e2d\u6e05\u6670\u7ed8\u5236\u4ee5\u4e0b\u7269\u4f53\uff0c\u5e76\u4e3a\u5176\u9884\u7559\u8d34\u6807\u7b7e\u7684\u4f4d\u7f6e\uff1a 1. \u6838\u5fc3\u89d2\u8272\u4e0e\u8bbe\u65bd\uff1a g\u014dng zu\u00f2 r\u00e9n yu\u00e1n \u5de5\u4f5c\u4eba\u5458 sh\u00f2u pi\u00e0o ch\u00f9 \u552e\u7968\u5904 gu\u00f2 sh\u0101n ch\u0113 \u8fc7\u5c71\u8f66 m\u00f3 ti\u0101n l\u00fan \u6469\u5929\u8f6e xu\u00e1n zhu\u01cen m\u01ce \u65cb\u8f6c\u6728\u9a6c 2. \u5e38\u89c1\u7269\u54c1/\u5de5\u5177\uff1a pi\u00e0o \u7968 q\u00ec qi\u00fa \u6c14\u7403 b\u012bng j\u012b l\u00edng \u51b0\u6dc7\u6dcb b\u00e0o m\u01d0 hu\u0101 \u7206\u7c73\u82b1 t\u00e1ng h\u00fa lu \u7cd6\u846b\u82a6 mi\u00e0n j\u00f9 \u9762\u5177 w\u00e1n j\u00f9 \u73a9\u5177 xi\u01ceo q\u00ed zi \u5c0f\u65d7\u5b50 3. \u73af\u5883\u4e0e\u88c5\u9970\uff1a r\u00f9 k\u01d2u \u5165\u53e3 ch\u016b k\u01d2u \u51fa\u53e3 zh\u01d0 sh\u00ec p\u00e1i \u6307\u793a\u724c c\u01cei q\u00ed \u5f69\u65d7 gu\u01ceng ch\u01ceng \u5e7f\u573a (\u6ce8\u610f\uff1a\u753b\u9762\u4e2d\u7684\u7269\u4f53\u6570\u91cf\u4e0d\u9650\u4e8e\u6b64\uff0c\u4f46\u4ee5\u4e0a\u5217\u8868\u5fc5\u987b\u4f5c\u4e3a\u91cd\u70b9\u63cf\u7ed8\u5bf9\u8c61\uff1b\u603b\u8ba1 18 \u4e2a\u5178\u578b\u540d\u8bcd\uff0c\u9002\u5408 5\u20139 \u5c81\u513f\u7ae5\u8bc6\u5b57\u3002) \u56db\u3001\u8bc6\u5b57\u6807\u6ce8\u89c4\u5219 \u5bf9\u4e0a\u8ff0\u6e05\u5355\u4e2d\u7684\u7269\u4f53\uff0c\u8d34\u4e0a\u4e2d\u6587\u8bc6\u5b57\u6807\u7b7e\uff1a \u683c\u5f0f\uff1a\u4e24\u884c\u5236\uff08\u7b2c\u4e00\u884c\u62fc\u97f3\u5e26\u58f0\u8c03\uff0c\u7b2c\u4e8c\u884c\u7b80\u4f53\u6c49\u5b57\uff09\u3002 \u6837\u5f0f\uff1a\u5f69\u8272\u5c0f\u8d34\u7eb8\u98ce\u683c\uff0c\u767d\u5e95\u9ed1\u5b57\u6216\u6df1\u8272\u5b57\uff0c\u6e05\u6670\u53ef\u8bfb\u3002 \u6392\u7248\uff1a\u6807\u7b7e\u9760\u8fd1\u5bf9\u5e94\u7684\u7269\u4f53\uff0c\u4e0d\u906e\u6321\u4e3b\u4f53\u3002 \u4e94\u3001\u753b\u98ce\u53c2\u6570 \u98ce\u683c\uff1a\u513f\u7ae5\u7ed8\u672c\u98ce + \u8bc6\u5b57\u5c0f\u62a5\u98ce \u8272\u5f69\uff1a\u9ad8\u9971\u548c\u3001\u660e\u5feb\u3001\u6e29\u6696 (High Saturation, Warm Tone) \u8d28\u91cf\uff1a8k resolution, high detail, vector illustration style, clean lines.",
+    "title": "儿童识字小报",
+    "prompt": "请生成一张儿童识字小报《游乐园》，竖版 A4，学习小报版式，适合 5–9 岁孩子 认字与看图识物。 一、小报标题区（顶部） 顶部居中大标题：《游乐园识字小报》 风格：十字小报 / 儿童学习报感 文本要求：大字、醒目、卡通手写体、彩色描边 装饰：周围添加与 游乐园 相关的贴纸风装饰，颜色鲜艳 二、小报主体（中间主画面） 画面中心是一幅 卡通插画风的「游乐园」场景： 整体气氛：明亮、温暖、积极 构图：物体边界清晰，方便对应文字，不要过于拥挤。 场景分区与核心内容 核心区域 A（主要对象）：表现 游乐园 的核心活动（孩子们在玩游乐设施）。 核心区域 B（配套设施）：展示相关的工具或物品（售票、零食、指示设施）。 核心区域 C（环境背景）：体现环境特征（入口、路牌、彩旗、绿地等）。 主题人物 角色：1 位可爱卡通人物（身份：游乐园工作人员/游客小朋友皆可）。 动作：正在进行与场景相关的自然互动（如微笑指路、挥手欢迎、陪孩子玩）。 三、必画物体与识字清单（Generated Content） 请务必在画面中清晰绘制以下物体，并为其预留贴标签的位置： 1. 核心角色与设施： gōng zuò rén yuán 工作人员 shòu piào chù 售票处 guò shān chē 过山车 mó tiān lún 摩天轮 xuán zhuǎn mǎ 旋转木马 2. 常见物品/工具： piào 票 qì qiú 气球 bīng jī líng 冰淇淋 bào mǐ huā 爆米花 táng hú lu 糖葫芦 miàn jù 面具 wán jù 玩具 xiǎo qí zi 小旗子 3. 环境与装饰： rù kǒu 入口 chū kǒu 出口 zhǐ shì pái 指示牌 cǎi qí 彩旗 guǎng chǎng 广场 (注意：画面中的物体数量不限于此，但以上列表必须作为重点描绘对象；总计 18 个典型名词，适合 5–9 岁儿童识字。) 四、识字标注规则 对上述清单中的物体，贴上中文识字标签： 格式：两行制（第一行拼音带声调，第二行简体汉字）。 样式：彩色小贴纸风格，白底黑字或深色字，清晰可读。 排版：标签靠近对应的物体，不遮挡主体。 五、画风参数 风格：儿童绘本风 + 识字小报风 色彩：高饱和、明快、温暖 (High Saturation, Warm Tone) 质量：8k resolution, high detail, vector illustration style, clean lines.",
     "prompt_en": "",
     "source": "https://x.com/lxfater/status/1993238777033105634?s=20",
     "type": "t2i",
-    "author": "",
-    "author_link": ""
+    "author": "@lxfater",
+    "author_link": "https://x.com/lxfater"
   },
   {
     "filename": "item_109_4.png",
     "index": 3527,
-    "title": "",
-    "prompt": "\u4f7f\u7528\u4e0a\u4f20\u7684\u57ce\u5e02\u7167\u7247\u4f5c\u4e3a\u5e95\u56fe\u3002\u8bf7\u52ff\u66f4\u6539\u7167\u7247\u4e2d\u7684\u771f\u5b9e\u5efa\u7b51\u3001\u8857\u9053\u3001\u8f66\u8f86\u6216\u4eba\u7269\u3002\u4fdd\u6301\u7167\u7247\u7684\u771f\u5b9e\u6027\u3002\u5728\u5efa\u7b51\u7269\u4e0a\u65b9\u548c\u540e\u65b9\u7684\u5929\u7a7a\u4e2d\u6dfb\u52a0\u4e00\u4e2a\u975e\u5e38\u5de8\u5927\u3001\u98ce\u683c\u5316\u7684\u63d2\u753b\u751f\u7269\uff0c\u4eff\u4f5b\u5b83\u4fef\u77b0\u7740\u6574\u5ea7\u57ce\u5e02\u3002\u8be5\u751f\u7269\u5e94\u91c7\u7528\u6241\u5e73\u5316\u7684\u56fe\u5f62\u98ce\u683c\u7ed8\u5236\uff0c\u8f6e\u5ed3\u6e05\u6670\uff0c\u5e76\u4f7f\u7528\u6709\u9650\u7684\u9713\u8679\u8272\uff08\u4f8b\u5982\u67d4\u548c\u7684\u9713\u8679\u7eff\u3001\u9713\u8679\u9ec4\u548c\u67e0\u6aac\u7eff\uff09\uff0c\u7c7b\u4f3c\u4e8e\u58c1\u753b\u6216\u6d77\u62a5\u63d2\u56fe\u3002\u751f\u7269\u8bbe\u8ba1\uff1a - \u5947\u5e7b\u7684\u5f02\u60f3\u4e16\u754c\uff0c\u800c\u975e\u6050\u6016\u6216\u66b4\u529b - \u7531\u5c42\u53e0\u7684\u5f62\u72b6\u3001\u9cde\u7247\u3001\u6bdb\u53d1\u6216\u82b1\u5349\u56fe\u6848\u6784\u6210 - \u957f\u957f\u7684\u624b\u81c2\u6216\u5934\u53d1\u5782\u6302\u5728\u5efa\u7b51\u7269\u65c1 - \u5de8\u5927\u7684\u89d2\u6216\u5176\u4ed6\u5947\u7279\u7684\u7279\u5f81\u5728\u5929\u7a7a\u7684\u6620\u886c\u4e0b\u6e05\u6670\u53ef\u89c1 \u4e0e\u7167\u7247\u7684\u878d\u5408\uff1a - \u5c06\u751f\u7269\u653e\u7f6e\u5728\u5efa\u7b51\u7269\u8fb9\u7f18\u540e\u65b9\uff0c\u4f7f\u5176\u90e8\u5206\u8eab\u4f53\u51fa\u73b0\u5728\u5efa\u7b51\u7269\u8fb9\u7f18\u4e4b\u540e\uff0c\u6ce8\u610f\u900f\u89c6\u5173\u7cfb - \u4f7f\u7528\u6b63\u786e\u7684\u91cd\u53e0\u65b9\u5f0f\uff1a\u5efa\u7b51\u7269\u8fb9\u7f18\u5728\u524d\uff0c\u751f\u7269\u5728\u540e\uff0c\u4f7f\u5176\u878d\u5165\u573a\u666f\u4e4b\u4e2d - \u5982\u6709\u9700\u8981\uff0c\u53ef\u5728\u9644\u8fd1\u7684\u5efa\u7b51\u7269\u8868\u9762\u6dfb\u52a0\u975e\u5e38\u67d4\u548c\u7684\u9634\u5f71\u6216\u8272\u5f69\u53cd\u5c04\uff0c\u4f46\u8981\u4fdd\u6301\u5fae\u5999 - \u4fdd\u6301\u5929\u7a7a\u7684\u539f\u59cb\u4eae\u5ea6\uff0c\u4f7f\u63d2\u56fe\u6e05\u6670\u7a81\u51fa \u53ef\u9009\uff1a - \u5728\u8857\u9053\u4e0a\u6dfb\u52a0\u4e00\u4e9b\u5c0f\u578b\u3001\u7b80\u5355\u7684\u63d2\u56fe\u4eba\u7269\uff08\u6241\u5e73\u3001\u6781\u7b80\u98ce\u683c\uff09\uff0c\u4f8b\u5982\u905b\u72d7\u6216\u8fc7\u9a6c\u8def\uff0c\u4f46\u4e0d\u8981\u906e\u6321\u771f\u4eba\u3002 \u6574\u4f53\u6c1b\u56f4\uff1a\u68a6\u5e7b\u822c\u7684\u8d85\u73b0\u5b9e\u57ce\u5e02\u666f\u8c61\uff0c\u4e00\u53ea\u5de8\u5927\u7684\u3001\u53cb\u597d\u7684\u63d2\u56fe\u751f\u7269\u51fa\u73b0\u5728\u903c\u771f\u7684\u5efa\u7b51\u7269\u4e0a\u65b9\uff0c\u5c06\u771f\u5b9e\u7167\u7247\u4e0e\u7b80\u6d01\u73b0\u4ee3\u7684\u63d2\u56fe\u76f8\u7ed3\u5408\u3002",
+    "title": "为城市图片添加巨大生物",
+    "prompt": "使用上传的城市照片作为底图。请勿更改照片中的真实建筑、街道、车辆或人物。保持照片的真实性。在建筑物上方和后方的天空中添加一个非常巨大、风格化的插画生物，仿佛它俯瞰着整座城市。该生物应采用扁平化的图形风格绘制，轮廓清晰，并使用有限的霓虹色（例如柔和的霓虹绿、霓虹黄和柠檬绿），类似于壁画或海报插图。生物设计： - 奇幻的异想世界，而非恐怖或暴力 - 由层叠的形状、鳞片、毛发或花卉图案构成 - 长长的手臂或头发垂挂在建筑物旁 - 巨大的角或其他奇特的特征在天空的映衬下清晰可见 与照片的融合： - 将生物放置在建筑物边缘后方，使其部分身体出现在建筑物边缘之后，注意透视关系 - 使用正确的重叠方式：建筑物边缘在前，生物在后，使其融入场景之中 - 如有需要，可在附近的建筑物表面添加非常柔和的阴影或色彩反射，但要保持微妙 - 保持天空的原始亮度，使插图清晰突出 可选： - 在街道上添加一些小型、简单的插图人物（扁平、极简风格），例如遛狗或过马路，但不要遮挡真人。 整体氛围：梦幻般的超现实城市景象，一只巨大的、友好的插图生物出现在逼真的建筑物上方，将真实照片与简洁现代的插图相结合。",
     "prompt_en": "",
     "source": "https://x.com/AI_GIRL_DESIGN/status/1993244246225392089?s=20",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@AI_GIRL_DESIGN",
+    "author_link": "https://x.com/ai_girl_design"
   },
   {
     "filename": "item_115_4.png",
     "index": 3528,
-    "title": "",
-    "prompt": "\u6211\u60f3\u770b\u770b\u8fd9\u5f20\u7167\u7247\u62cd\u6444\u7684\u5e55\u540e\u82b1\u7d6e\uff0c\u4e86\u89e3\u5b83\u662f\u5982\u4f55\u8bde\u751f\u7684\u3002",
+    "title": "揭秘照片的幕后制作过程",
+    "prompt": "我想看看这张照片拍摄的幕后花絮，了解它是如何诞生的。",
     "prompt_en": "",
     "source": "https://x.com/icreatelife/status/1991945836914147524?s=20",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@icreatelife",
+    "author_link": "https://x.com/icreatelife"
   },
   {
     "filename": "item_126_4.png",
     "index": 3529,
-    "title": "",
-    "prompt": "\u4f7f\u7528\u5bbd\u5c4f\u9762\u677f\uff0c\u4e3a\u300a1984\u300b\u7b2c\u4e00\u9875\u521b\u4f5c\u7535\u5f71\u5206\u955c\u811a\u672c\u3002",
+    "title": "电影分镜制作",
+    "prompt": "使用宽屏面板，为《1984》第一页创作电影分镜脚本。",
     "prompt_en": "",
     "source": "https://x.com/jamesyeung18/status/1992597408128045462?s=20",
     "type": "t2i",
-    "author": "",
-    "author_link": ""
+    "author": "@jamesyeung18",
+    "author_link": "https://x.com/jamesyeung18"
   },
   {
     "filename": "item_141_2.png",
     "index": 3530,
-    "title": "",
-    "prompt": "{\n\n\"style\": {\n\n\"name\": \"vertical_slice_glitch\",\n\n\"description\": \"\u91c7\u7528\u5782\u76f4\u5207\u7247\u626d\u66f2\u3001\u6545\u969c\u5206\u88c2\u548c\u6a21\u62df\u98ce\u683c\u9897\u7c92\u7684\u9ad8\u7ea7\u65f6\u5c1a\u4eba\u50cf\u3002\",\n\n\"elements\": {\n\n\"subject\": {\n\n\"type\": \"fashion_portrait\",\n\n\"framing\": \"tight_face_centered\",\n\n\"expression\": \"neutral_or_intense\",\n\n\"lighting\": \"soft_diffused_studio\",\n\n\"skin_texture\": \"realistic_with_blush\",\n\n\"wardrobe\": \"minimal_solid_colors\"\n\n},\n\n\"distortion\": {\n\n\"effect\": \"vertical_slit_scan\",\n\n\"slice_count\": \"40-80\",\n\n\"slice_thickness\": \"thin\",\n\n\"displacement_amount\": \"medium\",\n\n\"alignment\": \"center_weighted\",\n\n\"smooth_blend_edges\": false,\n\n\"random_offset\": true,\n\n\"\u65b9\u5411\": \"\u5782\u76f4\"\n\n},\n\n\"\u7eb9\u7406\": {\n\n\"\u9897\u7c92\": \"\u4e2d\u7b49\u504f\u91cd\",\n\n\"\u566a\u70b9\": \"\u7cbe\u7ec6\u6570\u7801\u566a\u70b9\",\n\n\"\u538b\u7f29\u4f2a\u5f71\": \"\u7ec6\u5fae\",\n\n\"\u80f6\u7247\": \"\u54d1\u5149\u65f6\u5c1a\u7f16\u8f91\"\n\n},\n\n\"\u8c03\u8272\u677f\": {\n\n\"\u80cc\u666f\": \"#F2F2F2\",\n\n\"\u8272\u8c03\": \"\u67d4\u548c\u4e2d\u6027\",\n\n\"\u5f3a\u8c03\": \"\u6df1\u7ea2\u8272\",\n\n\"\u5bf9\u6bd4\u5ea6\": \"\u4e2d\u9ad8\"\n\n},\n\n\"\u76f8\u673a\": {\n\n\"\u955c\u5934\": \"85mm\u4eba\u50cf\",\n\n\"\u666f\u6df1\": \"\u6d45\",\n\n\"\u5bf9\u7126\": \"\u773c\u775b\",\n\n\"\u89d2\u5ea6\": \"\u6b63\u9762\"\n\n}\n}\n\n},\n\n\"\u8f93\u51fa\": {\n\"\u683c\u5f0f\": \"\u9ad8\u65f6\u5c1a\u6545\u969c\u4eba\u50cf\",\n\n\"\u5bbd\u9ad8\u6bd4\": \"3:4\",\n\n\"\u5206\u8fa8\u7387\": \"\u9ad8\"\n\n}\n}",
+    "title": "垂直切片失真特效",
+    "prompt": "{\n\n\"style\": {\n\n\"name\": \"vertical_slice_glitch\",\n\n\"description\": \"采用垂直切片扭曲、故障分裂和模拟风格颗粒的高级时尚人像。\",\n\n\"elements\": {\n\n\"subject\": {\n\n\"type\": \"fashion_portrait\",\n\n\"framing\": \"tight_face_centered\",\n\n\"expression\": \"neutral_or_intense\",\n\n\"lighting\": \"soft_diffused_studio\",\n\n\"skin_texture\": \"realistic_with_blush\",\n\n\"wardrobe\": \"minimal_solid_colors\"\n\n},\n\n\"distortion\": {\n\n\"effect\": \"vertical_slit_scan\",\n\n\"slice_count\": \"40-80\",\n\n\"slice_thickness\": \"thin\",\n\n\"displacement_amount\": \"medium\",\n\n\"alignment\": \"center_weighted\",\n\n\"smooth_blend_edges\": false,\n\n\"random_offset\": true,\n\n\"方向\": \"垂直\"\n\n},\n\n\"纹理\": {\n\n\"颗粒\": \"中等偏重\",\n\n\"噪点\": \"精细数码噪点\",\n\n\"压缩伪影\": \"细微\",\n\n\"胶片\": \"哑光时尚编辑\"\n\n},\n\n\"调色板\": {\n\n\"背景\": \"#F2F2F2\",\n\n\"色调\": \"柔和中性\",\n\n\"强调\": \"深红色\",\n\n\"对比度\": \"中高\"\n\n},\n\n\"相机\": {\n\n\"镜头\": \"85mm人像\",\n\n\"景深\": \"浅\",\n\n\"对焦\": \"眼睛\",\n\n\"角度\": \"正面\"\n\n}\n}\n\n},\n\n\"输出\": {\n\"格式\": \"高时尚故障人像\",\n\n\"宽高比\": \"3:4\",\n\n\"分辨率\": \"高\"\n\n}\n}",
     "prompt_en": "",
     "source": "https://x.com/gizakdag/status/1996288172624634336?s=20",
     "type": "t2i",
-    "author": "",
-    "author_link": ""
+    "author": "@gizakdag",
+    "author_link": "https://x.com/gizakdag"
   },
   {
     "filename": "item_143_3.png",
     "index": 3531,
-    "title": "",
-    "prompt": "\u4e00\u5f20\u8d85\u903c\u771f\u7684\u9c7c\u773c\u5e7f\u89d2\u81ea\u62cd\uff0c\u4f7f\u7528\u8001\u5f0f35mm\u9c7c\u773c\u955c\u5934\u62cd\u6444\uff0c\u4ea7\u751f\u4e25\u91cd\u7684\u6876\u5f62\u7578\u53d8\u3002\u7167\u7247\u4e2d\u4eba\u7269\u624b\u4e2d\u6ca1\u6709\u76f8\u673a\u6216\u624b\u673a\u3002\n\n\u4e3b\u4f53\u4e0e\u52a8\u4f5c\uff1a\u4e00\u5f20\u7279\u5199\u3001\u7565\u5e26\u7578\u53d8\u7684\u5408\u5f71\uff0c[\u4e0a\u4f20\u56fe\u7247\u4e2d\u7684\u4eba\u7269]\u6b63\u5728\u4e0e[\u4eba\u7269]\u81ea\u62cd\u3002\u6bcf\u4e2a\u4eba\u90fd\u5728\u505a\u7740\u5938\u5f20\u7684\u8868\u60c5\uff0c\u5fae\u5fae\u772f\u7740\u773c\u775b\uff0c\u56e0\u4e3a\u95ea\u5149\u706f\u7684\u7167\u5c04\u3002\n\n\u5149\u7ebf\u4e0e\u8d28\u611f\uff1a\u5f3a\u70c8\u7684\u76f4\u5c04\u95ea\u5149\u706f\u5728\u4eba\u7269\u80cc\u540e\u5f62\u6210\u660e\u663e\u7684\u9634\u5f71\u3002\u771f\u5b9e\u7684\u80f6\u7247\u9897\u7c92\u611f\uff0c\u8fb9\u7f18\u7565\u5fae\u7684\u52a8\u6001\u6a21\u7cca\uff0c\u4ee5\u53ca\u8272\u5dee\u3002\u8fd9\u5f20\u7167\u7247\u770b\u8d77\u6765\u50cf\u662f\u6293\u62cd\u7684\u4e1a\u4f59\u5feb\u7167\uff0c\u4eff\u4f5b\u662f\u5728\u6df7\u4e71\u7684\u5e55\u540e\u77ac\u95f4\u62cd\u6444\u7684\uff0c\u800c\u4e0d\u662f\u5f71\u68da\u7167\u7247\u3002",
+    "title": "鱼眼广角自拍",
+    "prompt": "一张超逼真的鱼眼广角自拍，使用老式35mm鱼眼镜头拍摄，产生严重的桶形畸变。照片中人物手中没有相机或手机。\n\n主体与动作：一张特写、略带畸变的合影，[上传图片中的人物]正在与[人物]自拍。每个人都在做着夸张的表情，微微眯着眼睛，因为闪光灯的照射。\n\n光线与质感：强烈的直射闪光灯在人物背后形成明显的阴影。真实的胶片颗粒感，边缘略微的动态模糊，以及色差。这张照片看起来像是抓拍的业余快照，仿佛是在混乱的幕后瞬间拍摄的，而不是影棚照片。",
     "prompt_en": "",
     "source": "https://x.com/Arminn_Ai/status/1996285140893622391?s=20",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@Arminn_Ai",
+    "author_link": "https://x.com/Arminn_Ai"
   },
   {
     "filename": "item_144_1.png",
     "index": 3532,
-    "title": "",
-    "prompt": "\u6211\u5728[\u7535\u5f71\u540d\u79f0]\u7247\u573a\u548c[\u7535\u5f71\u89d2\u8272]\u81ea\u62cd\u3002\n\n\u8bf7\u4fdd\u6301\u4eba\u7269\u4e0e\u53c2\u8003\u56fe\u7247\u5b8c\u5168\u4e00\u81f4\uff0c\u5305\u62ec\u9762\u90e8\u7279\u5f81\u3001\u9aa8\u9abc\u7ed3\u6784\u3001\u80a4\u8272\u3001\u8868\u60c5\u3001\u59ff\u52bf\u548c\u5916\u8c8c\uff0c100%\u76f8\u540c\u30021:1\u5bbd\u9ad8\u6bd4\uff0c4K\u5206\u8fa8\u7387\u3002",
+    "title": "和电影角色合照",
+    "prompt": "我在[电影名称]片场和[电影角色]自拍。\n\n请保持人物与参考图片完全一致，包括面部特征、骨骼结构、肤色、表情、姿势和外貌，100%相同。1:1宽高比，4K分辨率。",
     "prompt_en": "",
     "source": "https://x.com/rohanpaul_ai/status/1995641282056925680?s=20",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@rohanpaul_ai",
+    "author_link": "https://x.com/rohanpaul_ai"
   },
   {
     "filename": "item_148_3.png",
     "index": 3533,
-    "title": "",
-    "prompt": "\u8fd9\u662f\u4e00\u7ec4\u8d5b\u535a\u670b\u514b\u98ce\u683c\u7684\u65f6\u5c1a\u5927\u7247\uff0c\u4e3b\u89d2\u662f\u4e00\u4f4d\u9177\u52b2\u5341\u8db3\u3001\u4e2a\u6027\u9c9c\u660e\u7684\u4e8c\u5341\u51fa\u5934\u5e74\u8f7b\u5973\u6027\u3002\u5979\u7559\u7740\u9f50\u4e0b\u5df4\u7684\u77ed\u6ce2\u6ce2\u5934\uff0c\u76f4\u53d1\u7565\u5e26\u7eb9\u7406\uff0c\u5218\u6d77\u968f\u610f\uff0c\u6234\u7740\u4e00\u526f\u539a\u539a\u7684\u9ed1\u8272\u592a\u9633\u955c\uff0c\u5de6\u624b\u62ff\u7740\u4e00\u676f\u63d2\u7740\u5438\u7ba1\u7684\u51b0\u5496\u5561/\u5de7\u514b\u529b\uff0c\u53f3\u624b\u62ff\u7740\u534a\u4e2a\u5403\u5269\u7684\u4e09\u660e\u6cbb/\u7cd5\u70b9\u3002\u5979\u8eab\u7a7f\u4e00\u4ef6\u5bbd\u677e\u7684\u767d\u8272T\u6064\uff0c\u8896\u5b50\u662f\u9508\u7ea2\u8272\u63d2\u80a9\u8896\uff0c\u80f8\u524d\u5370\u7740\u5c0f\u5c0f\u7684\u54c1\u724c\u6807\u8bc6\uff0c\u4e0b\u8eab\u968f\u610f\u5730\u585e\u8fdb\u4e00\u6761\u9ed1\u8272\u5bbd\u677e\u7684\u5de5\u88c5\u725b\u4ed4\u88e4\u91cc\uff0c\u88e4\u5b50\u4e0a\u6709\u767d\u8272\u7f1d\u7ebf\u7ec6\u8282\uff0c\u811a\u8e29\u4e00\u53cc\u9152\u7ea2\u8272\u4e50\u798f\u978b\uff0c\u8116\u5b50\u4e0a\u6234\u7740\u4e00\u6761\u91d1\u8272\u540a\u5760\u9879\u94fe\u3002\u7167\u7247\u6355\u6349\u5230\u5979\u8fc8\u7740\u5927\u6b65\u7684\u5168\u8eab\u59ff\u6001\uff0c\u653e\u677e\u7684\u59ff\u52bf\uff0c\u7565\u5fae\u4fa7\u8eab\uff0c\u8868\u60c5\u968f\u610f\u800c\u6de1\u6f20\uff0c\u5934\u90e8\u5fae\u5fae\u4fa7\u8f6c\uff0c\u76ee\u5149\u5411\u4e0b\uff0c\u5b9a\u683c\u5728\u57ce\u5e02\u5e7f\u573a\u7684\u534a\u6b65\u4e4b\u4e2d\u3002\u5e7f\u573a\u5730\u9762\u94fa\u7740\u7070\u8272\u7684\u6c34\u6ce5\u548c\u74f7\u7816\uff0c\u6c90\u6d74\u5728\u660e\u5a9a\u7684\u5348\u540e\u91d1\u8272\u9633\u5149\u4e0b\uff0c\u5f62\u6210\u9c9c\u660e\u7684\u5bf9\u6bd4\u9634\u5f71\uff0c\u5de6\u4fa7\u6295\u5c04\u51fa\u957f\u957f\u7684\u659c\u5f71\u3002\u7167\u7247\u91c7\u75288K\u8d85\u9ad8\u6e05\u753b\u8d28\uff0c\u753b\u9762\u903c\u771f\uff0c\u5bbd\u9ad8\u6bd4\u4e3a4:5\uff0c\u5206\u8fa8\u7387\u4e3a1440x1920\uff0c\u98ce\u683c\u4e3a\u539f\u59cb\u7167\u7247\u7ea7\u9ad8\u4fdd\u771f\uff0c\u8272\u5f69\u9971\u6ee1\uff0c\u4ee5\u51b7\u8272\u8c03\u7684\u90fd\u5e02\u8272\u8c03\u548c\u9c9c\u8273\u7684\u7ea2\u8272UI\u5143\u7d20\u70b9\u7f00\uff0c\u8425\u9020\u51fa\u9ad8\u5bf9\u6bd4\u5ea6\u7684\u65e5\u5149\u6548\u679c\u3002\u753b\u9762\u6784\u56fe\u5305\u542b\u4e00\u4e2a\u5168\u8eab\u4e3b\u955c\u5934\uff0c\u5e76\u4ee5\u788e\u7247\u5316\u7684\u5e03\u5c40\u5448\u73b0\u591a\u4e2a\u653e\u5927\u7279\u5199\uff08\u9762\u90e8/\u996e\u6599\u3001\u8eaf\u5e72\u3001\u88e4\u817f\uff09\uff0c\u53e0\u52a0\u4e86\u7ea2\u8272\u8fb9\u754c\u6846\u3001\u9065\u6d4b\u6570\u636e\u548c\u6570\u5b57HUD\u53e0\u52a0\u5c42\u7b49\u6218\u672f\u76d1\u63a7\u754c\u9762\u5143\u7d20\uff0c\u6a21\u62df\u51fa\u9ad8\u7aef\u76d1\u63a7\u5f55\u50cf\u7684\u201c\u8001\u5927\u54e5\u201d\u5f0f\u76d1\u89c6\u6c1b\u56f4\uff0c\u540c\u65f6\u878d\u5165\u4e86\u771f\u5b9e\u90fd\u5e02\u7eaa\u5b9e\u548c\u6e05\u6670\u7684\u65e5\u5149\u5199\u5b9e\u98ce\u683c\uff0c\u5e76\u7ed3\u5408\u4e86\u6570\u5b57\u56fe\u5f62\u8bbe\u8ba1\u5143\u7d20\u3002\u80cc\u666f\u662f\u6e05\u6670\u805a\u7126\u7684\u6df7\u51dd\u571f\u57ce\u5e02\u666f\u89c2\uff0c\u9634\u5f71\u7ebf\u6761\u5f3a\u70c8\uff0c\u5149\u7ebf\u6765\u81ea\u9ad8\u89d2\u5ea6\u7684\u81ea\u7136\u5f3a\u5149\uff0c\u5728\u660e\u4eae\u7684\u8def\u9762\u4e0a\u6295\u5c04\u51fa\u6df1\u9083\u7684\u9ed1\u8272\u9634\u5f71\uff0c\u5e76\u5e26\u6709\u6570\u5b57\u9897\u7c92\u611f\u548c\u626b\u63cf\u7ebf\u7455\u75b5\u3002\u8272\u5f69\u5206\u7ea7\u91c7\u7528\u4e2d\u6027\u90fd\u5e02\u7070\u3001\u767d\u8272\u3001\u9508\u7ea2\u8272\u3001\u725b\u4ed4\u9ed1\u548c\u9192\u76ee\u7684\u4eae\u6df1\u7ea2\u8272 UI \u5143\u7d20\uff0c\u540e\u671f\u5904\u7406\u5305\u62ec\u9ad8\u9510\u5316\u548c\u7ea2\u8272\u77e2\u91cf\u56fe\u5f62\u53e0\u52a0\uff0c\u4f8b\u5982\u6570\u5b57\u201c19 5 3 21 18 9 20 25\u201d\u3001\u6587\u672c\u201cCCWW\u201d\u3001\u201cTR521\u201d\u3001\u65f6\u95f4\u7801\u201c18/02\u201d\u4ee5\u53ca\u5e26\u6709\u4e95\u53f7\u201c#83575//\u201d\u548c\u201c#25747//\u201d\u7684\u8fb9\u754c\u6846\u3002\u6574\u4f53\u4e3b\u9898\u662f\u57ce\u5e02\u76d1\u63a7\u3001Y2K \u8857\u5934\u670d\u9970\u3001\u6218\u672f\u6570\u636e\u53ef\u89c6\u5316\u3001\u5766\u7387\u7684\u65f6\u5c1a\u77ac\u95f4\u548c\u53cd\u4e4c\u6258\u90a6\u65f6\u5c1a\uff0c\u8425\u9020\u51fa\u4e00\u79cd\u51b7\u9759\u758f\u79bb\u7684\u89c2\u5bdf\u3001\u90fd\u5e02\u7684\u6f2b\u4e0d\u7ecf\u5fc3\u3001\u6df7\u4e71\u7684\u6570\u636e\u6d41\u548c\u4fb5\u72af\u9690\u79c1\u7684\u65f6\u5c1a\u611f\u3002\u7167\u7247\u91c7\u7528 35 \u6beb\u7c73\u81f3 50 \u6beb\u7c73\u955c\u5934\uff0c\u4ee5\u9ad8\u89d2\u5ea6\u76d1\u63a7\u89c6\u89d2\u62cd\u6444\uff0c\u5e76\u4f7f\u7528\u4e86\u6df1\u7126\u6548\u679c\u3002\u7167\u7247\u5e03\u5c40\u4e3a\u4e00\u5f20\u4e3b\u56fe\u52a0\u4e09\u5f20\u5c40\u90e8\u7ec6\u8282\u56fe\uff0c\u5e76\u7528\u7ea2\u8272\u6218\u672f\u7ebf\u6761\u548c\u5341\u5b57\u7ebf\u8fde\u63a5\u3002",
+    "title": "赛博朋克风格的人物时尚大片",
+    "prompt": "这是一组赛博朋克风格的时尚大片，主角是一位酷劲十足、个性鲜明的二十出头年轻女性。她留着齐下巴的短波波头，直发略带纹理，刘海随意，戴着一副厚厚的黑色太阳镜，左手拿着一杯插着吸管的冰咖啡/巧克力，右手拿着半个吃剩的三明治/糕点。她身穿一件宽松的白色T恤，袖子是锈红色插肩袖，胸前印着小小的品牌标识，下身随意地塞进一条黑色宽松的工装牛仔裤里，裤子上有白色缝线细节，脚踩一双酒红色乐福鞋，脖子上戴着一条金色吊坠项链。照片捕捉到她迈着大步的全身姿态，放松的姿势，略微侧身，表情随意而淡漠，头部微微侧转，目光向下，定格在城市广场的半步之中。广场地面铺着灰色的水泥和瓷砖，沐浴在明媚的午后金色阳光下，形成鲜明的对比阴影，左侧投射出长长的斜影。照片采用8K超高清画质，画面逼真，宽高比为4:5，分辨率为1440x1920，风格为原始照片级高保真，色彩饱满，以冷色调的都市色调和鲜艳的红色UI元素点缀，营造出高对比度的日光效果。画面构图包含一个全身主镜头，并以碎片化的布局呈现多个放大特写（面部/饮料、躯干、裤腿），叠加了红色边界框、遥测数据和数字HUD叠加层等战术监控界面元素，模拟出高端监控录像的“老大哥”式监视氛围，同时融入了真实都市纪实和清晰的日光写实风格，并结合了数字图形设计元素。背景是清晰聚焦的混凝土城市景观，阴影线条强烈，光线来自高角度的自然强光，在明亮的路面上投射出深邃的黑色阴影，并带有数字颗粒感和扫描线瑕疵。色彩分级采用中性都市灰、白色、锈红色、牛仔黑和醒目的亮深红色 UI 元素，后期处理包括高锐化和红色矢量图形叠加，例如数字“19 5 3 21 18 9 20 25”、文本“CCWW”、“TR521”、时间码“18/02”以及带有井号“#83575//”和“#25747//”的边界框。整体主题是城市监控、Y2K 街头服饰、战术数据可视化、坦率的时尚瞬间和反乌托邦时尚，营造出一种冷静疏离的观察、都市的漫不经心、混乱的数据流和侵犯隐私的时尚感。照片采用 35 毫米至 50 毫米镜头，以高角度监控视角拍摄，并使用了深焦效果。照片布局为一张主图加三张局部细节图，并用红色战术线条和十字线连接。",
     "prompt_en": "",
     "source": "https://x.com/_MehdiSharifi_/status/1997832235974598763?s=20",
     "type": "t2i",
-    "author": "",
-    "author_link": ""
+    "author": "@MehdiSharifi",
+    "author_link": "https://x.com/_MehdiSharifi_"
   },
   {
     "filename": "item_164_2.png",
     "index": 3534,
-    "title": "",
-    "prompt": "\u51c6\u786e\u4f7f\u7528\u56fe2\u8272\u5361\u4e3a\u56fe1\u4eba\u7269\u4e0a\u8272",
+    "title": "色卡线稿上色",
+    "prompt": "准确使用图2色卡为图1人物上色",
     "prompt_en": "",
     "source": "https://x.com/ZHO_ZHO_ZHO/status/1960652077891510752",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@ZHO_ZHO_ZHO",
+    "author_link": "https://x.com/ZHO_ZHO_ZHO"
   },
   {
     "filename": "item_165_1.png",
     "index": 3535,
-    "title": "",
-    "prompt": "\u4e3a\u6587\u7ae0\u5185\u5bb9\u751f\u6210\u4fe1\u606f\u56fe\n\u8981\u6c42\uff1a\n1. \u5c06\u5185\u5bb9\u7ffb\u8bd1\u6210\u82f1\u6587\uff0c\u5e76\u63d0\u70bc\u6587\u7ae0\u7684\u5173\u952e\u4fe1\u606f\n2. \u56fe\u4e2d\u5185\u5bb9\u4fdd\u6301\u7cbe\u7b80\uff0c\u53ea\u4fdd\u7559\u5927\u6807\u9898\n3. \u56fe\u4e2d\u6587\u5b57\u91c7\u7528\u82f1\u6587\n4. \u52a0\u4e0a\u4e30\u5bcc\u53ef\u7231\u7684\u5361\u901a\u4eba\u7269\u548c\u5143\u7d20",
+    "title": "文章信息图",
+    "prompt": "为文章内容生成信息图\n要求：\n1. 将内容翻译成英文，并提炼文章的关键信息\n2. 图中内容保持精简，只保留大标题\n3. 图中文字采用英文\n4. 加上丰富可爱的卡通人物和元素",
     "prompt_en": "",
     "source": "https://weibo.com/5648162302/5204549851155423?wm=3333_2001&from=10F8393010&sourcetype=weixin&s_trans=7836809604_5204549851155423&s_channel=4",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@黄建同学",
+    "author_link": "https://weibo.com/u/5648162302"
   },
   {
     "filename": "item_165_4.png",
     "index": 3536,
-    "title": "",
-    "prompt": "\u4e3a\u6587\u7ae0\u5185\u5bb9\u751f\u6210\u4fe1\u606f\u56fe\n\u8981\u6c42\uff1a\n1. \u5c06\u5185\u5bb9\u7ffb\u8bd1\u6210\u82f1\u6587\uff0c\u5e76\u63d0\u70bc\u6587\u7ae0\u7684\u5173\u952e\u4fe1\u606f\n2. \u56fe\u4e2d\u5185\u5bb9\u4fdd\u6301\u7cbe\u7b80\uff0c\u53ea\u4fdd\u7559\u5927\u6807\u9898\n3. \u56fe\u4e2d\u6587\u5b57\u91c7\u7528\u82f1\u6587\n4. \u52a0\u4e0a\u4e30\u5bcc\u53ef\u7231\u7684\u5361\u901a\u4eba\u7269\u548c\u5143\u7d20",
+    "title": "文章信息图",
+    "prompt": "为文章内容生成信息图\n要求：\n1. 将内容翻译成英文，并提炼文章的关键信息\n2. 图中内容保持精简，只保留大标题\n3. 图中文字采用英文\n4. 加上丰富可爱的卡通人物和元素",
     "prompt_en": "",
     "source": "https://weibo.com/5648162302/5204549851155423?wm=3333_2001&from=10F8393010&sourcetype=weixin&s_trans=7836809604_5204549851155423&s_channel=4",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@黄建同学",
+    "author_link": "https://weibo.com/u/5648162302"
   },
   {
     "filename": "item_166_2.png",
     "index": 3537,
-    "title": "",
-    "prompt": "\u4ee5\u4e5d\u5bab\u683c\u7684\u65b9\u5f0f\u751f\u6210\u8fd9\u4e2a\u4eba\u4e0d\u540c\u53d1\u578b\u7684\u5934\u50cf",
+    "title": "更换多种发型",
+    "prompt": "以九宫格的方式生成这个人不同发型的头像",
     "prompt_en": "",
     "source": "https://x.com/balconychy/status/1960665038504779923",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@balconychy",
+    "author_link": "https://x.com/balconychy"
   },
   {
     "filename": "item_167_3.png",
     "index": 3538,
-    "title": "",
-    "prompt": "\u7ed8\u5236[3D\u4eba\u4f53\u5668\u5b98\u6a21\u578b\u5c55\u793a\u793a\u4f8b\u5fc3\u810f]\u7528\u4e8e\u5b66\u672f\u5c55\u793a\uff0c\u8fdb\u884c\u6807\u6ce8\u8bb2\u89e3\uff0c\u9002\u7528\u4e8e\u5c55\u793a\u5176\u539f\u7406\u548c[\u6bcf\u4e2a\u5668\u5b98]\u7684\u529f\u80fd\uff0c\u975e\u5e38\u903c\u771f\uff0c\u9ad8\u5ea6\u8fd8\u539f\uff0c\u7cbe\u7ec6\u5ea6\u975e\u5e38\u7ec6\u81f4\u7684\u8bbe\u8ba1",
+    "title": "模型标注讲解图",
+    "prompt": "绘制[3D人体器官模型展示示例心脏]用于学术展示，进行标注讲解，适用于展示其原理和[每个器官]的功能，非常逼真，高度还原，精细度非常细致的设计",
     "prompt_en": "",
     "source": "https://x.com/berryxia_ai/status/1960708465586004305",
     "type": "t2i",
-    "author": "",
-    "author_link": ""
+    "author": "@berryxia_ai",
+    "author_link": "https://x.com/berryxia_ai"
   },
   {
     "filename": "item_179_1.png",
     "index": 3539,
-    "title": "",
-    "prompt": "\u5206\u6790\u8fd9\u5f20\u56fe\u7247\u3002\u7528\u7ea2\u7b14\u6807\u51fa\u4f60\u53ef\u4ee5\u6539\u8fdb\u7684\u5730\u65b9\u3002",
+    "title": "红笔批注",
+    "prompt": "分析这张图片。用红笔标出你可以改进的地方。",
     "prompt_en": "",
     "source": "https://x.com/AiMachete/status/1962356993550643355",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@AiMachete",
+    "author_link": "https://x.com/AiMachete"
   },
   {
     "filename": "item_180_4.png",
     "index": 3540,
-    "title": "",
-    "prompt": "\u5728\u5177\u6709\u620f\u5267\u6027\u7684\u73b0\u4ee3\u573a\u666f\u4e2d\u62cd\u6444\u8be5\u4ea7\u54c1\uff0c\u5e76\u4f34\u968f\u7740\u7206\u70b8\u6027\u7684\u5411\u5916\u52a8\u6001\u6392\u5217\uff0c\u4e3b\u8981\u6210\u5206\u65b0\u9c9c\u548c\u539f\u59cb\u5728\u4ea7\u54c1\u5468\u56f4\u98de\u821e\uff0c\u8868\u660e\u5176\u65b0\u9c9c\u5ea6\u548c\u8425\u517b\u4ef7\u503c\u3002\u4fc3\u9500\u5e7f\u544a\u955c\u5934\uff0c\u6ca1\u6709\u6587\u5b57\uff0c\u5f3a\u8c03\u4ea7\u54c1\uff0c\u4ee5\u5173\u952e\u54c1\u724c\u989c\u8272\u4f5c\u4e3a\u80cc\u666f\u3002",
+    "title": "爆炸的食物",
+    "prompt": "在具有戏剧性的现代场景中拍摄该产品，并伴随着爆炸性的向外动态排列，主要成分新鲜和原始在产品周围飞舞，表明其新鲜度和营养价值。促销广告镜头，没有文字，强调产品，以关键品牌颜色作为背景。",
     "prompt_en": "",
     "source": "https://x.com/icreatelife/status/1962724040205803773",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@icreatelife",
+    "author_link": "https://x.com/icreatelife"
   },
   {
     "filename": "item_193_1.png",
     "index": 3541,
-    "title": "",
-    "prompt": "\u56fe\u4e00\u4eba\u7269\u6309\u7167\u56fe\u4e8c\u7684\u8138\u578b\u8bbe\u8ba1\u4e3aq\u7248\u5f62\u8c61",
+    "title": "控制人物脸型",
+    "prompt": "图一人物按照图二的脸型设计为q版形象",
     "prompt_en": "",
     "source": "https://x.com/ZHO_ZHO_ZHO/status/1961802767493939632",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@ZHO_ZHO_ZHO",
+    "author_link": "https://x.com/ZHO_ZHO_ZHO"
   },
   {
     "filename": "item_201_2.png",
     "index": 3542,
-    "title": "",
-    "prompt": "\u5168\u5f69\u7167\u7247\u30021660 \u5e74\u7684\u65b0\u963f\u59c6\u65af\u7279\u4e39\u3002\u786e\u4fdd\u5b83\u662f\u5168\u73b0\u4ee3\u8272\u5f69\uff0c\u5c31\u50cf\u5b83\u662f\u4eca\u5929\u62cd\u6444\u7684\u7167\u7247\u4e00\u6837\u3002",
+    "title": "古老地图生成古代场景",
+    "prompt": "全彩照片。1660 年的新阿姆斯特丹。确保它是全现代色彩，就像它是今天拍摄的照片一样。",
     "prompt_en": "",
     "source": "https://x.com/levelsio/status/1961595333034598487",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@levelsio",
+    "author_link": "https://x.com/levelsio"
   },
   {
     "filename": "item_203_4.png",
     "index": 3543,
-    "title": "",
-    "prompt": "\u4e00\u5f20\u9ad8\u5206\u8fa8\u7387\u5e7f\u544a\u7167\u7247\uff0c\u4e00\u4f4d\u7537\u58eb\u7528\u62c7\u6307\u548c\u98df\u6307\u7cbe\u5fc3\u63e1\u7740\u4e00\u4ef6\u903c\u771f\u7684\u5fae\u578b [\u4ea7\u54c1] \u3002\u80cc\u666f\u5e72\u51c0\u6e05\u723d\uff0c\u6444\u5f71\u68da\u706f\u5149\uff0c\u9634\u5f71\u67d4\u548c\u3002\u624b\u90e8\u9020\u578b\u7cbe\u81f4\uff0c\u80a4\u8272\u81ea\u7136\uff0c\u6446\u653e\u4f4d\u7f6e\u51f8\u663e\u4e86\u4ea7\u54c1\u7684\u5f62\u72b6\u548c\u7ec6\u8282\u3002\u4ea7\u54c1\u770b\u8d77\u6765\u6781\u5c0f\uff0c\u4f46\u7ec6\u8282\u4e30\u5bcc\uff0c\u54c1\u724c\u5f62\u8c61\u7cbe\u51c6\uff0c\u4f4d\u4e8e\u753b\u9762\u4e2d\u592e\uff0c\u666f\u6df1\u6d45\u3002\u6a21\u4eff\u4e86\u5962\u4f88\u54c1\u6444\u5f71\u548c\u6781\u7b80\u4e3b\u4e49\u5546\u4e1a\u98ce\u683c\u3002",
+    "title": "精致可爱的产品照片",
+    "prompt": "一张高分辨率广告照片，一位男士用拇指和食指精心握着一件逼真的微型 [产品] 。背景干净清爽，摄影棚灯光，阴影柔和。手部造型精致，肤色自然，摆放位置凸显了产品的形状和细节。产品看起来极小，但细节丰富，品牌形象精准，位于画面中央，景深浅。模仿了奢侈品摄影和极简主义商业风格。",
     "prompt_en": "",
     "source": "https://x.com/azed_ai/status/1962878353784066342",
     "type": "t2i",
-    "author": "",
-    "author_link": ""
+    "author": "@azed_ai",
+    "author_link": "https://x.com/azed_ai"
   },
   {
     "filename": "item_207_4.png",
     "index": 3544,
-    "title": "",
-    "prompt": "\u6839\u636e\u4e0a\u4f20\u7684\u56fe\u50cf\uff0c\u4ec5\u7528\u7ebf\u6846\u8fdb\u884c\u5168\u606f\u5316",
+    "title": "等距全息投影图",
+    "prompt": "根据上传的图像，仅用线框进行全息化",
     "prompt_en": "",
     "source": "https://x.com/tetumemo/status/1964574226155000312",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@tetumemo",
+    "author_link": "https://x.com/tetumemo"
   },
   {
     "filename": "item_216_2.png",
     "index": 3545,
-    "title": "",
-    "prompt": "\u5c06\u8fd9\u5f20\u56fe\u50cf\u53d8\u6210\u4e00\u6761\u5305\u542b 5 \u4ef6\u9996\u9970\u7684\u7cfb\u5217\u3002",
+    "title": "珠宝首饰设计",
+    "prompt": "将这张图像变成一条包含 5 件首饰的系列。",
     "prompt_en": "",
     "source": "https://x.com/Gdgtify/status/1964419331342909777",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@Gdgtify",
+    "author_link": "https://x.com/Gdgtify"
   },
   {
     "filename": "item_217_4.png",
     "index": 3546,
-    "title": "",
-    "prompt": "\u7528\u8fd9\u4e2a\u89d2\u8272\u56fe\u50cf\u521b\u5efa\u5546\u54c1",
+    "title": "周边设计",
+    "prompt": "用这个角色图像创建商品",
     "prompt_en": "",
     "source": "https://x.com/0xFramer/status/1964992117324886349",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@0xFramer",
+    "author_link": "https://x.com/0xFramer"
   },
   {
     "filename": "item_227_3.png",
     "index": 3547,
-    "title": "",
-    "prompt": "\u751f\u6210\u4e00\u5f20\u56fe\u50cf\uff0c\u5c55\u793a\u8be5\u52a8\u7269\u88ab\u7b80\u5316\u5e76\u53d8\u5f62\u4e3a\u52a8\u6f2b\u98ce\u683c\u7684\u6bdb\u7ed2\u73a9\u5177\uff08\u6750\u8d28\u4e3a\u77ed\u7ed2\u3001\u89e6\u611f\u67d4\u8f6f\u7684\u805a\u916f\u9488\u7ec7\u5e03\uff09\uff0c\u653e\u7f6e\u5728 UFO \u635e\u5a03\u5a03\u673a\u4e2d\u3002\n\n\u4e24\u4fa7\u5404\u6709\u4e00\u53f0\u989d\u5916\u7684 UFO \u635e\u5a03\u5a03\u673a\uff0c\u91cc\u9762\u6446\u653e\u7740\u4e0d\u540c\u52a8\u7269\u7684\u6bdb\u7ed2\u73a9\u5177\uff0c\u4e0e\u4e3b\u56fe\u50cf\u7684\u52a8\u7269\u4e0d\u540c\u3002\n\n\u573a\u666f\u8bbe\u5b9a\u5728\u65e5\u672c\u6e38\u620f\u4e2d\u5fc3\uff0c\u6574\u4f53\u660e\u4eae\u3002UFO \u635e\u5a03\u5a03\u673a\u7684\u4e0a\u90e8\u6d82\u6709\u9c9c\u8273\u989c\u8272\uff0c\u4e0b\u90e8\u6d82\u4e3a\u767d\u8272\u3002\u80cc\u666f\u4e3a\u5899\u9762\uff0cUFO \u635e\u5a03\u5a03\u673a\u80cc\u540e\u7684\u533a\u57df\u6a21\u7cca\u5904\u7406\u3002\u5730\u9762\u94fa\u6709\u5730\u6bef\u3002\n\n\u62cd\u6444\u89d2\u5ea6\u4e3a\u6b63\u9762\u3002\u6700\u91cd\u8981\u7684\u662f\uff0c\u56fe\u50cf\u4e2d\u7edd\u5bf9\u4e0d\u8981\u51fa\u73b0\u4efb\u4f55\u6587\u5b57\u6216\u6807\u5fd7\u3002",
+    "title": "自定义娃娃机",
+    "prompt": "生成一张图像，展示该动物被简化并变形为动漫风格的毛绒玩具（材质为短绒、触感柔软的聚酯针织布），放置在 UFO 捞娃娃机中。\n\n两侧各有一台额外的 UFO 捞娃娃机，里面摆放着不同动物的毛绒玩具，与主图像的动物不同。\n\n场景设定在日本游戏中心，整体明亮。UFO 捞娃娃机的上部涂有鲜艳颜色，下部涂为白色。背景为墙面，UFO 捞娃娃机背后的区域模糊处理。地面铺有地毯。\n\n拍摄角度为正面。最重要的是，图像中绝对不要出现任何文字或标志。",
     "prompt_en": "",
     "source": "https://x.com/googlejapan/status/1969733348852433316",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@googlejapan",
+    "author_link": "https://x.com/googlejapan"
   },
   {
     "filename": "item_229_4.png",
     "index": 3548,
-    "title": "",
-    "prompt": "\u4f7f\u7528\u539f\u56fe\u4e2d\u7684\u89d2\u8272\u521b\u5efa\u4e00\u4e2a RPG \u6e38\u620f\u89d2\u8272\u72b6\u6001\u754c\u9762\uff1a\n\n\u4fdd\u7559\u539f\u56fe\u89d2\u8272\u7684\u8bbe\u8ba1\u548c\u98ce\u683c\uff0c\u4f46\u5c06\u670d\u88c5\u66f4\u6362\u4e3a\u5e7b\u60f3 RPG \u98ce\u683c\uff0c\u5e76\u8c03\u6574\u59ff\u52bf\u4ee5\u7b26\u5408\u60c5\u5883\u3002\n\n\u5728\u753b\u9762\u4e2d\u540c\u65f6\u5c55\u793a\u539f\u56fe\u89d2\u8272\u4e0e\u72b6\u6001\u754c\u9762\u5e76\u6392\u663e\u793a\u3002\n\n\u72b6\u6001\u754c\u9762\u9700\u5305\u542b\u89d2\u8272\u53c2\u6570\u3001\u6280\u80fd\u3001\u56fe\u6807\u7b49\u4fe1\u606f\uff0c\u5448\u73b0\u4e30\u5bcc\u800c\u76f4\u89c2\u7684\u5e03\u5c40\u3002\n\n\u80cc\u666f\u4f7f\u7528\u4e0e\u539f\u56fe\u98ce\u683c\u5339\u914d\u7684\u5e7b\u60f3\u98ce\u683c\u573a\u666f\u3002\n\n\u6574\u4f53\u754c\u9762\u8bbe\u8ba1\u5e94\u4e30\u5bcc\u3001\u65f6\u5c1a\uff0c\u98ce\u683c\u7c7b\u4f3c 2025 \u5e74\u7684\u9ad8\u8d28\u91cf\u6e38\u620f\u754c\u9762\u3002",
+    "title": "游戏角色状态界面",
+    "prompt": "使用原图中的角色创建一个 RPG 游戏角色状态界面：\n\n保留原图角色的设计和风格，但将服装更换为幻想 RPG 风格，并调整姿势以符合情境。\n\n在画面中同时展示原图角色与状态界面并排显示。\n\n状态界面需包含角色参数、技能、图标等信息，呈现丰富而直观的布局。\n\n背景使用与原图风格匹配的幻想风格场景。\n\n整体界面设计应丰富、时尚，风格类似 2025 年的高质量游戏界面。",
     "prompt_en": "",
     "source": "https://x.com/AI_Kei75/status/1969358521356742756",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@AI_Kei75",
+    "author_link": "https://x.com/AI_Kei75"
   },
   {
     "filename": "item_231_2.png",
     "index": 3549,
-    "title": "",
-    "prompt": "\u8d85\u903c\u771f\u7684\u624b\u7ed8\u677f\u5c4f\u5e55\u56fe\u50cf\uff0c\u771f\u5b9e\u7684\u7b2c\u4e00\u4eba\u79f0\u89c6\u89d2\uff0c\u4e00\u53ea\u624b\u63e1\u7740\u624b\u7ed8\u677f\u548c\u624b\u7ed8\u7b14\u3002\n\n\u624b\u7ed8\u677f\u5c4f\u5e55\u4e0a\u663e\u793a\u539f\u59cb\u56fe\u50cf\u7684\u672a\u5b8c\u6210\u72b6\u6001\u3002\n\n\u5df2\u4ece\u539f\u59cb\u56fe\u50cf\u4e2d\u63d0\u53d6\u7ebf\u7a3f\uff0c\u5e76\u5bf9\u90e8\u5206\u7ebf\u7a3f\u8fdb\u884c\u4e86\u4e0a\u8272\uff0c\u989c\u8272\u4e0e\u539f\u56fe\u4fdd\u6301\u4e00\u81f4\uff0c\u4ecd\u4e3a\u672a\u5b8c\u6210\u4e0a\u8272\u72b6\u6001\u3002\n\n\u4e0d\u5f97\u4e3a\u5355\u8272\uff0c\u7ea6 70% \u7684\u533a\u57df\u5df2\u4e0a\u8272\u3002\n\n\u7279\u5199\u955c\u5934\uff0c\u7b14\u5c16\u63a5\u89e6\u5c4f\u5e55\u3002",
+    "title": "数位板上的绘画",
+    "prompt": "超逼真的手绘板屏幕图像，真实的第一人称视角，一只手握着手绘板和手绘笔。\n\n手绘板屏幕上显示原始图像的未完成状态。\n\n已从原始图像中提取线稿，并对部分线稿进行了上色，颜色与原图保持一致，仍为未完成上色状态。\n\n不得为单色，约 70% 的区域已上色。\n\n特写镜头，笔尖接触屏幕。",
     "prompt_en": "",
     "source": "https://x.com/AI_Kei75/status/1968607362576708042",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@AI_Kei75",
+    "author_link": "https://x.com/AI_Kei75"
   },
   {
     "filename": "item_242_4.png",
     "index": 3550,
-    "title": "",
-    "prompt": "Please generate a children's literacy newsletter \"Amusement Park\", vertical A4, learning newsletter layout, suitable for 5\u20139 year old children to recognize words and identify objects from pictures.\n1. Newsletter Title Area (Top)\nTop center large title: \"Amusement Park Literacy Newsletter\"\nStyle: Cross newsletter / Children's learning paper feel\nText requirements: Large, eye-catching, cartoon handwritten font, colorful outline\nDecoration: Add sticker-style decorations related to Amusement Park around it, bright colors\n2. Newsletter Body (Middle Main Image)\nCenter of the picture is a Cartoon Illustration style \"Amusement Park\" scene:\nOverall atmosphere: Bright, warm, positive\nComposition: Object boundaries are clear, easy to correspond to text, not too crowded.\nScene Zoning and Core Content\nCore Area A (Main Objects): Show the core activities of the Amusement Park (children playing on rides).\nCore Area B (Supporting Facilities): Show related tools or items (ticket booth, snacks, signage).\nCore Area C (Environmental Background): Reflect environmental features (entrance, road signs, colorful flags, green space, etc.).\nTheme Characters\nRole: 1 cute cartoon character (Identity: Amusement Park staff/visitor child both ok).\nAction: Interacting naturally with the scene (e.g., smiling and pointing the way, waving welcome, playing with children).\n3. Must-Draw Objects and Literacy List (Generated Content)\nPlease be sure to clearly draw the following objects in the picture and reserve space for labels:\n1. Core Roles and Facilities:\ng\u014dng zu\u00f2 r\u00e9n yu\u00e1n Staff\nsh\u00f2u pi\u00e0o ch\u00f9 Ticket Booth\ngu\u00f2 sh\u0101n ch\u0113 Roller Coaster\nm\u00f3 ti\u0101n l\u00fan Ferris Wheel\nxu\u00e1n zhu\u01cen m\u01ce Merry-Go-Round\n2. Common Items/Tools:\npi\u00e0o Ticket\nq\u00ec qi\u00fa Balloon\nb\u012bng j\u012b l\u00edng Ice Cream\nb\u00e0o m\u01d0 hu\u0101 Popcorn\nt\u00e1ng h\u00fa lu Tanghulu\nmi\u00e0n j\u00f9 Mask\nw\u00e1n j\u00f9 Toy\nxi\u01ceo q\u00ed zi Small Flag\n3. Environment and Decoration:\nr\u00f9 k\u01d2u Entrance\nch\u016b k\u01d2u Exit\nzh\u01d0 sh\u00ec p\u00e1i Signpost\nc\u01cei q\u00ed Colorful Flags\ngu\u01ceng ch\u01ceng Square\n(Note: The number of objects in the picture is not limited to this, but the above list must be the focus of depiction; total 18 typical nouns, suitable for 5\u20139 year old children literacy.)\n4. Literacy Annotation Rules\nLabel the above list of objects with Chinese literacy labels:\nFormat: Two-line system (first line Pinyin with tones, second line Simplified Chinese characters).\nStyle: Colorful small sticker style, white background with black text or dark text, clearly readable.\nLayout: Labels close to corresponding objects, not blocking the subject.\n5. Art Style Parameters\nStyle: Children's picture book style + Literacy newsletter style\nColor: High Saturation, Warm Tone\nQuality: 8k resolution, high detail, vector illustration style, clean lines.",
+    "title": "Children's Literacy Newsletter",
+    "prompt": "Please generate a children's literacy newsletter \"Amusement Park\", vertical A4, learning newsletter layout, suitable for 5–9 year old children to recognize words and identify objects from pictures.\n1. Newsletter Title Area (Top)\nTop center large title: \"Amusement Park Literacy Newsletter\"\nStyle: Cross newsletter / Children's learning paper feel\nText requirements: Large, eye-catching, cartoon handwritten font, colorful outline\nDecoration: Add sticker-style decorations related to Amusement Park around it, bright colors\n2. Newsletter Body (Middle Main Image)\nCenter of the picture is a Cartoon Illustration style \"Amusement Park\" scene:\nOverall atmosphere: Bright, warm, positive\nComposition: Object boundaries are clear, easy to correspond to text, not too crowded.\nScene Zoning and Core Content\nCore Area A (Main Objects): Show the core activities of the Amusement Park (children playing on rides).\nCore Area B (Supporting Facilities): Show related tools or items (ticket booth, snacks, signage).\nCore Area C (Environmental Background): Reflect environmental features (entrance, road signs, colorful flags, green space, etc.).\nTheme Characters\nRole: 1 cute cartoon character (Identity: Amusement Park staff/visitor child both ok).\nAction: Interacting naturally with the scene (e.g., smiling and pointing the way, waving welcome, playing with children).\n3. Must-Draw Objects and Literacy List (Generated Content)\nPlease be sure to clearly draw the following objects in the picture and reserve space for labels:\n1. Core Roles and Facilities:\ngōng zuò rén yuán Staff\nshòu piào chù Ticket Booth\nguò shān chē Roller Coaster\nmó tiān lún Ferris Wheel\nxuán zhuǎn mǎ Merry-Go-Round\n2. Common Items/Tools:\npiào Ticket\nqì qiú Balloon\nbīng jī líng Ice Cream\nbào mǐ huā Popcorn\ntáng hú lu Tanghulu\nmiàn jù Mask\nwán jù Toy\nxiǎo qí zi Small Flag\n3. Environment and Decoration:\nrù kǒu Entrance\nchū kǒu Exit\nzhǐ shì pái Signpost\ncǎi qí Colorful Flags\nguǎng chǎng Square\n(Note: The number of objects in the picture is not limited to this, but the above list must be the focus of depiction; total 18 typical nouns, suitable for 5–9 year old children literacy.)\n4. Literacy Annotation Rules\nLabel the above list of objects with Chinese literacy labels:\nFormat: Two-line system (first line Pinyin with tones, second line Simplified Chinese characters).\nStyle: Colorful small sticker style, white background with black text or dark text, clearly readable.\nLayout: Labels close to corresponding objects, not blocking the subject.\n5. Art Style Parameters\nStyle: Children's picture book style + Literacy newsletter style\nColor: High Saturation, Warm Tone\nQuality: 8k resolution, high detail, vector illustration style, clean lines.",
     "prompt_en": "",
     "source": "https://x.com/lxfater/status/1993238777033105634?s=20",
     "type": "t2i",
-    "author": "",
-    "author_link": ""
+    "author": "@lxfater",
+    "author_link": "https://x.com/lxfater"
   },
   {
     "filename": "item_250_1.png",
     "index": 3551,
-    "title": "",
+    "title": "Reveal Behind-the-Scenes of Photo Creation",
     "prompt": "I want to see the behind-the-scenes of this photo shoot and understand how it was born.",
     "prompt_en": "",
     "source": "https://x.com/icreatelife/status/1991945836914147524?s=20",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@icreatelife",
+    "author_link": "https://x.com/icreatelife"
   },
   {
     "filename": "item_265_2.png",
     "index": 3552,
-    "title": "",
+    "title": "Stylized Map",
     "prompt": "Please show me a Las Vegas casino style aerial view.",
     "prompt_en": "",
     "source": "https://x.com/Mr_AllenT/status/1992292210511929833?s=20",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@Mr_AllenT",
+    "author_link": "https://x.com/Mr_AllenT"
   },
   {
     "filename": "item_27_2.png",
     "index": 3553,
-    "title": "",
-    "prompt": "\u57fa\u4e8e\u9644\u4ef6\u4e2d\u7684\u4eba\u7269\uff0c\u751f\u6210\u4e00\u4e2a\u4e8c\u6b21\u5143\u98ce\u683c\u7684\u5fbd\u7ae0\u7684\u7167\u7247\uff0c\u8981\u6c42\uff1a\n\u6750\u8d28\uff1a\u6d41\u82cf\n\u5f62\u72b6\uff1a\u5706\u5f62\n\u753b\u9762\u4e3b\u4f53\uff1a\u4e00\u53ea\u624b\u624b\u6301\u5fbd\u7ae0",
-    "prompt_en": "",
+    "title": "二次元风格徽章",
+    "prompt": "基于附件中的人物，生成一个二次元风格的徽章的照片，要求：\n材质：流苏\n形状：圆形\n画面主体：一只手手持徽章",
+    "prompt_en": "Based on the person in the attachment, generate a photo of an anime-style badge. Requirements:\nMaterial: Tassel\nShape: Circular\nMain subject: A hand holding the badge\n",
     "source": "https://x.com/Alittlefatwhale/status/1922512847030124905",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@Alittlefatwhale",
+    "author_link": "https://x.com/Alittlefatwhale"
   },
   {
     "filename": "item_33_2.png",
     "index": 3554,
-    "title": "",
-    "prompt": "\u7279\u5199\u955c\u5934\uff1a\u4e00\u53ea\u624b\u6b63\u62ff\u7740\u4e00\u5f20\u8bbe\u8ba1\u6210 VS Code \u4e2d JSON \u6587\u4ef6\u5916\u89c2\u7684\u540d\u7247\u3002\u540d\u7247\u4e0a\u7684\u4ee3\u7801\u4ee5\u771f\u5b9e\u7684 JSON \u8bed\u6cd5\u9ad8\u4eae\u683c\u5f0f\u5448\u73b0\u3002\u7a97\u53e3\u754c\u9762\u5305\u542b\u5178\u578b\u7684\u5de5\u5177\u680f\u56fe\u6807\u548c\u6807\u9898\u680f\uff0c\u6807\u9898\u663e\u793a\u4e3a Business Card.json\uff0c\u6574\u4f53\u98ce\u683c\u4e0e VS Code \u754c\u9762\u5b8c\u5168\u4e00\u81f4\u3002\u80cc\u666f\u7565\u5fae\u865a\u5316\uff0c\u7a81\u51fa\u5c55\u793a\u540d\u7247\u5185\u5bb9\u3002\n\u540d\u7247\u4e0a\u7684 JSON \u4ee3\u7801\u5982\u4e0b\u6240\u793a\uff1a\n{\n  \"name\": \"Jamez Bondos\",\n  \"title\": \"Your Title\",\n  \"email\": \"your@email.com\",\n  \"link\": \"yourwebsite\"\n}",
-    "prompt_en": "",
+    "title": "代码风格名片",
+    "prompt": "特写镜头：一只手正拿着一张设计成 VS Code 中 JSON 文件外观的名片。名片上的代码以真实的 JSON 语法高亮格式呈现。窗口界面包含典型的工具栏图标和标题栏，标题显示为 Business Card.json，整体风格与 VS Code 界面完全一致。背景略微虚化，突出展示名片内容。\n名片上的 JSON 代码如下所示：\n{\n  \"name\": \"Jamez Bondos\",\n  \"title\": \"Your Title\",\n  \"email\": \"your@email.com\",\n  \"link\": \"yourwebsite\"\n}",
+    "prompt_en": "A close-up shot of a hand holding a business card designed to look like a JSON file opened in VS Code. The card shows code formatted in realistic syntax-highlighted JSON code. The window includes typical toolbar icons and a title bar labeled Business Card.json, styled exactly like the interface of VS Code. Background is slightly blurred, keeping the focus on the card.\nThe card displays the following code formatted in JSON:\n{\n  \"name\": \"Jamez Bondos\",\n  \"title\": \"Your Title\",\n  \"email\": \"your@email.com\",\n  \"link\": \"yourwebsite\"\n}\n",
     "source": "https://x.com/umesh_ai/status/1915696926596415492",
     "type": "t2i",
-    "author": "",
-    "author_link": ""
+    "author": "@umesh_ai",
+    "author_link": "https://x.com/umesh_ai"
   },
   {
     "filename": "item_41_4.png",
     "index": 3555,
-    "title": "",
-    "prompt": "\u300a\u5927\u5e08\u9ea6\u7247\u300b\uff1a\u6839\u636e\u6211\u4e0a\u4f20\u7684\u7167\u7247\u7684\u4eba\u7269\u7279\u5f81\u5224\u65ad\uff0c\u4e3a\u4ed6\u751f\u6210\u4e00\u4e2a\u7b26\u5408\u4ed6\u7279\u8d28\u7684\u71d5\u9ea6\u7247\u642d\u914d\uff08\u6bd4\u5982\u852c\u83dc\u3001\u6c34\u679c\u3001\u9178\u5976\u3001\u7c97\u7cae\u7b49\u7b49\uff09\u548c\u5305\u88c5\u8bbe\u8ba1\uff0c\u7136\u540e\u751f\u6210\u4ed6\u4f5c\u4e3a\u9ea6\u7247\u5305\u88c5\u76d2\u5c01\u9762\u4eba\u7269 \u52a0 \u76f8\u5e94\u9ea6\u7247\u642d\u914d\u7684\u5e7f\u544a\u5c01\u9762\uff0c\u4eba\u7269\u8981\u4fdd\u6301\u7279\u5f81\u3001\u53ef\u7231Q\u72483d\u3001c4d\u6e32\u67d3\u98ce\u683c\uff0c\u9ea6\u7247\u6240\u653e\u7f6e\u7684\u5730\u65b9\u7684\u98ce\u683c\u4e5f\u8981\u7b26\u5408\u8bbe\u5b9a\uff0c\u6bd4\u5982\u653e\u5728\u53a8\u623f\u3001\u8d85\u5e02 \u6781\u7b80\u4e3b\u4e49\u7684\u8bbe\u8ba1\u53f0\u4e0a\u7b49\u7b49\uff0c\u5148\u505a\u597d\u8bbe\u5b9a\uff0c\u518d\u751f\u6210\u56fe\u50cf\u3002",
-    "prompt_en": "",
+    "title": "名画人物麦片广告",
+    "prompt": "《大师麦片》：根据我上传的照片的人物特征判断，为他生成一个符合他特质的燕麦片搭配（比如蔬菜、水果、酸奶、粗粮等等）和包装设计，然后生成他作为麦片包装盒封面人物 加 相应麦片搭配的广告封面，人物要保持特征、可爱Q版3d、c4d渲染风格，麦片所放置的地方的风格也要符合设定，比如放在厨房、超市 极简主义的设计台上等等，先做好设定，再生成图像。",
+    "prompt_en": "“Master Oats”: Based on the visual features of the person in the uploaded photo, generate a custom oatmeal mix that reflects their personality traits — for example, using vegetables, fruits, yogurt, whole grains, etc.\n\nDesign a unique cereal box and package aesthetic that aligns with this tailored mix.\n\nThen, create an advertising cover featuring the person as the mascot on the cereal box. The character should retain their recognizable features but be transformed into a cute chibi-style 3D figure with a C4D-quality rendering.\n\nThe oatmeal and packaging should be presented in a setting that matches the mood — such as a minimalist kitchen, a sleek supermarket display, or a clean design counter.\n\nThe process includes:\n– Character analysis and oat mix pairing\n– Cereal box concept and design\n– Display environment selection\n– Final image with mascot figure, packaging, and styled scene composition\n\nAll visuals should be balanced, modern, and appealing, reflecting a premium and fun oat brand identity.\n",
     "source": "https://x.com/ZHO_ZHO_ZHO/status/1909542765857587310",
     "type": "editing",
-    "author": "",
-    "author_link": ""
+    "author": "@ZHO_ZHO_ZHO",
+    "author_link": "https://x.com/ZHO_ZHO_ZHO"
   }
 ];

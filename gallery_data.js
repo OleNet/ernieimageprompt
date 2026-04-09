@@ -1,38 +1,5 @@
 window.__GALLERY_DATA__ = [
   {
-    "filename": "0039.png",
-    "index": 39,
-    "title": "讽刺漫画生成",
-    "prompt": "一幅讽刺漫画风格的插画，采用复古美式漫画风格，背景是一个多层货架，货架上都是一样的红色棒球帽，帽子正面印有大字标语“MAKE AMERICA GREAT AGAIN”，帽侧贴着白色标签写着“MADE IN CHINA”，特写视角聚焦其中一顶红色棒球帽。画面下方有价格牌，原价“$50.00”被粗黑线X划掉，改为“$77.00”，色调为怀旧的土黄与暗红色调，阴影处理带有90年代复古印刷质感。整体构图风格夸张讽刺，具讽刺政治消费主义的意味。",
-    "prompt_en": "An illustration in satirical comic style, rendered in a vintage American comic aesthetic. The background features a multi-tiered shelf stocked entirely with identical red baseball caps. The caps have a bold slogan on the front: “MAKE AMERICA GREAT AGAIN,” while a white side tag on each reads “MADE IN CHINA.” The composition uses a close-up perspective focusing on one specific red cap.\nAt the bottom of the image, a price label is shown: the original price “$50.00” is crossed out with a thick black X and replaced with “$77.00.” The overall color palette uses nostalgic ochre and deep red tones, with shading that mimics the textured print style of 1990s retro comics.\nThe composition is exaggerated and satirical, carrying a strong critique of political consumerism.",
-    "source": "https://x.com/dotey/status/1910514811756065159",
-    "type": "t2i",
-    "author": "@dotey",
-    "author_link": "https://x.com/dotey"
-  },
-  {
-    "filename": "0126.png",
-    "index": 126,
-    "title": "电影分镜制作",
-    "prompt": "使用宽屏面板，为《1984》第一页创作电影分镜脚本。",
-    "prompt_en": "",
-    "source": "https://x.com/jamesyeung18/status/1992597408128045462?s=20",
-    "type": "t2i",
-    "author": "@jamesyeung18",
-    "author_link": "https://x.com/jamesyeung18"
-  },
-  {
-    "filename": "0161.png",
-    "index": 161,
-    "title": "定制人物贴纸",
-    "prompt": "帮我将角色变成类似图2的白色轮廓贴纸。角色需要转换成网页插画风格，并添加一个描述图1的俏皮白色轮廓短语",
-    "prompt_en": "",
-    "source": "https://x.com/op7418/status/1960385812132192509",
-    "type": "editing",
-    "author": "@op7418",
-    "author_link": "https://x.com/op7418"
-  },
-  {
     "filename": "0165.png",
     "index": 165,
     "title": "文章信息图",
@@ -42,17 +9,6 @@ window.__GALLERY_DATA__ = [
     "type": "editing",
     "author": "@黄建同学",
     "author_link": "https://weibo.com/u/5648162302"
-  },
-  {
-    "filename": "0202.png",
-    "index": 202,
-    "title": "时尚服装拼贴画",
-    "prompt": "时尚情绪板拼贴画。用模特所穿单品的剪纸图案围绕肖像画。用俏皮的马克笔字体添加手写笔记和草图，并用英文标注每件单品的品牌名称和来源。整体美感应该兼具创意和可爱。",
-    "prompt_en": "",
-    "source": "https://x.com/tetumemo/status/1962480699904282861",
-    "type": "editing",
-    "author": "@tetumemo",
-    "author_link": "https://x.com/tetumemo"
   },
   {
     "filename": "0232.png",
@@ -66,17 +22,6 @@ window.__GALLERY_DATA__ = [
     "author_link": "https://x.com/emakiscroll"
   },
   {
-    "filename": "0238.png",
-    "index": 238,
-    "title": "Generate Flowchart from Document",
-    "prompt": "The diagram illustrates the process of constructing a Dyson swarm based on the paper Armstrong, S., & Sandberg, A. (2013). Eternity in six hours: Intergalactic spreading of intelligent life and sharpening the Fermi paradox. Acta Astronautica, 89, 1-13.",
-    "prompt_en": "",
-    "source": "https://x.com/anderssandberg/status/1992259420118724677?s=20",
-    "type": "t2i",
-    "author": "@anderssandberg",
-    "author_link": "https://x.com/anderssandberg"
-  },
-  {
     "filename": "0267.png",
     "index": 267,
     "title": "Generate Ground View from Map Arrow",
@@ -88,28 +33,6 @@ window.__GALLERY_DATA__ = [
     "author_link": "https://x.com/tokumin"
   },
   {
-    "filename": "0269.png",
-    "index": 269,
-    "title": "Extract 3D Buildings/Make Isometric Models",
-    "prompt": "Make Image Daytime and Isometric [Building Only]",
-    "prompt_en": "",
-    "source": "https://x.com/Zieeett/status/1960420874806247762",
-    "type": "editing",
-    "author": "@Zieeett",
-    "author_link": "https://x.com/Zieeett"
-  },
-  {
-    "filename": "0272.png",
-    "index": 272,
-    "title": "Automatic Photo Editing",
-    "prompt": "This photo is very boring and plain. Enhance it! Increase the contrast, boost the colors, and improve the lighting to make it richer,You can crop and delete details that affect the composition.",
-    "prompt_en": "",
-    "source": "https://x.com/op7418/status/1960528616573558864",
-    "type": "editing",
-    "author": "@op7418",
-    "author_link": "https://x.com/op7418"
-  },
-  {
     "filename": "0279.png",
     "index": 279,
     "title": "Article Infographic",
@@ -119,17 +42,6 @@ window.__GALLERY_DATA__ = [
     "type": "editing",
     "author": "@Huang Jian",
     "author_link": "https://weibo.com/u/5648162302"
-  },
-  {
-    "filename": "0290.png",
-    "index": 290,
-    "title": "Generate image from line drawing",
-    "prompt": "Change the pose of the person in Figure 1 to that of Figure 2, and shoot in a professional studio",
-    "prompt_en": "",
-    "source": "https://x.com/ZHO_ZHO_ZHO/status/1961024423596872184",
-    "type": "editing",
-    "author": "@ZHO_ZHO_ZHO",
-    "author_link": "https://x.com/ZHO_ZHO_ZHO"
   },
   {
     "filename": "0314.png",
@@ -154,28 +66,6 @@ window.__GALLERY_DATA__ = [
     "author_link": "https://x.com/NanoBanana_labs"
   },
   {
-    "filename": "0342.png",
-    "index": 342,
-    "title": "Typography Logo Design",
-    "prompt": "Create a typographic illustration shaped like a {OBJECT}, where the text itself forms the shape — bold and playful lettering style that fills the entire silhouette — letters adapt fluidly to the curves and contours of the object — vibrant and contrasting color palette that fits the theme — background is solid and enhances the focus on the main shape — vector-style, clean, high resolution, poster format, 1:1 aspect ratio.",
-    "prompt_en": "",
-    "source": "https://x.com/IqraSaifiii/status/1969868863522423034",
-    "type": "t2i",
-    "author": "@aziz4ai",
-    "author_link": "https://x.com/aziz4ai"
-  },
-  {
-    "filename": "0344.png",
-    "index": 344,
-    "title": "Convert Text Diagram to Pictograms",
-    "prompt": "Convert this explanatory diagram into pictograms.",
-    "prompt_en": "",
-    "source": "https://x.com/nobisiro_2023/status/1968677481486914022",
-    "type": "editing",
-    "author": "@nobisiro_2023",
-    "author_link": "https://x.com/nobisiro_2023"
-  },
-  {
     "filename": "0355.png",
     "index": 355,
     "title": "Cómic Educativo",
@@ -196,39 +86,6 @@ window.__GALLERY_DATA__ = [
     "type": "editing",
     "author": "@vista8",
     "author_link": "https://x.com/vista8"
-  },
-  {
-    "filename": "0395.png",
-    "index": 395,
-    "title": "キャラクターの分解図",
-    "prompt": "このキャラクターの分解図を作成してください。",
-    "prompt_en": "",
-    "source": "https://x.com/cheerselflin/status/1960583251460022626",
-    "type": "editing",
-    "author": "@cheerselflin",
-    "author_link": "https://x.com/cheerselflin"
-  },
-  {
-    "filename": "0404.png",
-    "index": 404,
-    "title": "手描きのアイソメトリックビュー",
-    "prompt": "手描きのアイソメトリックビューを作成してください。",
-    "prompt_en": "",
-    "source": "https://x.com/AmirMushich/status/1960583251460022626",
-    "type": "editing",
-    "author": "@AmirMushich",
-    "author_link": "https://x.com/AmirMushich"
-  },
-  {
-    "filename": "0412.png",
-    "index": 412,
-    "title": "複数キャラクターのクロスオーバー漫画",
-    "prompt": "複数キャラクターのクロスオーバー漫画を作成してください。",
-    "prompt_en": "",
-    "source": "https://x.com/canghecode/status/1960583251460022626",
-    "type": "t2i",
-    "author": "@canghecode",
-    "author_link": "https://x.com/canghecode"
   },
   {
     "filename": "0415.png",
@@ -253,28 +110,6 @@ window.__GALLERY_DATA__ = [
     "author_link": "https://x.com/TlanoAI"
   },
   {
-    "filename": "0421.png",
-    "index": 421,
-    "title": "イラストからフィギュアへ",
-    "prompt": "この写真をキャラクターフィギュアにしてください。背景にはキャラクターの画像が印刷された箱を置き、その画面にはBlenderのモデリング過程が表示されているコンピューターを配置してください。箱の前には、キャラクターフィギュアが立つ円形のプラスチック製台座を追加してください。可能であれば、シーンを屋内に設定してください。",
-    "prompt_en": "",
-    "source": "https://x.com/ZHO_ZHO_ZHO/status/1958539464994959715",
-    "type": "editing",
-    "author": "@ZHO_ZHO_ZHO",
-    "author_link": "https://x.com/ZHO_ZHO_ZHO"
-  },
-  {
-    "filename": "0434.png",
-    "index": 434,
-    "title": "記事のインフォグラフィック",
-    "prompt": "記事の内容からインフォグラフィックを生成してください。\n要件：\n1. 内容を英語に翻訳し、記事の重要な情報を抽出する\n2. 図の内容は簡潔にし、大見出しのみを残す\n3. 図中のテキストは英語を使用する\n4. 可愛らしいキャラクターや要素を豊富に追加する",
-    "prompt_en": "",
-    "source": "https://weibo.com/5648162302/5204549851155423?wm=3333_2001&from=10F8393010&sourcetype=weixin&s_trans=7836809604_5204549851155423&s_channel=4",
-    "type": "editing",
-    "author": "@黄建同学",
-    "author_link": "https://weibo.com/u/5648162302"
-  },
-  {
     "filename": "0438.png",
     "index": 438,
     "title": "食材から料理を生成",
@@ -295,17 +130,6 @@ window.__GALLERY_DATA__ = [
     "type": "editing",
     "author": "@ZHO_ZHO_ZHO",
     "author_link": "https://x.com/ZHO_ZHO_ZHO"
-  },
-  {
-    "filename": "0518.png",
-    "index": 518,
-    "title": "캐릭터 포즈 수정",
-    "prompt": "사진에 있는 사람을 앞을 바라보게 수정해줘",
-    "prompt_en": "",
-    "source": "https://x.com/arrakis_ai/status/1955901155726516652",
-    "type": "editing",
-    "author": "@arrakis_ai",
-    "author_link": "https://x.com/arrakis_ai"
   },
   {
     "filename": "0615.png",
@@ -385,17 +209,6 @@ window.__GALLERY_DATA__ = [
     "author_link": ""
   },
   {
-    "filename": "0825.png",
-    "index": 825,
-    "title": "手办-ZBrush建模屏显与万代风格包装盒",
-    "prompt": "create a 1/7 scale commercialized figure of thecharacter in the image, in a realistic styie and environment.\nPlace the figure on a computer desk, using a circular transparent acrylic base without any text.\nOn the computer screen, display the ZBrush modeling process of the figure.\nNext to the computer screen, place a BANDAl-style toy packaging box printedwith the original artwork.",
-    "prompt_en": "",
-    "source": "https://x.com/songguoxiansen/status/1964874262768160975",
-    "type": "editing",
-    "author": "@songguoxiansen",
-    "author_link": ""
-  },
-  {
     "filename": "0833.png",
     "index": 833,
     "title": "食谱信息图制作",
@@ -440,17 +253,6 @@ window.__GALLERY_DATA__ = [
     "author_link": ""
   },
   {
-    "filename": "0883.png",
-    "index": 883,
-    "title": "沙滩胶囊城市",
-    "prompt": "A vibrant, hyper-realistic miniature of [CITY] inside a transparent capsule lying on a sandy beach. The capsule is half [COLOR] (matching [COUNTRY]’s flag) with [CITY] written in white text on the colored section. Inside the capsule: iconic landmarks of [CITY], beautiful water canals or streets, small detailed boats or cars, sunny bright lighting, cinematic depth of field, dreamy atmosphere, ocean waves in the background.",
-    "prompt_en": "",
-    "source": "https://x.com/TechieBySA/status/1944386743865622718",
-    "type": "t2i",
-    "author": "@TechieBySA",
-    "author_link": ""
-  },
-  {
     "filename": "0884.png",
     "index": 884,
     "title": "用花朵美化你的产品",
@@ -470,61 +272,6 @@ window.__GALLERY_DATA__ = [
     "source": "https://x.com/TechieBySA/status/1942882098567618686",
     "type": "t2i",
     "author": "@TechieBySA",
-    "author_link": ""
-  },
-  {
-    "filename": "0944.png",
-    "index": 944,
-    "title": "优雅姿势的最高分辨率照片",
-    "prompt": "Create the highest-resolution picture of me posing elegantly with my back slightly turned and my head looking over the shoulder towards the camera. I am wearing a sleek, form-fitting strapless black evening gown, paired with long, elegant black velvet opera gloves. My hair is styled in loose, glossy waves cascading naturally over my shoulder.\nI wear small, subtle earrings and a delicate bracelet on one wrist. My expression is confident, graceful, and alluring. The background is a plain stucco gray with soft gradient lighting, giving it a high-fashion photography look. The lighting is dramatic but soft, highlighting the contours of my body and face with realistic shadows and textures.\nThe image should look like a high-quality, ultra-realistic fashion magazine photo, keeping my real face exactly as shown in the reference photo.",
-    "prompt_en": "",
-    "source": "https://x.com/eyishazyer/status/1982402158176972945",
-    "type": "editing",
-    "author": "@eyishazyer",
-    "author_link": ""
-  },
-  {
-    "filename": "0950.png",
-    "index": 950,
-    "title": "90年代风格照片",
-    "prompt": "Without changing her original face, create a portrait of a beautiful young woman with porcelain-white skin, captured with a 1990s-style camera using a direct front flash. Her messy dark brown hair is tied up, posing with a calm yet playful smile. She wears a modern oversized cream sweater. The background is a dark white wall covered with aesthetic magazine posters and stickers, evoking a cozy bedroom or personal room atmosphere under dim lighting.",
-    "prompt_en": "",
-    "source": "https://x.com/ZaraIrahh/status/1982268011416592593",
-    "type": "t2i",
-    "author": "@ZaraIrahh",
-    "author_link": ""
-  },
-  {
-    "filename": "0953.png",
-    "index": 953,
-    "title": "通过镜子捕捉时尚的卫生间更衣区",
-    "prompt": "{\n  \"scene\": {\n    \"description\": \"Stylish restroom dressing area captured via mirror.\",\n    \"environment\": \"Warm wood-laminate stall doors and soft countertop reflections.\",\n    \"mood\": \"Shy-playful confidence; cozy 'Gamseong' (감성) aesthetic.\"\n  },\n  \"aesthetic\": {\n    \"style\": \"Authentic smartphone mirror selfie.\",\n    \"look\": \"Warm interior color, gentle roll-off; minimal grain; filmic soft contrast.\"\n  },\n  \"lighting\": {\n    \"description\": \"Ceiling LEDs providing warm ambience; add subtle front fill from mirror to open eye sockets; maintain realistic specular highlights.\"\n  },\n  \"subject\": {\n    \"demographics\": {\n      \"ethnicity\": \"East Asian (Korean)\",\n      \"age\": \"adult\",\n      \"build\": \"Very slender, petite with defined waist.\"\n    },\n    \"appearance\": {\n      \"hair\": \"Messy top-bun with full fringe; a few loose side strands.\",\n      \"skin\": \"Natural, dewy finish with preserved skin texture.\"\n    },\n    \"pose\": {\n      \"type\": \"Mirror selfie, standing.\",\n      \"action\": \"Gentle smile with lips slightly pressed; left hand lightly lifting ruched hem; right hand holding phone.\",\n      \"framing\": \"Waist-up 3:4 vertical; slight downward camera angle; midriff visible.\"\n    },\n    \"wardrobe\": {\n      \"top\": \"Asymmetrical olive-gray ruched one-shoulder top.\",\n      \"bottom\": \"Low-rise jeans with faux-fur waistband trim.\"\n    },\n    \"accessories\": {\n      \"jewelry\": \"Thin bracelets, rings, and delicate hoop earrings.\",\n      \"phone\": \"Smartphone with black cat case featuring a pink bow (Hello-Kitty style).\"\n    }\n  },\n  \"props_in_scene\": {\n    \"background\": \"Wood-grain stall doors with verticals kept true; metal hinges subtly visible.\",\n    \"counter\": \"Keep any edge reflections soft and realistic.\"\n  },\n  \"camera_technical\": {\n    \"requirements\": \"Correct mirror reversal; maintain natural body proportions; no duplicated phones/hands.\",\n    \"capture\": \"Smartphone wide lens ~24–26mm equiv, f/1.8 look, ISO ~250, 1/125s, WB 4200–4400K.\",\n    \"composition\": \"Subject centered with slight lean; keep fur texture readable; ensure phone and hand pose feel natural.\",\n    \"retouching\": \"Clean minor blemishes only; preserve fabric micro-wrinkles and fur fibers; avoid haloing.\",\n    \"avoid\": \"Warped doors, heavy vignettes, oversharpening, cartoon smoothing, text/watermarks.\"\n  }\n}",
-    "prompt_en": "",
-    "source": "https://x.com/IamEmily2050/status/1982643287745032379",
-    "type": "t2i",
-    "author": "@IamEmily2050",
-    "author_link": ""
-  },
-  {
-    "filename": "0954.png",
-    "index": 954,
-    "title": "影楼拍摄女性坐在椅子上肖像照",
-    "prompt": "请在影楼里拍摄一张照片，照片中使用所附照片中的女性面孔。\n拍摄角度为正面，白色影楼背景，女性坐在椅子上。\n她身穿全套白色服装：白色西装外套、白色裙子和白色高跟鞋。\n姿势优雅，手托下巴，手里拿着一小枝白色玫瑰。\n影楼墙壁上投射着柔和的夕阳窗户光线。",
-    "prompt_en": "",
-    "source": "https://x.com/hellokaton/status/1980121888853819768",
-    "type": "t2i",
-    "author": "@hellokaton",
-    "author_link": ""
-  },
-  {
-    "filename": "1012.png",
-    "index": 1012,
-    "title": "秋天的落叶拼成图案",
-    "prompt": "中景，有阳光的午后，胶片质感，拍摄地面，秋天的落叶、树枝、银杏叶和桂花在平面上拼成了一个小猫的样子，旁边放着一杯一次性咖啡杯",
-    "prompt_en": "",
-    "source": "https://x.com/op7418/status/1967873876551233660",
-    "type": "t2i",
-    "author": "@op7418",
     "author_link": ""
   },
   {
@@ -605,17 +352,6 @@ window.__GALLERY_DATA__ = [
     "author_link": ""
   },
   {
-    "filename": "1053.png",
-    "index": 1053,
-    "title": "伪造抖音截图",
-    "prompt": "帮我生成一帧抖音竖屏短视频截图，内容是厨房帝王蟹下锅处理，厨师面对镜头展示食材和案板上成套的厨具",
-    "prompt_en": "",
-    "source": "https://x.com/tuzi_ai/status/1991523528295014822",
-    "type": "t2i",
-    "author": "@tuzi_ai",
-    "author_link": ""
-  },
-  {
     "filename": "1064.png",
     "index": 1064,
     "title": "年轻的亚洲女生蹲坐在水泥地的庭院中",
@@ -635,17 +371,6 @@ window.__GALLERY_DATA__ = [
     "source": "https://x.com/LinusEkenstam/status/1992105428873056499",
     "type": "t2i",
     "author": "@LinusEkenstam",
-    "author_link": ""
-  },
-  {
-    "filename": "1097.png",
-    "index": 1097,
-    "title": "一个可爱的拟人化动物",
-    "prompt": "A cute anthropomorphic [subject] in triple view: front-left, front, and back. Standing upright with a plump body, expressive face, and wearing [clothing/style]. Cartoon mascot in 2D animation style, clean bold lines, flat shading with subtle gradients, soft outlines, and a light neutral background.",
-    "prompt_en": "",
-    "source": "https://x.com/azed_ai/status/1987837427348799741",
-    "type": "t2i",
-    "author": "@azed_ai",
     "author_link": ""
   },
   {
@@ -701,17 +426,6 @@ window.__GALLERY_DATA__ = [
     "source": "https://x.com/TechieBySA/status/1993752534637531605",
     "type": "t2i",
     "author": "@TechieBySA",
-    "author_link": ""
-  },
-  {
-    "filename": "1128.png",
-    "index": 1128,
-    "title": "模切线变为现实",
-    "prompt": "Assemble the dieline into a perfectly folded 3D box with accurate panel placement, clean edges, and undistorted typography. Preserve all artwork exactly as printed on the dieline. Render the box in a minimal, high-end studio setup on a soft neutral background with gentle diffused lighting, subtle shadows, and no extra props. Show the box upright in a refined ¾ angle. Ultra-realistic detail, true colors, matte paperboard texture, crisp folds, premium editorial aesthetic.",
-    "prompt_en": "",
-    "source": "https://x.com/Salmaaboukarr/status/1994017531699278056",
-    "type": "t2i",
-    "author": "@Salmaaboukarr",
     "author_link": ""
   },
   {
@@ -778,17 +492,6 @@ window.__GALLERY_DATA__ = [
     "source": "https://x.com/emollick/status/1991549167773376978",
     "type": "t2i",
     "author": "@emollick",
-    "author_link": ""
-  },
-  {
-    "filename": "1198.png",
-    "index": 1198,
-    "title": "一张年轻女性的逼真特写自拍照",
-    "prompt": "{\n  \"subject\": \"Baby ꕤ Blue\",\n  \"description\": \"Create a realistic close-up selfie of a young woman (face must be 100% unchanged). The photo is taken with a digital camera in a dimly lit room using a powerful camera flash, creating sharp contrast between the illuminated face and the dark background. The color tones combine a cozy feeling with modern simplicity, featuring cool tones and soft textures of the knitted clothing.\",\n  \"hair\": {\n    \"style\": \"Long dark brown hair, side part on the left, Korean-style loose curls at the ends, small front strands, hair blowing slightly across the face\",\n    \"color\": \"Dark brown\"\n  },\n  \"clothing\": {\n    \"top\": \"Oversized blue striped knit sweater with white stripes\",\n    \"accessories\": {\n      \"earrings\": \"Small simple silver hoops\",\n      \"rings\": \"Delicate silver rings\"\n    },\n    \"nails\": \"Almond-shaped, blue with subtle sparkling crystals\"\n  },\n  \"makeup\": {\n    \"style\": \"Korean-style makeup\",\n    \"details\": {\n      \"skin\": \"Smooth and clear\",\n      \"eyebrows\": \"Light natural and tidy\",\n      \"eyeliner\": \"Soft, blurred Korean-style\",\n      \"eyelashes\": \"Thin false eyelashes\",\n      \"blush\": \"Light nude on cheeks, soft red on nose\",\n      \"lips\": \"Nude with a hint of red\"\n    }\n  },\n  \"pose\": {\n    \"hands\": \"Both hands gently touching cheeks\",\n    \"expression\": \"Dreamy and slightly cheerful\",\n    \"camera_angle\": \"High-angle selfie, approx 30 degrees above the face\"\n  },\n  \"background\": {\n    \"color\": \"Dark wall with shallow depth, contrasting with flash lighting\",\n    \"lighting\": \"Cool dim light with flash highlighting the face, hair, skin, and clothing texture\",\n    \"effect\": \"Minimalist, modern, friendly, with slight reflective highlights\"\n  },\n  \"style\": {\n    \"mood\": \"Film noir elegance\",\n    \"effects\": \"Prominent light and shadow, cinematic allure, high-detail, ultra-realistic\"\n  },\n  \"camera\": {\n    \"type\": \"Analog 35mm camera flash\",\n    \"lighting_condition\": \"Dark room\"\n  },\n  \"model_version\": \"SDXL1.0\"\n}",
-    "prompt_en": "",
-    "source": "https://x.com/xmiiru_/status/1993206753236787443",
-    "type": "t2i",
-    "author": "@xmiiru_",
     "author_link": ""
   },
   {
@@ -990,39 +693,6 @@ window.__GALLERY_DATA__ = [
     "author_link": ""
   },
   {
-    "filename": "2091.png",
-    "index": 2091,
-    "title": "",
-    "prompt": "Minimalist modern recipe infographic featuring [DISH NAME], presented in a clean top-down / 3-quarter food photography style. The finished dish is centered on a white ceramic plate or bowl, beautifully plated and ultra-realistic. Surrounding the dish are floating ingredient icons with soft circular frames and clean vector-style illustrations, each labeled with ingredient names and quantities. A curved step-by-step flow with simple numbered icons shows the cooking process (boil, dice, mix, cook, serve). Soft neutral background (beige / cream), gentle shadows, balanced spacing, Scandinavian design aesthetic, editorial cookbook layout, high readability typography, subtle gradients, professional food styling, ultra-sharp details, 8K resolution.",
-    "prompt_en": "",
-    "source": "https://x.com/Taaruk_/status/2018627478252884132",
-    "type": "t2i",
-    "author": "@Taaruk_",
-    "author_link": ""
-  },
-  {
-    "filename": "2132.png",
-    "index": 2132,
-    "title": "",
-    "prompt": "A high-quality professional product photography of a creative structural packaging design for [Fruit Name]. The packaging is made of premium corrugated cardboard, intricately crafted into the literal shape of a giant stylized [Shape e.g. spherical, curved, elongated] [Fruit Name].\n\nThe exterior surface features a vibrant and sophisticated printed pattern of minimalist [Pattern Description e.g. geometric hexagons, organic wavy lines, dotted stippling, botanical line-art, or horizontal ridges], mimicking the Natural Skin of the Fruit in a duo-tone palette of [Color 1] and [Color 2].\n\nFeatures clever die-cut windows that reveal the actual [Actual Product Inside] stored inside. Minimalist modern typography on the side saying \"[NAME]\". Includes eco-friendly details like a small recycling logo and a [3D Corrugated Cardboard Detail: Stem/green Leaf/Crown] on top. Soft studio lighting with gentle shadows, placed on a clean solid pastel [Background Color] background. 8k resolution, photorealistic, cinematic composition, industrial design aesthetic.",
-    "prompt_en": "",
-    "source": "https://x.com/Arminn_Ai/status/2022199501168038032",
-    "type": "t2i",
-    "author": "@Arminn_Ai",
-    "author_link": ""
-  },
-  {
-    "filename": "2225.png",
-    "index": 2225,
-    "title": "",
-    "prompt": "Ultra-clean modern recipe infographic.\n\nShowcase [FOOD] in a visually appealing finished form—sliced, plated, or portioned—floating slightly in perspective or angled view.\n\nArrange ingredients, steps, and tips around the dish in a dynamic editorial layout, not restricted to top-down.\n\nIngredients Section:\n\nInclude icons or mini illustrations for each ingredient with quantities. Arrange them in clusters, lists, or circular flows connected visually to the dish.\n\nSteps Section:\n\nShow preparation steps with numbered panels, arrows, or lines, forming a logical flow around the main dish. Include small cooking icons (knife, pan, oven, timer) where helpful.\n\nAdditional Info (optional):\n\nTotal calories, prep/cook time, servings, spice level—displayed as clean bubbles or badges near the dish.\n\nVisual Style:\n\nEditorial infographic meets lifestyle food photography. Vibrant, natural food colors, subtle drop shadows, clean vector icons, modern typography, soft gradients or glassmorphism for step panels. Accent colors can highlight key info (calories, prep time).\n\nComposition Guidelines:\n\nFinished meal as hero visual (perspective or angled). Ingredients and steps flow dynamically around the dish. Clear visual hierarchy: dish > steps > ingredients > optional stats. Enough negative space to keep design airy and readable.\n\nLighting & Background:\n\nSoft, natural studio lighting. Minimal textured or gradient background for premium editorial feel.\n\nOutput:\n\n1080×1080, ultra-crisp, social-feed optimized, no watermark",
-    "prompt_en": "",
-    "source": "https://x.com/Sheldon056/status/2016440109739237496",
-    "type": "t2i",
-    "author": "@Sheldon056",
-    "author_link": ""
-  },
-  {
     "filename": "2348.png",
     "index": 2348,
     "title": "",
@@ -1031,39 +701,6 @@ window.__GALLERY_DATA__ = [
     "source": "https://x.com/TechieBySA/status/2008172655308849411",
     "type": "t2i",
     "author": "@TechieBySA",
-    "author_link": ""
-  },
-  {
-    "filename": "2350.png",
-    "index": 2350,
-    "title": "",
-    "prompt": "Use this photo attached to create a nano banana safe hyper-realistic, cinematic portrait that precisely matches the reference image: a young woman captured in a soft three-quarter side profile, seated and turning her head gently upward and backward toward the camera, her gaze angled slightly above eye level. Her expression is calm, dreamy, and subtly wistful, with relaxed facial muscles, softly opened eyes, and naturally parted lips.\nHer makeup is extremely natural and minimal, emphasizing real skin texture. Dewy, luminous skin with a warm undertone; light peach blush; barely-there warm eyeshadow; natural brows; long natural lashes; and soft rosy glossy lips.\nHer hair is long, thick, and loosely wavy with an intentionally imperfect, slightly messy texture. Warm chestnut-brown hair with golden highlights, visible flyaway strands frozen by flash.\nShe wears a yellow sleeveless dress with thin spaghetti straps, lightweight and flowing, slightly sheer, resting naturally on her shoulder.\nThe background is densely filled with yellow flowers and soft greenery, closely surrounding the subject, softly blurred with shallow depth of field and creamy bokeh.\nCamera perspective: close-up to medium close-up shot, positioned slightly behind and below the subject’s shoulder, emphasizing her profile, neck, and shoulder line.\nLighting (strict): harsh direct on-camera flash always on, combined with strong ambient sunlight. Hard specular highlights on skin, sharp contrast, crisp texture, visible flash falloff, frozen hair detail, slight overexposure in highlights. No soft lighting, no diffusion.\nColor grading / filter: warm golden tones preserved, high clarity, subtle film grain, raw editorial finish.\nMood & atmosphere: dreamy yet raw, intimate, nostalgic, sun-soaked, cinematic realism.",
-    "prompt_en": "",
-    "source": "https://x.com/ZaraIrahh/status/2008713028091736148",
-    "type": "editing",
-    "author": "@ZaraIrahh",
-    "author_link": ""
-  },
-  {
-    "filename": "2420.png",
-    "index": 2420,
-    "title": "",
-    "prompt": "Exact uploaded [BOTTLE_NAME] bottle (label unchanged). Vertical poster. Center bottle w/ condensation. Add [JUICE_COLOR] liquid splash wrap + ice cubes + [INGREDIENTS] floating (controlled). Background: [BG_COLOR] gradient + vignette + grain.\nTop-left: “FRESH JUICE” + “[FLAVOR_TAGLINE]”. Right: circular “30% OFF” ring. Lower-right: price circle “[PRICE]”. Bottom-right CTA “[CTA]”. White doodle arrows. Studio key+rim, 85mm, sharp text, no watermark.",
-    "prompt_en": "",
-    "source": "https://x.com/oggii_0/status/2010731794820444198",
-    "type": "t2i",
-    "author": "@oggii_0",
-    "author_link": ""
-  },
-  {
-    "filename": "2425.png",
-    "index": 2425,
-    "title": "",
-    "prompt": "{\n  \"image_description\": {\n    \"title\": \"Surveillance Feed: Defiant Subject in Retail Shop\",\n    \"aspect_ratio\": \"4:5\",\n    \"mood\": \"Raw, gritty, confrontational, authentic\"\n  },\n  \"visual_elements\": {\n    \"subject\": {\n      \"framing\": \"Centered from mid-torso upward\",\n      \"pose\": \"Head tilted back looking up at camera, relaxed yet defiant posture\",\n      \"action\": \"Hand raised with middle finger extended (silhouette, ghosted by motion)\",\n      \"facial_features\": \"Largely obscured by blur, mouth open with tongue faintly visible\",\n      \"apparel\": \"Dark oversized sunglasses reflecting ambient light\"\n    },\n    \"environment\": {\n      \"location\": \"Cramped retail shop interior\",\n      \"foreground\": \"Cluttered checkout counter, papers, white shopping bag with red rope handles\",\n      \"background\": \"Densely packed shelves with small items, souvenirs, and figurines (abstracted by low resolution)\"\n    }\n  },\n  \"technical_specifications\": {\n    \"camera_perspective\": \"High-mounted, steep downward angle, top-down CCTV view\",\n    \"lens_distortion\": \"Subtle fisheye warping at frame edges\",\n    \"lighting\": \"Harsh flat fluorescent, blown highlights, dull shadows\",\n    \"color_grading\": \"Cool green-blue cast, uneven color reproduction, visible banding, reduced dynamic range\"\n  },\n  \"image_fidelity\": {\n    \"quality\": \"Intentionally degraded, low-fidelity\",\n    \"artifacts\": [\n      \"Strong motion blur\",\n      \"Digital smearing\",\n      \"Compression artifacts\",\n      \"Heavy noise\",\n      \"Scan lines\"\n    ],\n    \"sharpness\": \"Low perceived sharpness, distinct details stretched and indistinct\"\n  },\n  \"full_prompt_text\": \"A heavily distorted, low-fidelity surveillance-style image depicts the Subject, wearing a red short minidress with v deep necklace, standing behind a cramped retail checkout counter inside a cluttered shop, captured from a high-mounted camera angled steeply downward in a top-down CCTV perspective. The image quality is intentionally degraded, with strong motion blur, digital smearing, compression artifacts, heavy noise, scan lines, and subtle fisheye distortion warping the frame edges, making fine details indistinct and stretched. The Subject is centered from mid-torso upward, looking up toward the camera with the head tilted back; facial features are largely obscured by blur and artifacts, though dark oversized sunglasses dominate the face, reflecting ambient light, and the mouth appears open with the tongue faintly visible. One hand is raised toward the camera with the middle finger extended, clearly readable in silhouette but softened and ghosted by motion and low clarity, conveying a relaxed yet defiant posture. The foreground checkout counter is cluttered with papers and a white shopping bag with red rope handles, while the background shelves are densely packed with small items, souvenirs, and figurines that blend into abstract shapes due to low resolution and noise. Harsh, flat fluorescent lighting produces blown highlights, dull shadows, uneven color reproduction, and a cool green-blue color cast with visible banding and reduced dynamic range. Despite an effectively deep depth of field, perceived sharpness remains low, reinforcing a raw, gritty, confrontational mood that emphasizes the authenticity of an unpolished, unenhanced surveillance feed in a vertical 4:5 aspect ratio\"\n}",
-    "prompt_en": "",
-    "source": "https://x.com/KeorUnreal/status/2015767845943025745",
-    "type": "t2i",
-    "author": "@KeorUnreal",
     "author_link": ""
   },
   {
@@ -1144,28 +781,6 @@ window.__GALLERY_DATA__ = [
     "author_link": ""
   },
   {
-    "filename": "2999.png",
-    "index": 2999,
-    "title": "",
-    "prompt": "A cinematic black-and-white street portrait of a young woman photographer standing in a city street, holding a mirrorless camera with both hands. She has soft natural makeup, sharp expressive eyes, and loosely tied dark hair with wisps framing her face. She wears a black turtleneck sweater and a camera strap around her neck. The background is an urban street with blurred pedestrians and lights creating creamy bokeh. Shallow depth of field, 85mm lens look, natural soft light, high contrast monochrome tones, realistic skin texture, candid moment, moody documentary photography style, ultra-detailed, film grain, timeless aesthetic.",
-    "prompt_en": "",
-    "source": "https://x.com/ChillaiKalan__/status/2011845501357064442",
-    "type": "t2i",
-    "author": "@ChillaiKalan__",
-    "author_link": ""
-  },
-  {
-    "filename": "3098.png",
-    "index": 3098,
-    "title": "",
-    "prompt": "{\n  \"scene\": \"An intimate indoor portrait taken in a personal bedroom or studio space, walls covered with taped photos, sketches, and ticket stubs\",\n  \"subject\": {\n    \"gender\": \"male\",\n    \"age\": \"early 20s\",\n    \"expression\": \"calm, slightly guarded, introspective\",\n    \"pose\": \"standing casually, shoulders relaxed, slight lean, hands out of frame\",\n    \"gaze\": \"direct but unforced eye contact with the camera\",\n    \"hair\": \"short, messy crop with natural volume, slightly uneven fringe\",\n    \"wardrobe\": {\n      \"top\": \"textured knit sweater with soft purple gradient fade\",\n      \"bottom\": \"muted trousers, understated and casual\",\n      \"style\": \"effortless, lived-in, indie editorial\"\n    }\n  },\n  \"environment\": {\n    \"location\": \"personal room or creative space\",\n    \"background_elements\": [\n      \"polaroid photographs taped to wall\",\n      \"handwritten sketches and doodles\",\n      \"concert or travel ticket stubs\",\n      \"masking tape visible and imperfect\"\n    ],\n    \"atmosphere\": \"nostalgic, personal, slightly raw\"\n  },\n  \"lighting\": {\n    \"type\": \"direct on-camera flash\",\n    \"quality\": \"harsh but controlled\",\n    \"shadow\": \"hard shadows falling behind subject\",\n    \"mood\": \"late 90s / early 2000s candid realism\"\n  },\n  \"camera\": {\n    \"shot_type\": \"medium portrait\",\n    \"lens\": \"35mm\",\n    \"perspective\": \"eye-level, snapshot-style framing\",\n    \"depth_of_field\": \"deep enough to keep wall details readable\",\n    \"imperfections\": \"slight vignetting, flash falloff\"\n  },\n  \"color_grading\": {\n    \"palette\": \"muted neutrals with soft lavender emphasis\",\n    \"contrast\": \"moderate\",\n    \"tones\": \"natural skin tones with slight warmth\"\n  },\n  \"texture_and_detail\": {\n    \"skin\": \"real texture, visible blemishes, no smoothing\",\n    \"fabric\": \"clearly defined knit texture\",\n    \"grain\": \"noticeable film grain\",\n    \"timestamp\": \"subtle date stamp in corner\"\n  },\n  \"style\": \"analog-inspired, diary-like portrait, lo-fi editorial realism\",\n  \"negative_prompt\": [\n    \"studio lighting\",\n    \"beauty retouching\",\n    \"plastic skin\",\n    \"perfect symmetry\",\n    \"over-sharpening\",\n    \"clean minimal background\",\n    \"AI artifacts\"\n  ]\n}",
-    "prompt_en": "",
-    "source": "https://x.com/Maercihh/status/2016448117617602890",
-    "type": "t2i",
-    "author": "@Maercihh",
-    "author_link": ""
-  },
-  {
     "filename": "3338.png",
     "index": 3338,
     "title": "",
@@ -1218,6 +833,336 @@ window.__GALLERY_DATA__ = [
     "source": "https://x.com/dotey",
     "type": "t2i",
     "author": "@dotey",
+    "author_link": ""
+  },
+  {
+    "filename": "item_107_1.png",
+    "index": 3526,
+    "title": "",
+    "prompt": "\u8bf7\u751f\u6210\u4e00\u5f20\u513f\u7ae5\u8bc6\u5b57\u5c0f\u62a5\u300a\u6e38\u4e50\u56ed\u300b\uff0c\u7ad6\u7248 A4\uff0c\u5b66\u4e60\u5c0f\u62a5\u7248\u5f0f\uff0c\u9002\u5408 5\u20139 \u5c81\u5b69\u5b50 \u8ba4\u5b57\u4e0e\u770b\u56fe\u8bc6\u7269\u3002 \u4e00\u3001\u5c0f\u62a5\u6807\u9898\u533a\uff08\u9876\u90e8\uff09 \u9876\u90e8\u5c45\u4e2d\u5927\u6807\u9898\uff1a\u300a\u6e38\u4e50\u56ed\u8bc6\u5b57\u5c0f\u62a5\u300b \u98ce\u683c\uff1a\u5341\u5b57\u5c0f\u62a5 / \u513f\u7ae5\u5b66\u4e60\u62a5\u611f \u6587\u672c\u8981\u6c42\uff1a\u5927\u5b57\u3001\u9192\u76ee\u3001\u5361\u901a\u624b\u5199\u4f53\u3001\u5f69\u8272\u63cf\u8fb9 \u88c5\u9970\uff1a\u5468\u56f4\u6dfb\u52a0\u4e0e \u6e38\u4e50\u56ed \u76f8\u5173\u7684\u8d34\u7eb8\u98ce\u88c5\u9970\uff0c\u989c\u8272\u9c9c\u8273 \u4e8c\u3001\u5c0f\u62a5\u4e3b\u4f53\uff08\u4e2d\u95f4\u4e3b\u753b\u9762\uff09 \u753b\u9762\u4e2d\u5fc3\u662f\u4e00\u5e45 \u5361\u901a\u63d2\u753b\u98ce\u7684\u300c\u6e38\u4e50\u56ed\u300d\u573a\u666f\uff1a \u6574\u4f53\u6c14\u6c1b\uff1a\u660e\u4eae\u3001\u6e29\u6696\u3001\u79ef\u6781 \u6784\u56fe\uff1a\u7269\u4f53\u8fb9\u754c\u6e05\u6670\uff0c\u65b9\u4fbf\u5bf9\u5e94\u6587\u5b57\uff0c\u4e0d\u8981\u8fc7\u4e8e\u62e5\u6324\u3002 \u573a\u666f\u5206\u533a\u4e0e\u6838\u5fc3\u5185\u5bb9 \u6838\u5fc3\u533a\u57df A\uff08\u4e3b\u8981\u5bf9\u8c61\uff09\uff1a\u8868\u73b0 \u6e38\u4e50\u56ed \u7684\u6838\u5fc3\u6d3b\u52a8\uff08\u5b69\u5b50\u4eec\u5728\u73a9\u6e38\u4e50\u8bbe\u65bd\uff09\u3002 \u6838\u5fc3\u533a\u57df B\uff08\u914d\u5957\u8bbe\u65bd\uff09\uff1a\u5c55\u793a\u76f8\u5173\u7684\u5de5\u5177\u6216\u7269\u54c1\uff08\u552e\u7968\u3001\u96f6\u98df\u3001\u6307\u793a\u8bbe\u65bd\uff09\u3002 \u6838\u5fc3\u533a\u57df C\uff08\u73af\u5883\u80cc\u666f\uff09\uff1a\u4f53\u73b0\u73af\u5883\u7279\u5f81\uff08\u5165\u53e3\u3001\u8def\u724c\u3001\u5f69\u65d7\u3001\u7eff\u5730\u7b49\uff09\u3002 \u4e3b\u9898\u4eba\u7269 \u89d2\u8272\uff1a1 \u4f4d\u53ef\u7231\u5361\u901a\u4eba\u7269\uff08\u8eab\u4efd\uff1a\u6e38\u4e50\u56ed\u5de5\u4f5c\u4eba\u5458/\u6e38\u5ba2\u5c0f\u670b\u53cb\u7686\u53ef\uff09\u3002 \u52a8\u4f5c\uff1a\u6b63\u5728\u8fdb\u884c\u4e0e\u573a\u666f\u76f8\u5173\u7684\u81ea\u7136\u4e92\u52a8\uff08\u5982\u5fae\u7b11\u6307\u8def\u3001\u6325\u624b\u6b22\u8fce\u3001\u966a\u5b69\u5b50\u73a9\uff09\u3002 \u4e09\u3001\u5fc5\u753b\u7269\u4f53\u4e0e\u8bc6\u5b57\u6e05\u5355\uff08Generated Content\uff09 \u8bf7\u52a1\u5fc5\u5728\u753b\u9762\u4e2d\u6e05\u6670\u7ed8\u5236\u4ee5\u4e0b\u7269\u4f53\uff0c\u5e76\u4e3a\u5176\u9884\u7559\u8d34\u6807\u7b7e\u7684\u4f4d\u7f6e\uff1a 1. \u6838\u5fc3\u89d2\u8272\u4e0e\u8bbe\u65bd\uff1a g\u014dng zu\u00f2 r\u00e9n yu\u00e1n \u5de5\u4f5c\u4eba\u5458 sh\u00f2u pi\u00e0o ch\u00f9 \u552e\u7968\u5904 gu\u00f2 sh\u0101n ch\u0113 \u8fc7\u5c71\u8f66 m\u00f3 ti\u0101n l\u00fan \u6469\u5929\u8f6e xu\u00e1n zhu\u01cen m\u01ce \u65cb\u8f6c\u6728\u9a6c 2. \u5e38\u89c1\u7269\u54c1/\u5de5\u5177\uff1a pi\u00e0o \u7968 q\u00ec qi\u00fa \u6c14\u7403 b\u012bng j\u012b l\u00edng \u51b0\u6dc7\u6dcb b\u00e0o m\u01d0 hu\u0101 \u7206\u7c73\u82b1 t\u00e1ng h\u00fa lu \u7cd6\u846b\u82a6 mi\u00e0n j\u00f9 \u9762\u5177 w\u00e1n j\u00f9 \u73a9\u5177 xi\u01ceo q\u00ed zi \u5c0f\u65d7\u5b50 3. \u73af\u5883\u4e0e\u88c5\u9970\uff1a r\u00f9 k\u01d2u \u5165\u53e3 ch\u016b k\u01d2u \u51fa\u53e3 zh\u01d0 sh\u00ec p\u00e1i \u6307\u793a\u724c c\u01cei q\u00ed \u5f69\u65d7 gu\u01ceng ch\u01ceng \u5e7f\u573a (\u6ce8\u610f\uff1a\u753b\u9762\u4e2d\u7684\u7269\u4f53\u6570\u91cf\u4e0d\u9650\u4e8e\u6b64\uff0c\u4f46\u4ee5\u4e0a\u5217\u8868\u5fc5\u987b\u4f5c\u4e3a\u91cd\u70b9\u63cf\u7ed8\u5bf9\u8c61\uff1b\u603b\u8ba1 18 \u4e2a\u5178\u578b\u540d\u8bcd\uff0c\u9002\u5408 5\u20139 \u5c81\u513f\u7ae5\u8bc6\u5b57\u3002) \u56db\u3001\u8bc6\u5b57\u6807\u6ce8\u89c4\u5219 \u5bf9\u4e0a\u8ff0\u6e05\u5355\u4e2d\u7684\u7269\u4f53\uff0c\u8d34\u4e0a\u4e2d\u6587\u8bc6\u5b57\u6807\u7b7e\uff1a \u683c\u5f0f\uff1a\u4e24\u884c\u5236\uff08\u7b2c\u4e00\u884c\u62fc\u97f3\u5e26\u58f0\u8c03\uff0c\u7b2c\u4e8c\u884c\u7b80\u4f53\u6c49\u5b57\uff09\u3002 \u6837\u5f0f\uff1a\u5f69\u8272\u5c0f\u8d34\u7eb8\u98ce\u683c\uff0c\u767d\u5e95\u9ed1\u5b57\u6216\u6df1\u8272\u5b57\uff0c\u6e05\u6670\u53ef\u8bfb\u3002 \u6392\u7248\uff1a\u6807\u7b7e\u9760\u8fd1\u5bf9\u5e94\u7684\u7269\u4f53\uff0c\u4e0d\u906e\u6321\u4e3b\u4f53\u3002 \u4e94\u3001\u753b\u98ce\u53c2\u6570 \u98ce\u683c\uff1a\u513f\u7ae5\u7ed8\u672c\u98ce + \u8bc6\u5b57\u5c0f\u62a5\u98ce \u8272\u5f69\uff1a\u9ad8\u9971\u548c\u3001\u660e\u5feb\u3001\u6e29\u6696 (High Saturation, Warm Tone) \u8d28\u91cf\uff1a8k resolution, high detail, vector illustration style, clean lines.",
+    "prompt_en": "",
+    "source": "https://x.com/lxfater/status/1993238777033105634?s=20",
+    "type": "t2i",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_109_4.png",
+    "index": 3527,
+    "title": "",
+    "prompt": "\u4f7f\u7528\u4e0a\u4f20\u7684\u57ce\u5e02\u7167\u7247\u4f5c\u4e3a\u5e95\u56fe\u3002\u8bf7\u52ff\u66f4\u6539\u7167\u7247\u4e2d\u7684\u771f\u5b9e\u5efa\u7b51\u3001\u8857\u9053\u3001\u8f66\u8f86\u6216\u4eba\u7269\u3002\u4fdd\u6301\u7167\u7247\u7684\u771f\u5b9e\u6027\u3002\u5728\u5efa\u7b51\u7269\u4e0a\u65b9\u548c\u540e\u65b9\u7684\u5929\u7a7a\u4e2d\u6dfb\u52a0\u4e00\u4e2a\u975e\u5e38\u5de8\u5927\u3001\u98ce\u683c\u5316\u7684\u63d2\u753b\u751f\u7269\uff0c\u4eff\u4f5b\u5b83\u4fef\u77b0\u7740\u6574\u5ea7\u57ce\u5e02\u3002\u8be5\u751f\u7269\u5e94\u91c7\u7528\u6241\u5e73\u5316\u7684\u56fe\u5f62\u98ce\u683c\u7ed8\u5236\uff0c\u8f6e\u5ed3\u6e05\u6670\uff0c\u5e76\u4f7f\u7528\u6709\u9650\u7684\u9713\u8679\u8272\uff08\u4f8b\u5982\u67d4\u548c\u7684\u9713\u8679\u7eff\u3001\u9713\u8679\u9ec4\u548c\u67e0\u6aac\u7eff\uff09\uff0c\u7c7b\u4f3c\u4e8e\u58c1\u753b\u6216\u6d77\u62a5\u63d2\u56fe\u3002\u751f\u7269\u8bbe\u8ba1\uff1a - \u5947\u5e7b\u7684\u5f02\u60f3\u4e16\u754c\uff0c\u800c\u975e\u6050\u6016\u6216\u66b4\u529b - \u7531\u5c42\u53e0\u7684\u5f62\u72b6\u3001\u9cde\u7247\u3001\u6bdb\u53d1\u6216\u82b1\u5349\u56fe\u6848\u6784\u6210 - \u957f\u957f\u7684\u624b\u81c2\u6216\u5934\u53d1\u5782\u6302\u5728\u5efa\u7b51\u7269\u65c1 - \u5de8\u5927\u7684\u89d2\u6216\u5176\u4ed6\u5947\u7279\u7684\u7279\u5f81\u5728\u5929\u7a7a\u7684\u6620\u886c\u4e0b\u6e05\u6670\u53ef\u89c1 \u4e0e\u7167\u7247\u7684\u878d\u5408\uff1a - \u5c06\u751f\u7269\u653e\u7f6e\u5728\u5efa\u7b51\u7269\u8fb9\u7f18\u540e\u65b9\uff0c\u4f7f\u5176\u90e8\u5206\u8eab\u4f53\u51fa\u73b0\u5728\u5efa\u7b51\u7269\u8fb9\u7f18\u4e4b\u540e\uff0c\u6ce8\u610f\u900f\u89c6\u5173\u7cfb - \u4f7f\u7528\u6b63\u786e\u7684\u91cd\u53e0\u65b9\u5f0f\uff1a\u5efa\u7b51\u7269\u8fb9\u7f18\u5728\u524d\uff0c\u751f\u7269\u5728\u540e\uff0c\u4f7f\u5176\u878d\u5165\u573a\u666f\u4e4b\u4e2d - \u5982\u6709\u9700\u8981\uff0c\u53ef\u5728\u9644\u8fd1\u7684\u5efa\u7b51\u7269\u8868\u9762\u6dfb\u52a0\u975e\u5e38\u67d4\u548c\u7684\u9634\u5f71\u6216\u8272\u5f69\u53cd\u5c04\uff0c\u4f46\u8981\u4fdd\u6301\u5fae\u5999 - \u4fdd\u6301\u5929\u7a7a\u7684\u539f\u59cb\u4eae\u5ea6\uff0c\u4f7f\u63d2\u56fe\u6e05\u6670\u7a81\u51fa \u53ef\u9009\uff1a - \u5728\u8857\u9053\u4e0a\u6dfb\u52a0\u4e00\u4e9b\u5c0f\u578b\u3001\u7b80\u5355\u7684\u63d2\u56fe\u4eba\u7269\uff08\u6241\u5e73\u3001\u6781\u7b80\u98ce\u683c\uff09\uff0c\u4f8b\u5982\u905b\u72d7\u6216\u8fc7\u9a6c\u8def\uff0c\u4f46\u4e0d\u8981\u906e\u6321\u771f\u4eba\u3002 \u6574\u4f53\u6c1b\u56f4\uff1a\u68a6\u5e7b\u822c\u7684\u8d85\u73b0\u5b9e\u57ce\u5e02\u666f\u8c61\uff0c\u4e00\u53ea\u5de8\u5927\u7684\u3001\u53cb\u597d\u7684\u63d2\u56fe\u751f\u7269\u51fa\u73b0\u5728\u903c\u771f\u7684\u5efa\u7b51\u7269\u4e0a\u65b9\uff0c\u5c06\u771f\u5b9e\u7167\u7247\u4e0e\u7b80\u6d01\u73b0\u4ee3\u7684\u63d2\u56fe\u76f8\u7ed3\u5408\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/AI_GIRL_DESIGN/status/1993244246225392089?s=20",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_115_4.png",
+    "index": 3528,
+    "title": "",
+    "prompt": "\u6211\u60f3\u770b\u770b\u8fd9\u5f20\u7167\u7247\u62cd\u6444\u7684\u5e55\u540e\u82b1\u7d6e\uff0c\u4e86\u89e3\u5b83\u662f\u5982\u4f55\u8bde\u751f\u7684\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/icreatelife/status/1991945836914147524?s=20",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_126_4.png",
+    "index": 3529,
+    "title": "",
+    "prompt": "\u4f7f\u7528\u5bbd\u5c4f\u9762\u677f\uff0c\u4e3a\u300a1984\u300b\u7b2c\u4e00\u9875\u521b\u4f5c\u7535\u5f71\u5206\u955c\u811a\u672c\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/jamesyeung18/status/1992597408128045462?s=20",
+    "type": "t2i",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_141_2.png",
+    "index": 3530,
+    "title": "",
+    "prompt": "{\n\n\"style\": {\n\n\"name\": \"vertical_slice_glitch\",\n\n\"description\": \"\u91c7\u7528\u5782\u76f4\u5207\u7247\u626d\u66f2\u3001\u6545\u969c\u5206\u88c2\u548c\u6a21\u62df\u98ce\u683c\u9897\u7c92\u7684\u9ad8\u7ea7\u65f6\u5c1a\u4eba\u50cf\u3002\",\n\n\"elements\": {\n\n\"subject\": {\n\n\"type\": \"fashion_portrait\",\n\n\"framing\": \"tight_face_centered\",\n\n\"expression\": \"neutral_or_intense\",\n\n\"lighting\": \"soft_diffused_studio\",\n\n\"skin_texture\": \"realistic_with_blush\",\n\n\"wardrobe\": \"minimal_solid_colors\"\n\n},\n\n\"distortion\": {\n\n\"effect\": \"vertical_slit_scan\",\n\n\"slice_count\": \"40-80\",\n\n\"slice_thickness\": \"thin\",\n\n\"displacement_amount\": \"medium\",\n\n\"alignment\": \"center_weighted\",\n\n\"smooth_blend_edges\": false,\n\n\"random_offset\": true,\n\n\"\u65b9\u5411\": \"\u5782\u76f4\"\n\n},\n\n\"\u7eb9\u7406\": {\n\n\"\u9897\u7c92\": \"\u4e2d\u7b49\u504f\u91cd\",\n\n\"\u566a\u70b9\": \"\u7cbe\u7ec6\u6570\u7801\u566a\u70b9\",\n\n\"\u538b\u7f29\u4f2a\u5f71\": \"\u7ec6\u5fae\",\n\n\"\u80f6\u7247\": \"\u54d1\u5149\u65f6\u5c1a\u7f16\u8f91\"\n\n},\n\n\"\u8c03\u8272\u677f\": {\n\n\"\u80cc\u666f\": \"#F2F2F2\",\n\n\"\u8272\u8c03\": \"\u67d4\u548c\u4e2d\u6027\",\n\n\"\u5f3a\u8c03\": \"\u6df1\u7ea2\u8272\",\n\n\"\u5bf9\u6bd4\u5ea6\": \"\u4e2d\u9ad8\"\n\n},\n\n\"\u76f8\u673a\": {\n\n\"\u955c\u5934\": \"85mm\u4eba\u50cf\",\n\n\"\u666f\u6df1\": \"\u6d45\",\n\n\"\u5bf9\u7126\": \"\u773c\u775b\",\n\n\"\u89d2\u5ea6\": \"\u6b63\u9762\"\n\n}\n}\n\n},\n\n\"\u8f93\u51fa\": {\n\"\u683c\u5f0f\": \"\u9ad8\u65f6\u5c1a\u6545\u969c\u4eba\u50cf\",\n\n\"\u5bbd\u9ad8\u6bd4\": \"3:4\",\n\n\"\u5206\u8fa8\u7387\": \"\u9ad8\"\n\n}\n}",
+    "prompt_en": "",
+    "source": "https://x.com/gizakdag/status/1996288172624634336?s=20",
+    "type": "t2i",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_143_3.png",
+    "index": 3531,
+    "title": "",
+    "prompt": "\u4e00\u5f20\u8d85\u903c\u771f\u7684\u9c7c\u773c\u5e7f\u89d2\u81ea\u62cd\uff0c\u4f7f\u7528\u8001\u5f0f35mm\u9c7c\u773c\u955c\u5934\u62cd\u6444\uff0c\u4ea7\u751f\u4e25\u91cd\u7684\u6876\u5f62\u7578\u53d8\u3002\u7167\u7247\u4e2d\u4eba\u7269\u624b\u4e2d\u6ca1\u6709\u76f8\u673a\u6216\u624b\u673a\u3002\n\n\u4e3b\u4f53\u4e0e\u52a8\u4f5c\uff1a\u4e00\u5f20\u7279\u5199\u3001\u7565\u5e26\u7578\u53d8\u7684\u5408\u5f71\uff0c[\u4e0a\u4f20\u56fe\u7247\u4e2d\u7684\u4eba\u7269]\u6b63\u5728\u4e0e[\u4eba\u7269]\u81ea\u62cd\u3002\u6bcf\u4e2a\u4eba\u90fd\u5728\u505a\u7740\u5938\u5f20\u7684\u8868\u60c5\uff0c\u5fae\u5fae\u772f\u7740\u773c\u775b\uff0c\u56e0\u4e3a\u95ea\u5149\u706f\u7684\u7167\u5c04\u3002\n\n\u5149\u7ebf\u4e0e\u8d28\u611f\uff1a\u5f3a\u70c8\u7684\u76f4\u5c04\u95ea\u5149\u706f\u5728\u4eba\u7269\u80cc\u540e\u5f62\u6210\u660e\u663e\u7684\u9634\u5f71\u3002\u771f\u5b9e\u7684\u80f6\u7247\u9897\u7c92\u611f\uff0c\u8fb9\u7f18\u7565\u5fae\u7684\u52a8\u6001\u6a21\u7cca\uff0c\u4ee5\u53ca\u8272\u5dee\u3002\u8fd9\u5f20\u7167\u7247\u770b\u8d77\u6765\u50cf\u662f\u6293\u62cd\u7684\u4e1a\u4f59\u5feb\u7167\uff0c\u4eff\u4f5b\u662f\u5728\u6df7\u4e71\u7684\u5e55\u540e\u77ac\u95f4\u62cd\u6444\u7684\uff0c\u800c\u4e0d\u662f\u5f71\u68da\u7167\u7247\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/Arminn_Ai/status/1996285140893622391?s=20",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_144_1.png",
+    "index": 3532,
+    "title": "",
+    "prompt": "\u6211\u5728[\u7535\u5f71\u540d\u79f0]\u7247\u573a\u548c[\u7535\u5f71\u89d2\u8272]\u81ea\u62cd\u3002\n\n\u8bf7\u4fdd\u6301\u4eba\u7269\u4e0e\u53c2\u8003\u56fe\u7247\u5b8c\u5168\u4e00\u81f4\uff0c\u5305\u62ec\u9762\u90e8\u7279\u5f81\u3001\u9aa8\u9abc\u7ed3\u6784\u3001\u80a4\u8272\u3001\u8868\u60c5\u3001\u59ff\u52bf\u548c\u5916\u8c8c\uff0c100%\u76f8\u540c\u30021:1\u5bbd\u9ad8\u6bd4\uff0c4K\u5206\u8fa8\u7387\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/rohanpaul_ai/status/1995641282056925680?s=20",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_148_3.png",
+    "index": 3533,
+    "title": "",
+    "prompt": "\u8fd9\u662f\u4e00\u7ec4\u8d5b\u535a\u670b\u514b\u98ce\u683c\u7684\u65f6\u5c1a\u5927\u7247\uff0c\u4e3b\u89d2\u662f\u4e00\u4f4d\u9177\u52b2\u5341\u8db3\u3001\u4e2a\u6027\u9c9c\u660e\u7684\u4e8c\u5341\u51fa\u5934\u5e74\u8f7b\u5973\u6027\u3002\u5979\u7559\u7740\u9f50\u4e0b\u5df4\u7684\u77ed\u6ce2\u6ce2\u5934\uff0c\u76f4\u53d1\u7565\u5e26\u7eb9\u7406\uff0c\u5218\u6d77\u968f\u610f\uff0c\u6234\u7740\u4e00\u526f\u539a\u539a\u7684\u9ed1\u8272\u592a\u9633\u955c\uff0c\u5de6\u624b\u62ff\u7740\u4e00\u676f\u63d2\u7740\u5438\u7ba1\u7684\u51b0\u5496\u5561/\u5de7\u514b\u529b\uff0c\u53f3\u624b\u62ff\u7740\u534a\u4e2a\u5403\u5269\u7684\u4e09\u660e\u6cbb/\u7cd5\u70b9\u3002\u5979\u8eab\u7a7f\u4e00\u4ef6\u5bbd\u677e\u7684\u767d\u8272T\u6064\uff0c\u8896\u5b50\u662f\u9508\u7ea2\u8272\u63d2\u80a9\u8896\uff0c\u80f8\u524d\u5370\u7740\u5c0f\u5c0f\u7684\u54c1\u724c\u6807\u8bc6\uff0c\u4e0b\u8eab\u968f\u610f\u5730\u585e\u8fdb\u4e00\u6761\u9ed1\u8272\u5bbd\u677e\u7684\u5de5\u88c5\u725b\u4ed4\u88e4\u91cc\uff0c\u88e4\u5b50\u4e0a\u6709\u767d\u8272\u7f1d\u7ebf\u7ec6\u8282\uff0c\u811a\u8e29\u4e00\u53cc\u9152\u7ea2\u8272\u4e50\u798f\u978b\uff0c\u8116\u5b50\u4e0a\u6234\u7740\u4e00\u6761\u91d1\u8272\u540a\u5760\u9879\u94fe\u3002\u7167\u7247\u6355\u6349\u5230\u5979\u8fc8\u7740\u5927\u6b65\u7684\u5168\u8eab\u59ff\u6001\uff0c\u653e\u677e\u7684\u59ff\u52bf\uff0c\u7565\u5fae\u4fa7\u8eab\uff0c\u8868\u60c5\u968f\u610f\u800c\u6de1\u6f20\uff0c\u5934\u90e8\u5fae\u5fae\u4fa7\u8f6c\uff0c\u76ee\u5149\u5411\u4e0b\uff0c\u5b9a\u683c\u5728\u57ce\u5e02\u5e7f\u573a\u7684\u534a\u6b65\u4e4b\u4e2d\u3002\u5e7f\u573a\u5730\u9762\u94fa\u7740\u7070\u8272\u7684\u6c34\u6ce5\u548c\u74f7\u7816\uff0c\u6c90\u6d74\u5728\u660e\u5a9a\u7684\u5348\u540e\u91d1\u8272\u9633\u5149\u4e0b\uff0c\u5f62\u6210\u9c9c\u660e\u7684\u5bf9\u6bd4\u9634\u5f71\uff0c\u5de6\u4fa7\u6295\u5c04\u51fa\u957f\u957f\u7684\u659c\u5f71\u3002\u7167\u7247\u91c7\u75288K\u8d85\u9ad8\u6e05\u753b\u8d28\uff0c\u753b\u9762\u903c\u771f\uff0c\u5bbd\u9ad8\u6bd4\u4e3a4:5\uff0c\u5206\u8fa8\u7387\u4e3a1440x1920\uff0c\u98ce\u683c\u4e3a\u539f\u59cb\u7167\u7247\u7ea7\u9ad8\u4fdd\u771f\uff0c\u8272\u5f69\u9971\u6ee1\uff0c\u4ee5\u51b7\u8272\u8c03\u7684\u90fd\u5e02\u8272\u8c03\u548c\u9c9c\u8273\u7684\u7ea2\u8272UI\u5143\u7d20\u70b9\u7f00\uff0c\u8425\u9020\u51fa\u9ad8\u5bf9\u6bd4\u5ea6\u7684\u65e5\u5149\u6548\u679c\u3002\u753b\u9762\u6784\u56fe\u5305\u542b\u4e00\u4e2a\u5168\u8eab\u4e3b\u955c\u5934\uff0c\u5e76\u4ee5\u788e\u7247\u5316\u7684\u5e03\u5c40\u5448\u73b0\u591a\u4e2a\u653e\u5927\u7279\u5199\uff08\u9762\u90e8/\u996e\u6599\u3001\u8eaf\u5e72\u3001\u88e4\u817f\uff09\uff0c\u53e0\u52a0\u4e86\u7ea2\u8272\u8fb9\u754c\u6846\u3001\u9065\u6d4b\u6570\u636e\u548c\u6570\u5b57HUD\u53e0\u52a0\u5c42\u7b49\u6218\u672f\u76d1\u63a7\u754c\u9762\u5143\u7d20\uff0c\u6a21\u62df\u51fa\u9ad8\u7aef\u76d1\u63a7\u5f55\u50cf\u7684\u201c\u8001\u5927\u54e5\u201d\u5f0f\u76d1\u89c6\u6c1b\u56f4\uff0c\u540c\u65f6\u878d\u5165\u4e86\u771f\u5b9e\u90fd\u5e02\u7eaa\u5b9e\u548c\u6e05\u6670\u7684\u65e5\u5149\u5199\u5b9e\u98ce\u683c\uff0c\u5e76\u7ed3\u5408\u4e86\u6570\u5b57\u56fe\u5f62\u8bbe\u8ba1\u5143\u7d20\u3002\u80cc\u666f\u662f\u6e05\u6670\u805a\u7126\u7684\u6df7\u51dd\u571f\u57ce\u5e02\u666f\u89c2\uff0c\u9634\u5f71\u7ebf\u6761\u5f3a\u70c8\uff0c\u5149\u7ebf\u6765\u81ea\u9ad8\u89d2\u5ea6\u7684\u81ea\u7136\u5f3a\u5149\uff0c\u5728\u660e\u4eae\u7684\u8def\u9762\u4e0a\u6295\u5c04\u51fa\u6df1\u9083\u7684\u9ed1\u8272\u9634\u5f71\uff0c\u5e76\u5e26\u6709\u6570\u5b57\u9897\u7c92\u611f\u548c\u626b\u63cf\u7ebf\u7455\u75b5\u3002\u8272\u5f69\u5206\u7ea7\u91c7\u7528\u4e2d\u6027\u90fd\u5e02\u7070\u3001\u767d\u8272\u3001\u9508\u7ea2\u8272\u3001\u725b\u4ed4\u9ed1\u548c\u9192\u76ee\u7684\u4eae\u6df1\u7ea2\u8272 UI \u5143\u7d20\uff0c\u540e\u671f\u5904\u7406\u5305\u62ec\u9ad8\u9510\u5316\u548c\u7ea2\u8272\u77e2\u91cf\u56fe\u5f62\u53e0\u52a0\uff0c\u4f8b\u5982\u6570\u5b57\u201c19 5 3 21 18 9 20 25\u201d\u3001\u6587\u672c\u201cCCWW\u201d\u3001\u201cTR521\u201d\u3001\u65f6\u95f4\u7801\u201c18/02\u201d\u4ee5\u53ca\u5e26\u6709\u4e95\u53f7\u201c#83575//\u201d\u548c\u201c#25747//\u201d\u7684\u8fb9\u754c\u6846\u3002\u6574\u4f53\u4e3b\u9898\u662f\u57ce\u5e02\u76d1\u63a7\u3001Y2K \u8857\u5934\u670d\u9970\u3001\u6218\u672f\u6570\u636e\u53ef\u89c6\u5316\u3001\u5766\u7387\u7684\u65f6\u5c1a\u77ac\u95f4\u548c\u53cd\u4e4c\u6258\u90a6\u65f6\u5c1a\uff0c\u8425\u9020\u51fa\u4e00\u79cd\u51b7\u9759\u758f\u79bb\u7684\u89c2\u5bdf\u3001\u90fd\u5e02\u7684\u6f2b\u4e0d\u7ecf\u5fc3\u3001\u6df7\u4e71\u7684\u6570\u636e\u6d41\u548c\u4fb5\u72af\u9690\u79c1\u7684\u65f6\u5c1a\u611f\u3002\u7167\u7247\u91c7\u7528 35 \u6beb\u7c73\u81f3 50 \u6beb\u7c73\u955c\u5934\uff0c\u4ee5\u9ad8\u89d2\u5ea6\u76d1\u63a7\u89c6\u89d2\u62cd\u6444\uff0c\u5e76\u4f7f\u7528\u4e86\u6df1\u7126\u6548\u679c\u3002\u7167\u7247\u5e03\u5c40\u4e3a\u4e00\u5f20\u4e3b\u56fe\u52a0\u4e09\u5f20\u5c40\u90e8\u7ec6\u8282\u56fe\uff0c\u5e76\u7528\u7ea2\u8272\u6218\u672f\u7ebf\u6761\u548c\u5341\u5b57\u7ebf\u8fde\u63a5\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/_MehdiSharifi_/status/1997832235974598763?s=20",
+    "type": "t2i",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_164_2.png",
+    "index": 3534,
+    "title": "",
+    "prompt": "\u51c6\u786e\u4f7f\u7528\u56fe2\u8272\u5361\u4e3a\u56fe1\u4eba\u7269\u4e0a\u8272",
+    "prompt_en": "",
+    "source": "https://x.com/ZHO_ZHO_ZHO/status/1960652077891510752",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_165_1.png",
+    "index": 3535,
+    "title": "",
+    "prompt": "\u4e3a\u6587\u7ae0\u5185\u5bb9\u751f\u6210\u4fe1\u606f\u56fe\n\u8981\u6c42\uff1a\n1. \u5c06\u5185\u5bb9\u7ffb\u8bd1\u6210\u82f1\u6587\uff0c\u5e76\u63d0\u70bc\u6587\u7ae0\u7684\u5173\u952e\u4fe1\u606f\n2. \u56fe\u4e2d\u5185\u5bb9\u4fdd\u6301\u7cbe\u7b80\uff0c\u53ea\u4fdd\u7559\u5927\u6807\u9898\n3. \u56fe\u4e2d\u6587\u5b57\u91c7\u7528\u82f1\u6587\n4. \u52a0\u4e0a\u4e30\u5bcc\u53ef\u7231\u7684\u5361\u901a\u4eba\u7269\u548c\u5143\u7d20",
+    "prompt_en": "",
+    "source": "https://weibo.com/5648162302/5204549851155423?wm=3333_2001&from=10F8393010&sourcetype=weixin&s_trans=7836809604_5204549851155423&s_channel=4",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_165_4.png",
+    "index": 3536,
+    "title": "",
+    "prompt": "\u4e3a\u6587\u7ae0\u5185\u5bb9\u751f\u6210\u4fe1\u606f\u56fe\n\u8981\u6c42\uff1a\n1. \u5c06\u5185\u5bb9\u7ffb\u8bd1\u6210\u82f1\u6587\uff0c\u5e76\u63d0\u70bc\u6587\u7ae0\u7684\u5173\u952e\u4fe1\u606f\n2. \u56fe\u4e2d\u5185\u5bb9\u4fdd\u6301\u7cbe\u7b80\uff0c\u53ea\u4fdd\u7559\u5927\u6807\u9898\n3. \u56fe\u4e2d\u6587\u5b57\u91c7\u7528\u82f1\u6587\n4. \u52a0\u4e0a\u4e30\u5bcc\u53ef\u7231\u7684\u5361\u901a\u4eba\u7269\u548c\u5143\u7d20",
+    "prompt_en": "",
+    "source": "https://weibo.com/5648162302/5204549851155423?wm=3333_2001&from=10F8393010&sourcetype=weixin&s_trans=7836809604_5204549851155423&s_channel=4",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_166_2.png",
+    "index": 3537,
+    "title": "",
+    "prompt": "\u4ee5\u4e5d\u5bab\u683c\u7684\u65b9\u5f0f\u751f\u6210\u8fd9\u4e2a\u4eba\u4e0d\u540c\u53d1\u578b\u7684\u5934\u50cf",
+    "prompt_en": "",
+    "source": "https://x.com/balconychy/status/1960665038504779923",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_167_3.png",
+    "index": 3538,
+    "title": "",
+    "prompt": "\u7ed8\u5236[3D\u4eba\u4f53\u5668\u5b98\u6a21\u578b\u5c55\u793a\u793a\u4f8b\u5fc3\u810f]\u7528\u4e8e\u5b66\u672f\u5c55\u793a\uff0c\u8fdb\u884c\u6807\u6ce8\u8bb2\u89e3\uff0c\u9002\u7528\u4e8e\u5c55\u793a\u5176\u539f\u7406\u548c[\u6bcf\u4e2a\u5668\u5b98]\u7684\u529f\u80fd\uff0c\u975e\u5e38\u903c\u771f\uff0c\u9ad8\u5ea6\u8fd8\u539f\uff0c\u7cbe\u7ec6\u5ea6\u975e\u5e38\u7ec6\u81f4\u7684\u8bbe\u8ba1",
+    "prompt_en": "",
+    "source": "https://x.com/berryxia_ai/status/1960708465586004305",
+    "type": "t2i",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_179_1.png",
+    "index": 3539,
+    "title": "",
+    "prompt": "\u5206\u6790\u8fd9\u5f20\u56fe\u7247\u3002\u7528\u7ea2\u7b14\u6807\u51fa\u4f60\u53ef\u4ee5\u6539\u8fdb\u7684\u5730\u65b9\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/AiMachete/status/1962356993550643355",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_180_4.png",
+    "index": 3540,
+    "title": "",
+    "prompt": "\u5728\u5177\u6709\u620f\u5267\u6027\u7684\u73b0\u4ee3\u573a\u666f\u4e2d\u62cd\u6444\u8be5\u4ea7\u54c1\uff0c\u5e76\u4f34\u968f\u7740\u7206\u70b8\u6027\u7684\u5411\u5916\u52a8\u6001\u6392\u5217\uff0c\u4e3b\u8981\u6210\u5206\u65b0\u9c9c\u548c\u539f\u59cb\u5728\u4ea7\u54c1\u5468\u56f4\u98de\u821e\uff0c\u8868\u660e\u5176\u65b0\u9c9c\u5ea6\u548c\u8425\u517b\u4ef7\u503c\u3002\u4fc3\u9500\u5e7f\u544a\u955c\u5934\uff0c\u6ca1\u6709\u6587\u5b57\uff0c\u5f3a\u8c03\u4ea7\u54c1\uff0c\u4ee5\u5173\u952e\u54c1\u724c\u989c\u8272\u4f5c\u4e3a\u80cc\u666f\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/icreatelife/status/1962724040205803773",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_193_1.png",
+    "index": 3541,
+    "title": "",
+    "prompt": "\u56fe\u4e00\u4eba\u7269\u6309\u7167\u56fe\u4e8c\u7684\u8138\u578b\u8bbe\u8ba1\u4e3aq\u7248\u5f62\u8c61",
+    "prompt_en": "",
+    "source": "https://x.com/ZHO_ZHO_ZHO/status/1961802767493939632",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_201_2.png",
+    "index": 3542,
+    "title": "",
+    "prompt": "\u5168\u5f69\u7167\u7247\u30021660 \u5e74\u7684\u65b0\u963f\u59c6\u65af\u7279\u4e39\u3002\u786e\u4fdd\u5b83\u662f\u5168\u73b0\u4ee3\u8272\u5f69\uff0c\u5c31\u50cf\u5b83\u662f\u4eca\u5929\u62cd\u6444\u7684\u7167\u7247\u4e00\u6837\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/levelsio/status/1961595333034598487",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_203_4.png",
+    "index": 3543,
+    "title": "",
+    "prompt": "\u4e00\u5f20\u9ad8\u5206\u8fa8\u7387\u5e7f\u544a\u7167\u7247\uff0c\u4e00\u4f4d\u7537\u58eb\u7528\u62c7\u6307\u548c\u98df\u6307\u7cbe\u5fc3\u63e1\u7740\u4e00\u4ef6\u903c\u771f\u7684\u5fae\u578b [\u4ea7\u54c1] \u3002\u80cc\u666f\u5e72\u51c0\u6e05\u723d\uff0c\u6444\u5f71\u68da\u706f\u5149\uff0c\u9634\u5f71\u67d4\u548c\u3002\u624b\u90e8\u9020\u578b\u7cbe\u81f4\uff0c\u80a4\u8272\u81ea\u7136\uff0c\u6446\u653e\u4f4d\u7f6e\u51f8\u663e\u4e86\u4ea7\u54c1\u7684\u5f62\u72b6\u548c\u7ec6\u8282\u3002\u4ea7\u54c1\u770b\u8d77\u6765\u6781\u5c0f\uff0c\u4f46\u7ec6\u8282\u4e30\u5bcc\uff0c\u54c1\u724c\u5f62\u8c61\u7cbe\u51c6\uff0c\u4f4d\u4e8e\u753b\u9762\u4e2d\u592e\uff0c\u666f\u6df1\u6d45\u3002\u6a21\u4eff\u4e86\u5962\u4f88\u54c1\u6444\u5f71\u548c\u6781\u7b80\u4e3b\u4e49\u5546\u4e1a\u98ce\u683c\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/azed_ai/status/1962878353784066342",
+    "type": "t2i",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_207_4.png",
+    "index": 3544,
+    "title": "",
+    "prompt": "\u6839\u636e\u4e0a\u4f20\u7684\u56fe\u50cf\uff0c\u4ec5\u7528\u7ebf\u6846\u8fdb\u884c\u5168\u606f\u5316",
+    "prompt_en": "",
+    "source": "https://x.com/tetumemo/status/1964574226155000312",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_216_2.png",
+    "index": 3545,
+    "title": "",
+    "prompt": "\u5c06\u8fd9\u5f20\u56fe\u50cf\u53d8\u6210\u4e00\u6761\u5305\u542b 5 \u4ef6\u9996\u9970\u7684\u7cfb\u5217\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/Gdgtify/status/1964419331342909777",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_217_4.png",
+    "index": 3546,
+    "title": "",
+    "prompt": "\u7528\u8fd9\u4e2a\u89d2\u8272\u56fe\u50cf\u521b\u5efa\u5546\u54c1",
+    "prompt_en": "",
+    "source": "https://x.com/0xFramer/status/1964992117324886349",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_227_3.png",
+    "index": 3547,
+    "title": "",
+    "prompt": "\u751f\u6210\u4e00\u5f20\u56fe\u50cf\uff0c\u5c55\u793a\u8be5\u52a8\u7269\u88ab\u7b80\u5316\u5e76\u53d8\u5f62\u4e3a\u52a8\u6f2b\u98ce\u683c\u7684\u6bdb\u7ed2\u73a9\u5177\uff08\u6750\u8d28\u4e3a\u77ed\u7ed2\u3001\u89e6\u611f\u67d4\u8f6f\u7684\u805a\u916f\u9488\u7ec7\u5e03\uff09\uff0c\u653e\u7f6e\u5728 UFO \u635e\u5a03\u5a03\u673a\u4e2d\u3002\n\n\u4e24\u4fa7\u5404\u6709\u4e00\u53f0\u989d\u5916\u7684 UFO \u635e\u5a03\u5a03\u673a\uff0c\u91cc\u9762\u6446\u653e\u7740\u4e0d\u540c\u52a8\u7269\u7684\u6bdb\u7ed2\u73a9\u5177\uff0c\u4e0e\u4e3b\u56fe\u50cf\u7684\u52a8\u7269\u4e0d\u540c\u3002\n\n\u573a\u666f\u8bbe\u5b9a\u5728\u65e5\u672c\u6e38\u620f\u4e2d\u5fc3\uff0c\u6574\u4f53\u660e\u4eae\u3002UFO \u635e\u5a03\u5a03\u673a\u7684\u4e0a\u90e8\u6d82\u6709\u9c9c\u8273\u989c\u8272\uff0c\u4e0b\u90e8\u6d82\u4e3a\u767d\u8272\u3002\u80cc\u666f\u4e3a\u5899\u9762\uff0cUFO \u635e\u5a03\u5a03\u673a\u80cc\u540e\u7684\u533a\u57df\u6a21\u7cca\u5904\u7406\u3002\u5730\u9762\u94fa\u6709\u5730\u6bef\u3002\n\n\u62cd\u6444\u89d2\u5ea6\u4e3a\u6b63\u9762\u3002\u6700\u91cd\u8981\u7684\u662f\uff0c\u56fe\u50cf\u4e2d\u7edd\u5bf9\u4e0d\u8981\u51fa\u73b0\u4efb\u4f55\u6587\u5b57\u6216\u6807\u5fd7\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/googlejapan/status/1969733348852433316",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_229_4.png",
+    "index": 3548,
+    "title": "",
+    "prompt": "\u4f7f\u7528\u539f\u56fe\u4e2d\u7684\u89d2\u8272\u521b\u5efa\u4e00\u4e2a RPG \u6e38\u620f\u89d2\u8272\u72b6\u6001\u754c\u9762\uff1a\n\n\u4fdd\u7559\u539f\u56fe\u89d2\u8272\u7684\u8bbe\u8ba1\u548c\u98ce\u683c\uff0c\u4f46\u5c06\u670d\u88c5\u66f4\u6362\u4e3a\u5e7b\u60f3 RPG \u98ce\u683c\uff0c\u5e76\u8c03\u6574\u59ff\u52bf\u4ee5\u7b26\u5408\u60c5\u5883\u3002\n\n\u5728\u753b\u9762\u4e2d\u540c\u65f6\u5c55\u793a\u539f\u56fe\u89d2\u8272\u4e0e\u72b6\u6001\u754c\u9762\u5e76\u6392\u663e\u793a\u3002\n\n\u72b6\u6001\u754c\u9762\u9700\u5305\u542b\u89d2\u8272\u53c2\u6570\u3001\u6280\u80fd\u3001\u56fe\u6807\u7b49\u4fe1\u606f\uff0c\u5448\u73b0\u4e30\u5bcc\u800c\u76f4\u89c2\u7684\u5e03\u5c40\u3002\n\n\u80cc\u666f\u4f7f\u7528\u4e0e\u539f\u56fe\u98ce\u683c\u5339\u914d\u7684\u5e7b\u60f3\u98ce\u683c\u573a\u666f\u3002\n\n\u6574\u4f53\u754c\u9762\u8bbe\u8ba1\u5e94\u4e30\u5bcc\u3001\u65f6\u5c1a\uff0c\u98ce\u683c\u7c7b\u4f3c 2025 \u5e74\u7684\u9ad8\u8d28\u91cf\u6e38\u620f\u754c\u9762\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/AI_Kei75/status/1969358521356742756",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_231_2.png",
+    "index": 3549,
+    "title": "",
+    "prompt": "\u8d85\u903c\u771f\u7684\u624b\u7ed8\u677f\u5c4f\u5e55\u56fe\u50cf\uff0c\u771f\u5b9e\u7684\u7b2c\u4e00\u4eba\u79f0\u89c6\u89d2\uff0c\u4e00\u53ea\u624b\u63e1\u7740\u624b\u7ed8\u677f\u548c\u624b\u7ed8\u7b14\u3002\n\n\u624b\u7ed8\u677f\u5c4f\u5e55\u4e0a\u663e\u793a\u539f\u59cb\u56fe\u50cf\u7684\u672a\u5b8c\u6210\u72b6\u6001\u3002\n\n\u5df2\u4ece\u539f\u59cb\u56fe\u50cf\u4e2d\u63d0\u53d6\u7ebf\u7a3f\uff0c\u5e76\u5bf9\u90e8\u5206\u7ebf\u7a3f\u8fdb\u884c\u4e86\u4e0a\u8272\uff0c\u989c\u8272\u4e0e\u539f\u56fe\u4fdd\u6301\u4e00\u81f4\uff0c\u4ecd\u4e3a\u672a\u5b8c\u6210\u4e0a\u8272\u72b6\u6001\u3002\n\n\u4e0d\u5f97\u4e3a\u5355\u8272\uff0c\u7ea6 70% \u7684\u533a\u57df\u5df2\u4e0a\u8272\u3002\n\n\u7279\u5199\u955c\u5934\uff0c\u7b14\u5c16\u63a5\u89e6\u5c4f\u5e55\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/AI_Kei75/status/1968607362576708042",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_242_4.png",
+    "index": 3550,
+    "title": "",
+    "prompt": "Please generate a children's literacy newsletter \"Amusement Park\", vertical A4, learning newsletter layout, suitable for 5\u20139 year old children to recognize words and identify objects from pictures.\n1. Newsletter Title Area (Top)\nTop center large title: \"Amusement Park Literacy Newsletter\"\nStyle: Cross newsletter / Children's learning paper feel\nText requirements: Large, eye-catching, cartoon handwritten font, colorful outline\nDecoration: Add sticker-style decorations related to Amusement Park around it, bright colors\n2. Newsletter Body (Middle Main Image)\nCenter of the picture is a Cartoon Illustration style \"Amusement Park\" scene:\nOverall atmosphere: Bright, warm, positive\nComposition: Object boundaries are clear, easy to correspond to text, not too crowded.\nScene Zoning and Core Content\nCore Area A (Main Objects): Show the core activities of the Amusement Park (children playing on rides).\nCore Area B (Supporting Facilities): Show related tools or items (ticket booth, snacks, signage).\nCore Area C (Environmental Background): Reflect environmental features (entrance, road signs, colorful flags, green space, etc.).\nTheme Characters\nRole: 1 cute cartoon character (Identity: Amusement Park staff/visitor child both ok).\nAction: Interacting naturally with the scene (e.g., smiling and pointing the way, waving welcome, playing with children).\n3. Must-Draw Objects and Literacy List (Generated Content)\nPlease be sure to clearly draw the following objects in the picture and reserve space for labels:\n1. Core Roles and Facilities:\ng\u014dng zu\u00f2 r\u00e9n yu\u00e1n Staff\nsh\u00f2u pi\u00e0o ch\u00f9 Ticket Booth\ngu\u00f2 sh\u0101n ch\u0113 Roller Coaster\nm\u00f3 ti\u0101n l\u00fan Ferris Wheel\nxu\u00e1n zhu\u01cen m\u01ce Merry-Go-Round\n2. Common Items/Tools:\npi\u00e0o Ticket\nq\u00ec qi\u00fa Balloon\nb\u012bng j\u012b l\u00edng Ice Cream\nb\u00e0o m\u01d0 hu\u0101 Popcorn\nt\u00e1ng h\u00fa lu Tanghulu\nmi\u00e0n j\u00f9 Mask\nw\u00e1n j\u00f9 Toy\nxi\u01ceo q\u00ed zi Small Flag\n3. Environment and Decoration:\nr\u00f9 k\u01d2u Entrance\nch\u016b k\u01d2u Exit\nzh\u01d0 sh\u00ec p\u00e1i Signpost\nc\u01cei q\u00ed Colorful Flags\ngu\u01ceng ch\u01ceng Square\n(Note: The number of objects in the picture is not limited to this, but the above list must be the focus of depiction; total 18 typical nouns, suitable for 5\u20139 year old children literacy.)\n4. Literacy Annotation Rules\nLabel the above list of objects with Chinese literacy labels:\nFormat: Two-line system (first line Pinyin with tones, second line Simplified Chinese characters).\nStyle: Colorful small sticker style, white background with black text or dark text, clearly readable.\nLayout: Labels close to corresponding objects, not blocking the subject.\n5. Art Style Parameters\nStyle: Children's picture book style + Literacy newsletter style\nColor: High Saturation, Warm Tone\nQuality: 8k resolution, high detail, vector illustration style, clean lines.",
+    "prompt_en": "",
+    "source": "https://x.com/lxfater/status/1993238777033105634?s=20",
+    "type": "t2i",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_250_1.png",
+    "index": 3551,
+    "title": "",
+    "prompt": "I want to see the behind-the-scenes of this photo shoot and understand how it was born.",
+    "prompt_en": "",
+    "source": "https://x.com/icreatelife/status/1991945836914147524?s=20",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_265_2.png",
+    "index": 3552,
+    "title": "",
+    "prompt": "Please show me a Las Vegas casino style aerial view.",
+    "prompt_en": "",
+    "source": "https://x.com/Mr_AllenT/status/1992292210511929833?s=20",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_27_2.png",
+    "index": 3553,
+    "title": "",
+    "prompt": "\u57fa\u4e8e\u9644\u4ef6\u4e2d\u7684\u4eba\u7269\uff0c\u751f\u6210\u4e00\u4e2a\u4e8c\u6b21\u5143\u98ce\u683c\u7684\u5fbd\u7ae0\u7684\u7167\u7247\uff0c\u8981\u6c42\uff1a\n\u6750\u8d28\uff1a\u6d41\u82cf\n\u5f62\u72b6\uff1a\u5706\u5f62\n\u753b\u9762\u4e3b\u4f53\uff1a\u4e00\u53ea\u624b\u624b\u6301\u5fbd\u7ae0",
+    "prompt_en": "",
+    "source": "https://x.com/Alittlefatwhale/status/1922512847030124905",
+    "type": "editing",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_33_2.png",
+    "index": 3554,
+    "title": "",
+    "prompt": "\u7279\u5199\u955c\u5934\uff1a\u4e00\u53ea\u624b\u6b63\u62ff\u7740\u4e00\u5f20\u8bbe\u8ba1\u6210 VS Code \u4e2d JSON \u6587\u4ef6\u5916\u89c2\u7684\u540d\u7247\u3002\u540d\u7247\u4e0a\u7684\u4ee3\u7801\u4ee5\u771f\u5b9e\u7684 JSON \u8bed\u6cd5\u9ad8\u4eae\u683c\u5f0f\u5448\u73b0\u3002\u7a97\u53e3\u754c\u9762\u5305\u542b\u5178\u578b\u7684\u5de5\u5177\u680f\u56fe\u6807\u548c\u6807\u9898\u680f\uff0c\u6807\u9898\u663e\u793a\u4e3a Business Card.json\uff0c\u6574\u4f53\u98ce\u683c\u4e0e VS Code \u754c\u9762\u5b8c\u5168\u4e00\u81f4\u3002\u80cc\u666f\u7565\u5fae\u865a\u5316\uff0c\u7a81\u51fa\u5c55\u793a\u540d\u7247\u5185\u5bb9\u3002\n\u540d\u7247\u4e0a\u7684 JSON \u4ee3\u7801\u5982\u4e0b\u6240\u793a\uff1a\n{\n  \"name\": \"Jamez Bondos\",\n  \"title\": \"Your Title\",\n  \"email\": \"your@email.com\",\n  \"link\": \"yourwebsite\"\n}",
+    "prompt_en": "",
+    "source": "https://x.com/umesh_ai/status/1915696926596415492",
+    "type": "t2i",
+    "author": "",
+    "author_link": ""
+  },
+  {
+    "filename": "item_41_4.png",
+    "index": 3555,
+    "title": "",
+    "prompt": "\u300a\u5927\u5e08\u9ea6\u7247\u300b\uff1a\u6839\u636e\u6211\u4e0a\u4f20\u7684\u7167\u7247\u7684\u4eba\u7269\u7279\u5f81\u5224\u65ad\uff0c\u4e3a\u4ed6\u751f\u6210\u4e00\u4e2a\u7b26\u5408\u4ed6\u7279\u8d28\u7684\u71d5\u9ea6\u7247\u642d\u914d\uff08\u6bd4\u5982\u852c\u83dc\u3001\u6c34\u679c\u3001\u9178\u5976\u3001\u7c97\u7cae\u7b49\u7b49\uff09\u548c\u5305\u88c5\u8bbe\u8ba1\uff0c\u7136\u540e\u751f\u6210\u4ed6\u4f5c\u4e3a\u9ea6\u7247\u5305\u88c5\u76d2\u5c01\u9762\u4eba\u7269 \u52a0 \u76f8\u5e94\u9ea6\u7247\u642d\u914d\u7684\u5e7f\u544a\u5c01\u9762\uff0c\u4eba\u7269\u8981\u4fdd\u6301\u7279\u5f81\u3001\u53ef\u7231Q\u72483d\u3001c4d\u6e32\u67d3\u98ce\u683c\uff0c\u9ea6\u7247\u6240\u653e\u7f6e\u7684\u5730\u65b9\u7684\u98ce\u683c\u4e5f\u8981\u7b26\u5408\u8bbe\u5b9a\uff0c\u6bd4\u5982\u653e\u5728\u53a8\u623f\u3001\u8d85\u5e02 \u6781\u7b80\u4e3b\u4e49\u7684\u8bbe\u8ba1\u53f0\u4e0a\u7b49\u7b49\uff0c\u5148\u505a\u597d\u8bbe\u5b9a\uff0c\u518d\u751f\u6210\u56fe\u50cf\u3002",
+    "prompt_en": "",
+    "source": "https://x.com/ZHO_ZHO_ZHO/status/1909542765857587310",
+    "type": "editing",
+    "author": "",
     "author_link": ""
   }
 ];

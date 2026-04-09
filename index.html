@@ -13,14 +13,14 @@
       --bg:#040a04;
       --bg-card:#0a1a0a;
       --bg-card-hover:#122212;
-      --green-crt:#33ff66;
-      --green-dim:#1a7a33;
-      --green-glow:rgba(51,255,102,0.15);
+      --green-crt:#88ee88;
+      --green-dim:#4a8a4a;
+      --green-glow:rgba(136,238,136,0.15);
       --cyan:#00e5ff;
       --cyan-dim:rgba(0,229,255,0.12);
       --text:#e0e0e6;
       --text-dim:#8888a0;
-      --accent:#33ff66;
+      --accent:#88ee88;
       --border:#1e1e2e;
       --font-mono:'Space Mono','Courier New',monospace;
       --font-crt:'VT323',monospace;
@@ -35,13 +35,13 @@
       position:fixed; top:0; left:0; right:0; z-index:1000;
       display:flex; align-items:center; justify-content:space-between;
       padding:.8rem 2.5rem;
-      background:rgba(4,10,4,.88);
-      backdrop-filter:blur(16px);
-      border-bottom:1px solid var(--border);
+      background:rgba(4,10,4,.25);
+      backdrop-filter:blur(8px);
+      border-bottom:1px solid rgba(30,30,46,.3);
     }
     .nav-logo { font-family:var(--font-crt); font-size:1.5rem; color:var(--green-crt); text-shadow:0 0 10px var(--green-glow); letter-spacing:2px; }
-    .nav-logo span { color:var(--text-dim); font-size:.85rem; margin-left:.5rem; letter-spacing:0; }
-    .nav-count { font-family:var(--font-mono); font-size:.8rem; color:var(--text-dim); }
+    .nav-logo span { color:rgba(136,238,136,.5); font-size:.85rem; margin-left:.5rem; letter-spacing:0; }
+    .nav-count { font-family:var(--font-mono); font-size:.8rem; color:rgba(136,238,136,.5); }
     .nav-count b { color:var(--green-crt); }
 
     /* ===== HERO ===== */
@@ -53,28 +53,27 @@
     #heroCanvas { position:absolute; inset:0; z-index:1; width:100%; height:100%; }
     .hero::before {
       content:''; position:absolute; inset:0; z-index:3; pointer-events:none;
-      background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0px,rgba(0,0,0,.12) 1px,transparent 1px,transparent 3px);
+      background:repeating-linear-gradient(0deg,rgba(0,0,0,.10) 0px,rgba(0,0,0,.10) 1px,transparent 1px,transparent 4px);
     }
     .hero::after {
       content:''; position:absolute; inset:0; z-index:3; pointer-events:none;
-      background:radial-gradient(ellipse 80% 75% at 50% 50%,transparent 20%,rgba(3,8,3,.35) 65%,rgba(2,5,2,.75) 100%);
+      background:radial-gradient(ellipse 80% 75% at 50% 50%,transparent 20%,rgba(15,10,5,.30) 65%,rgba(10,6,2,.70) 100%);
     }
     .hero-scanline { display:none; }
     /* 居中不限宽，让 nowrap 标题自然撑开并居中 */
     .hero-content { position:relative; z-index:5; text-align:center; width:90vw; }
-    .crt-header { font-family:var(--font-crt); color:rgba(100,220,130,.7); text-shadow:0 0 15px rgba(51,255,102,.3); margin-bottom:.5rem; font-size:1rem; letter-spacing:3px; }
     .crt-title {
       font-family:var(--font-crt); font-size:clamp(1.8rem,4.8vw,4.8rem);
-      color:#d0ffd8; letter-spacing:4px; line-height:1.05; margin-bottom:.4rem;
+      color:var(--green-crt); letter-spacing:4px; line-height:1.05; margin-bottom:.4rem;
       white-space:nowrap;
-      text-shadow:0 0 30px rgba(51,255,102,.5),0 0 60px rgba(51,255,102,.2),0 0 120px rgba(51,255,102,.08);
+      text-shadow:0 0 30px rgba(136,238,136,.45),0 0 60px rgba(136,238,136,.2),0 0 120px rgba(136,238,136,.08);
     }
-    .crt-subtitle { font-family:var(--font-crt); font-size:1.25rem; color:rgba(100,220,130,.6); letter-spacing:2px; margin-bottom:2rem; }
+    .crt-subtitle { font-family:var(--font-crt); font-size:1.25rem; color:rgba(136,238,136,.6); letter-spacing:2px; margin-top:1rem; margin-bottom:2rem; }
     .crt-stats { display:flex; justify-content:center; gap:2.5rem; margin-bottom:1.5rem; flex-wrap:wrap; }
     .crt-stat { text-align:center; font-family:var(--font-crt); }
-    .crt-stat-value { font-size:2rem; color:#a0ffb8; text-shadow:0 0 12px rgba(51,255,102,.4); }
-    .crt-stat-label { font-size:.9rem; color:rgba(100,220,130,.45); letter-spacing:1px; }
-    .scroll-hint { font-family:var(--font-crt); color:rgba(100,220,130,.5); font-size:1rem; letter-spacing:2px; animation:pulse 2s ease-in-out infinite; }
+    .crt-stat-value { font-size:2rem; color:var(--green-crt); text-shadow:0 0 12px rgba(136,238,136,.4); }
+    .crt-stat-label { font-size:.9rem; color:rgba(136,238,136,.45); letter-spacing:1px; }
+    .scroll-hint { font-family:var(--font-crt); color:rgba(136,238,136,.5); font-size:1rem; letter-spacing:2px; animation:pulse 2s ease-in-out infinite; position:absolute; bottom:3rem; left:50%; transform:translateX(-50%); z-index:5; }
     @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
 
     /* ===== GALLERY SECTION ===== */
@@ -83,9 +82,9 @@
     .section-tag {
       display:inline-block; font-family:var(--font-mono); font-size:.7rem; letter-spacing:2px;
       text-transform:uppercase; color:var(--green-crt); padding:.3rem .8rem;
-      border:1px solid rgba(51,255,102,.25); border-radius:3px; background:rgba(51,255,102,.05);
+      border:1px solid rgba(136,238,136,.25); border-radius:3px; background:rgba(136,238,136,.05);
     }
-    .gallery-title { font-size:1.5rem; font-weight:700; color:#fff; }
+    .gallery-title { font-size:1.5rem; font-weight:700; color:var(--green-crt); }
 
     /* ===== MASONRY (JS columns — no reflow) ===== */
     .masonry {
@@ -103,7 +102,7 @@
       position:relative;
     }
     /* 用 JS 管理 is-hovered，避免 CSS columns reflow 丢失 :hover */
-    .card.is-hovered { border-color:rgba(51,255,102,.5); box-shadow:0 0 0 1px rgba(51,255,102,.2), 0 8px 40px rgba(51,255,102,.15); }
+    .card.is-hovered { border-color:rgba(136,238,136,.5); box-shadow:0 0 0 1px rgba(136,238,136,.2), 0 8px 40px rgba(136,238,136,.15); }
 
     .card-img-wrap { position:relative; overflow:hidden; }
     .card-img-wrap img { width:100%; display:block; transition:transform .4s; }
@@ -116,9 +115,9 @@
       padding:.15rem .45rem; border-radius:3px;
       backdrop-filter:blur(6px);
     }
-    .card-badge.t2i   { color:var(--green-crt); background:rgba(10,40,10,.7); border:1px solid rgba(51,255,102,.3); }
-    .card-badge.editing { color:var(--cyan); background:rgba(0,20,30,.7); border:1px solid rgba(0,229,255,.3); }
-    .card-badge.other { color:#ffcc00; background:rgba(30,25,0,.7); border:1px solid rgba(255,204,0,.3); }
+    .card-badge.t2i   { color:var(--green-crt); background:rgba(10,40,10,.7); border:1px solid rgba(136,238,136,.3); }
+    .card-badge.editing { color:var(--green-crt); background:rgba(10,40,10,.7); border:1px solid rgba(136,238,136,.3); }
+    .card-badge.other { color:var(--green-crt); background:rgba(10,40,10,.7); border:1px solid rgba(136,238,136,.3); }
 
     /* number collision overlay */
     .card-nums {
@@ -127,7 +126,7 @@
     .num-particle {
       position:absolute; font-family:var(--font-crt);
       color:var(--green-crt); font-size:1.1rem;
-      text-shadow:0 0 8px rgba(51,255,102,.7);
+      text-shadow:0 0 8px rgba(136,238,136,.7);
       will-change:transform; transition:none;
     }
 
@@ -142,9 +141,9 @@
     }
     .card.is-hovered .card-prompt { max-height:180px; padding:.6rem 1rem .9rem; }
     .card-prompt p {
-      font-size:.78rem; color:rgba(200,240,210,.85); line-height:1.55;
+      font-size:.78rem; color:rgba(136,238,136,.85); line-height:1.55;
     }
-    .card-title { font-size:.78rem; font-weight:600; color:#d0ffd8; margin-bottom:.25rem; }
+    .card-title { font-size:.78rem; font-weight:600; color:var(--green-crt); margin-bottom:.25rem; }
 
     /* ===== LOAD MORE / SPINNER ===== */
     #loadMore { text-align:center; padding:2rem 0; }
@@ -154,7 +153,7 @@
       border-radius:50%; animation:spin .7s linear infinite;
     }
     @keyframes spin { to{transform:rotate(360deg)} }
-    .load-end { font-family:var(--font-crt); color:var(--text-dim); letter-spacing:2px; font-size:1rem; }
+    .load-end { font-family:var(--font-crt); color:rgba(136,238,136,.5); letter-spacing:2px; font-size:1rem; }
 
     /* ===== MODAL ===== */
     .modal-overlay {
@@ -165,7 +164,7 @@
     .modal-overlay.open { opacity:1; pointer-events:all; }
     .modal {
       position:relative; max-width:900px; width:92vw; max-height:92vh; overflow-y:auto;
-      background:var(--bg-card); border:1px solid rgba(51,255,102,.2);
+      background:var(--bg-card); border:1px solid rgba(136,238,136,.2);
       border-radius:12px; padding:0;
       transform:scale(.95); transition:transform .25s;
       scrollbar-width:thin; scrollbar-color:var(--green-dim) transparent;
@@ -174,25 +173,25 @@
     .modal-img { width:100%; display:block; max-height:60vh; object-fit:contain; background:#000; border-radius:12px 12px 0 0; }
     .modal-body { padding:1.5rem 2rem 2rem; }
     .modal-title { font-family:var(--font-crt); font-size:1.5rem; color:var(--green-crt); margin-bottom:.3rem; }
-    .modal-type { font-family:var(--font-mono); font-size:.7rem; color:var(--cyan); letter-spacing:1px; text-transform:uppercase; margin-bottom:.8rem; }
-    .modal-label { font-family:var(--font-mono); font-size:.7rem; color:var(--text-dim); letter-spacing:2px; text-transform:uppercase; margin:.8rem 0 .3rem; }
+    .modal-type { font-family:var(--font-mono); font-size:.7rem; color:var(--green-crt); letter-spacing:1px; text-transform:uppercase; margin-bottom:.8rem; }
+    .modal-label { font-family:var(--font-mono); font-size:.7rem; color:rgba(136,238,136,.5); letter-spacing:2px; text-transform:uppercase; margin:.8rem 0 .3rem; }
     .modal-prompt-zh {
-      font-size:1rem; color:var(--text); line-height:1.8;
+      font-size:1rem; color:rgba(136,238,136,.85); line-height:1.8;
       white-space:pre-wrap; word-break:break-all;
       user-select:text; -webkit-user-select:text;
-      background:rgba(51,255,102,.03); border-left:2px solid rgba(51,255,102,.25);
+      background:rgba(136,238,136,.03); border-left:2px solid rgba(136,238,136,.25);
       padding:.6rem .8rem; border-radius:0 4px 4px 0;
     }
     .modal-prompt-en {
-      font-size:.88rem; color:var(--text-dim); line-height:1.7;
+      font-size:.88rem; color:rgba(136,238,136,.6); line-height:1.7;
       white-space:pre-wrap; word-break:break-all;
       user-select:text; -webkit-user-select:text;
-      background:rgba(0,229,255,.03); border-left:2px solid rgba(0,229,255,.2);
+      background:rgba(136,238,136,.03); border-left:2px solid rgba(136,238,136,.2);
       padding:.6rem .8rem; border-radius:0 4px 4px 0;
     }
-    .modal-source { display:inline-flex; align-items:center; gap:.4rem; margin-top:1rem; font-size:.8rem; color:var(--cyan); }
+    .modal-source { display:inline-flex; align-items:center; gap:.4rem; margin-top:1rem; font-size:.8rem; color:var(--green-crt); }
     .modal-author-row { display:flex; align-items:center; gap:.8rem; margin-top:.8rem; }
-    .modal-author-link { font-family:var(--font-mono); font-size:.82rem; color:var(--green-crt); text-decoration:none; border-bottom:1px solid rgba(51,255,102,.3); padding-bottom:1px; transition:border-color .2s; }
+    .modal-author-link { font-family:var(--font-mono); font-size:.82rem; color:var(--green-crt); text-decoration:none; border-bottom:1px solid rgba(136,238,136,.3); padding-bottom:1px; transition:border-color .2s; }
     .modal-author-link:hover { border-color:var(--green-crt); }
     .modal-close {
       position:absolute; top:1rem; right:1rem; z-index:10;
@@ -204,7 +203,7 @@
     .modal-close:hover { border-color:var(--green-crt); color:var(--green-crt); }
 
     /* ===== FOOTER ===== */
-    footer { text-align:center; padding:2rem; font-family:var(--font-mono); font-size:.75rem; color:var(--text-dim); border-top:1px solid var(--border); }
+    footer { text-align:center; padding:2rem; font-family:var(--font-mono); font-size:.75rem; color:rgba(136,238,136,.5); border-top:1px solid var(--border); }
   </style>
 </head>
 <body>
@@ -255,11 +254,10 @@
   <canvas id="heroCanvas"></canvas>
   <div class="hero-scanline"></div>
   <div class="hero-content">
-    <div class="crt-header">// ERNIE · TEXT-TO-IMAGE</div>
     <h1 class="crt-title">DISCOVER ERNIE IMAGE PROMPTS</h1>
     <p class="crt-subtitle">EXPLORE · INSPIRE · CREATE</p>
-    <div class="scroll-hint">▼ SCROLL TO EXPLORE ▼</div>
   </div>
+  <div class="scroll-hint">▼ SCROLL TO EXPLORE ▼</div>
 </section>
 
 <!-- GALLERY -->
@@ -304,70 +302,95 @@
 </div>
 
 <footer>
-  &copy; 2025 ERNIE Image · <span style="color:var(--green-crt)">Discover ERNIE Image Prompts</span>
+  &copy; 2026 ERNIE Image · <span style="color:var(--green-crt)">Discover ERNIE Image Prompts</span>
 </footer>
 
 <script src="gallery_data.js"></script>
 <script>
 /* ============================================================
-   HERO CANVAS — subtle grid, cipher encoded in dot brightness
+   HERO CANVAS — constellation background with twinkling stars
    ============================================================ */
 (function(){
   const canvas = document.getElementById('heroCanvas');
   const ctx    = canvas.getContext('2d');
-  let W, H;
-
-  // cipher → flat bit string (spaces stripped)
-  const BITS = '1000101110000110001000111010011010010000001101000010000101010000100100011000010010001000000100011010001100011100010010000001000001001010000001000101001000101000110000001011000001101001100000100001000001001100001010010100010001010010000101001000000101001000011111000101101001010011001000001000010001001111010011000010100100001010010101111010110010000010111010100110010001110100100010101101000100101011011001011000010011001000010000100001011001001010010001000001001010111100101000010000100011011100000010001100010010100000101001010000010010000101000100011001000001010010000010010010000010000100001000010001110010010000010001010111010010001100110001001100100001010010001010010001000001000010010001010010000010010001000010001000001000101110100001110010010000001010101001001001011110001010001000010110010000010011000010001001010000100001010111100100100010101001000100100001100001000000100110000001001000001011001001011111010101111001100001010001001010000010000110000100011001001000010010001001010001011010001000000101100001011010001101001000000100100010100100101001000101000010000101000100100101000100110010000100101000110000100000100000101000010001010001001100000100100101010100100110101111010010101101100001000001101000001010000100100100100010110000101000100010100100100100100001000010010010101100100100100100001010001000010111011000101101101000110010010100101010000110100010100010110100101111101001001000100001011001000001100010000100101';
+  let W, H, stars = [], constellations = [];
 
   function resize(){
     W = canvas.width  = window.innerWidth;
     H = canvas.height = canvas.parentElement.offsetHeight || window.innerHeight;
+    initStars();
+  }
+
+  function initStars(){
+    stars = [];
+    const count = Math.floor((W * H) / 3500);
+    for(let i = 0; i < count; i++){
+      stars.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        r: Math.random() * 1.6 + 0.4,
+        baseAlpha: Math.random() * 0.6 + 0.35,
+        twinkleSpeed: Math.random() * 0.06 + 0.015,
+        twinkleOffset: Math.random() * Math.PI * 2,
+        bright: Math.random() < 0.55  // 55% of stars twinkle noticeably
+      });
+    }
+    // build constellation lines — connect nearby stars
+    constellations = [];
+    const maxDist = Math.min(W, H) * 0.12;
+    for(let i = 0; i < stars.length; i++){
+      let connections = 0;
+      for(let j = i + 1; j < stars.length && connections < 2; j++){
+        const dx = stars[i].x - stars[j].x;
+        const dy = stars[i].y - stars[j].y;
+        const d = Math.sqrt(dx*dx + dy*dy);
+        if(d < maxDist && Math.random() < 0.15){
+          constellations.push([i, j, d]);
+          connections++;
+        }
+      }
+    }
   }
 
   let t = 0;
   function loop(){
-    ctx.clearRect(0,0,W,H);
+    ctx.clearRect(0, 0, W, H);
     t++;
 
-    const spacing = 48;
-    const cols = Math.ceil(W / spacing) + 1;
-    const rows = Math.ceil(H / spacing) + 1;
-
-    // grid lines
-    for(let i = 0; i < cols; i++){
-      const x = i * spacing;
-      const dist = Math.abs(x - W/2) / (W/2);
-      const a = (0.04 + Math.sin(t*0.008 + i*0.3)*0.02) * (1 - dist*0.6);
-      ctx.strokeStyle = `rgba(51,255,102,${Math.max(0,a)})`;
-      ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,H); ctx.stroke();
-    }
-    for(let j = 0; j < rows; j++){
-      const y = j * spacing;
-      const dist = Math.abs(y - H/2) / (H/2);
-      const a = (0.04 + Math.sin(t*0.006 + j*0.25)*0.02) * (1 - dist*0.6);
-      ctx.strokeStyle = `rgba(51,255,102,${Math.max(0,a)})`;
-      ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(W,y); ctx.stroke();
+    // draw constellation lines
+    for(const [i, j, d] of constellations){
+      const si = stars[i], sj = stars[j];
+      const ai = si.baseAlpha * (0.7 + 0.3 * Math.sin(t * si.twinkleSpeed + si.twinkleOffset));
+      const aj = sj.baseAlpha * (0.7 + 0.3 * Math.sin(t * sj.twinkleSpeed + sj.twinkleOffset));
+      const lineAlpha = Math.min(ai, aj) * 0.3;
+      ctx.strokeStyle = `rgba(136,238,136,${lineAlpha})`;
+      ctx.lineWidth = 0.5;
+      ctx.beginPath();
+      ctx.moveTo(si.x, si.y);
+      ctx.lineTo(sj.x, sj.y);
+      ctx.stroke();
     }
 
-    // intersection dots — cipher encoded in brightness
-    for(let i = 0; i < cols; i++){
-      for(let j = 0; j < rows; j++){
-        const x = i * spacing, y = j * spacing;
-        const dx = (x - W/2) / (W/2), dy = (y - H/2) / (H/2);
-        const dist = Math.sqrt(dx*dx + dy*dy);
-        const idx = (i * rows + j) % BITS.length;
-        const bit = BITS[idx] === '1' ? 1 : 0;
-        // bit=1 → brighter, larger; bit=0 → dimmer, smaller
-        const base = bit ? 0.18 : 0.07;
-        const amp  = bit ? 0.10 : 0.04;
-        const r    = bit ? 1.6  : 1.0;
-        const a = (base + Math.sin(t*0.01 + i*0.5 + j*0.4)*amp) * Math.max(0, 1 - dist*0.7);
-        if(a <= 0) continue;
-        const color = bit ? 'rgba(0,229,255,' : 'rgba(51,255,102,';
-        ctx.fillStyle = color + a + ')';
-        ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI*2); ctx.fill();
+    // draw stars
+    for(const s of stars){
+      let alpha = s.baseAlpha;
+      if(s.bright){
+        const wave = Math.sin(t * s.twinkleSpeed + s.twinkleOffset);
+        alpha *= (0.15 + 0.85 * (wave * 0.5 + 0.5));
+      } else {
+        alpha *= (0.5 + 0.5 * Math.sin(t * s.twinkleSpeed + s.twinkleOffset));
       }
+      // star glow
+      if(s.r > 1.2){
+        const grad = ctx.createRadialGradient(s.x, s.y, 0, s.x, s.y, s.r * 3);
+        grad.addColorStop(0, `rgba(136,238,136,${alpha * 0.4})`);
+        grad.addColorStop(1, `rgba(136,238,136,0)`);
+        ctx.fillStyle = grad;
+        ctx.beginPath(); ctx.arc(s.x, s.y, s.r * 3, 0, Math.PI * 2); ctx.fill();
+      }
+      // star core
+      ctx.fillStyle = `rgba(200,255,200,${alpha})`;
+      ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2); ctx.fill();
     }
 
     requestAnimationFrame(loop);
@@ -451,8 +474,16 @@ function getShortestCol(){
 let allData = [];
 const PAGE_SIZE = 12;
 
+function shuffle(arr){
+  for(let i = arr.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 function loadGalleryData(){
-  allData = window.__GALLERY_DATA__ || [];
+  allData = shuffle([...(window.__GALLERY_DATA__ || [])]);
   document.getElementById('totalCount').textContent = allData.length;
 }
 

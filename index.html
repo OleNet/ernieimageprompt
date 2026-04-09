@@ -272,6 +272,7 @@
   &copy; 2025 ERNIE Image · <span style="color:var(--green-crt)">Discover ERNIE Image Prompts</span>
 </footer>
 
+<script src="gallery_data.js"></script>
 <script>
 /* ============================================================
    HERO CANVAS — binary stream background, title stays static
@@ -282,7 +283,7 @@
   let W, H;
 
   // The given binary string — split on spaces to get tokens
-  const BIN_STR = "1000 1011 100001 100 010 0 01 11 000 100001 1000 1011 100001 111 010 01 1010 0100 0 000 100001 01 10 100 100001 0 0001 0 10 100001 00 10 100001 1 0000 0 100001 1 0000 00 10 110 000 100001 01 1000 111 001 1 100001 011 0000 00 1010 0000 100001 1 0000 0 1011 100001 01 010 0 100001 11 111 000 1 100001 0 01 110 0 010 100001 00 100001 0000 01 0001 0 100001 010 0 1010 0 00 0001 0 100 100001 100 00 0001 00 10 0 100001 01 00 100 000 100001 00 10 100001 100 010 0 01 11 000 100001 011 0 100001 1010 01 10 10 111 1 100001 010 0 1010 101 111 10 100001 011 00 1 0000 100001 0010 111 010 1 001 10 0 100001 111 010 100001 0100 01 1011 100001 111 001 010 100001 01 1010 1010 111 001 10 1 100001 011 00 1 0000 100001 0010 01 11 0 100001 00 10 100001 0010 00 10 0 100001 1 0000 0 100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001 1000 111 100 011 100001 00 000 100001 1000 001 1 100001 01 100001 010 00 0001 0 010 100001 01 10 100 100001 1 0000 0 100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001 000 111 001 0100 100001 01 100001 11 00 000 1 1011 100001 100 010 0 01 11 100001 000 111 1000 0 010 100001 1011 111 001 010 000 0 0100 0010 100001 010 0 1010 01 0100 0100 100001 1011 111 001 010 100001 000 0 10 000 0 000 100001 000 0000 01 101 0 100001 000 0100 0 0 0110 100001 0010 010 111 11 100001 1011 111 001 100001 01 10 100 100001 101 10 111 011 100001 1 0000 01 1 100001 00 1 100001 011 01 000 100001 01 100001 100 010 0 01 11 100001 1 0000 01 1 100001 1 010 111 001 1000 0100 0 100001 1011 111 001 100001 01 10 100 100001 10 111 011 100001 1 0000 01 1 100001 1011 111 001 100001 01 010 0 100001 1000 010 111 01 100 100001 01 011 01 101 0 100001 0110 01 00 10 100001 010 0 110 01 010 100 100001 1 0000 0 100001 011 01 101 00 10 110 100001 011 111 010 0100 100 100001 01 000 100001 1011 111 001 100001 100 00 100 100001 1 0000 0 100001 100 010 0 01 11";
+  const BIN_STR = "1000 1011 100001 100 010 0 01 11 000 100001 1000 1011 100001 111 010 01 1010 0100 0 000 100001 01 10 100 100001 0 0001 0 10 100001 00 10 100001 1 0000 0 100001 1 0000 00 10 110 000 100001 01 1000 111 001 1 100001 011 0000 00 1010 0000 100001 1 0000 0 1011 100001 01 010 0 100001 11 111 000 1 100001 0 01 110 0 010 100001 00 100001 0000 01 0001 0 100001 010 0 1010 0 00 0001 0 100 100001 100 00 0001 00 10 0 100001 01 00 100 000 100001 00 10 100001 100 010 0 01 11 000 100001 011 0 100001 1010 01 10 10 111 1 100001 010 0 1010 101 111 10 100001 011 00 1 0000 100001 0010 111 010 1 001 10 0 100001 111 010 100001 0100 01 1011 100001 111 001 010 100001 01 1010 1010 111 001 10 1 100001 011 00 1 0000 100001 0010 01 11 0 100001 00 10 100001 0010 00 10 0 100001 1 0000 0 100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001 1000 111 100 1011 100001 00 000 100001 1000 001 1 100001 01 100001 010 00 0001 0 010 100001 01 10 100 100001 1 0000 0 100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001 000 111 001 0100 100001 01 100001 11 00 000 1 1011 100001 100 010 0 01 11 100001 000 111 1000 0 010 100001 1011 111 001 010 000 0 0100 0010 100001 010 0 1010 01 0100 0100 100001 1011 111 001 010 100001 000 0 10 000 0 000 100001 000 0000 01 101 0 100001 000 0100 0 0 0110 100001 0010 010 111 11 100001 1011 111 001 100001 01 10 100 100001 101 10 111 011 100001 1 0000 01 1 100001 00 1 100001 011 01 000 100001 01 100001 100 010 0 01 11 100001 1 0000 01 1 100001 1 010 111 001 1000 0100 0 100001 1011 111 001 100001 01 10 100 100001 10 111 011 100001 1 0000 01 1 100001 1011 111 001 100001 01 010 0 100001 1000 010 111 01 100 100001 01 011 01 101 0 100001 0110 01 00 10 100001 010 0 110 01 010 100 100001 1 0000 0 100001 011 01 101 00 10 110 100001 011 111 010 0100 100 100001 01 000 100001 1011 111 001 100001 100 00 100 100001 1 0000 0 100001 100 010 0 01 11";
   const tokens = BIN_STR.split(' ').filter(t => t.length > 0);
   const particles = [];
 
@@ -291,9 +292,9 @@
      Layer 1: medium, moderate speed
      Layer 2: large, slow, sparse (foreground glow)                */
   const LAYERS = [
-    { count:260, minSz:9,  maxSz:14, minAlpha:.15, maxAlpha:.50, minVy:.18, maxVy:.55, vxAmp:.25 },
-    { count:130, minSz:14, maxSz:20, minAlpha:.10, maxAlpha:.38, minVy:.10, maxVy:.30, vxAmp:.15 },
-    { count: 55, minSz:22, maxSz:32, minAlpha:.07, maxAlpha:.22, minVy:.05, maxVy:.15, vxAmp:.08 },
+    { count:260, minSz:9,  maxSz:14, minAlpha:.15, maxAlpha:.50, minVx:.18, maxVx:.55, vyAmp:.25 },
+    { count:130, minSz:14, maxSz:20, minAlpha:.10, maxAlpha:.38, minVx:.10, maxVx:.30, vyAmp:.15 },
+    { count: 55, minSz:22, maxSz:32, minAlpha:.07, maxAlpha:.22, minVx:.05, maxVx:.15, vyAmp:.08 },
   ];
 
   class BP {
@@ -304,10 +305,10 @@
     }
     _init(init){
       const L = LAYERS[this.layer];
-      this.x  = Math.random() * (W || 1400);
-      this.y  = init ? Math.random() * (H || 900) : -(Math.random()*80+10);
-      this.vy = Math.random()*(L.maxVy-L.minVy)+L.minVy;
-      this.vx = (Math.random()-.5)*L.vxAmp*2;
+      this.y  = Math.random() * (H || 900);
+      this.x  = init ? Math.random() * (W || 1400) : -(Math.random()*80+10);
+      this.vx = Math.random()*(L.maxVx-L.minVx)+L.minVx;
+      this.vy = (Math.random()-.5)*L.vyAmp*2;
       this.size = Math.random()*(L.maxSz-L.minSz)+L.minSz;
       this.baseAlpha = Math.random()*(L.maxAlpha-L.minAlpha)+L.minAlpha;
       this.phase = Math.random()*Math.PI*2;
@@ -320,9 +321,9 @@
     tick(t){
       this.x += this.vx;
       this.y += this.vy;
-      if(this.y > H+30){ this._init(false); return; }
-      if(this.x < -20) this.x = W+20;
-      if(this.x > W+20) this.x = -20;
+      if(this.x > W+30){ this._init(false); return; }
+      if(this.y < -20) this.y = H+20;
+      if(this.y > H+20) this.y = -20;
       // slowly step to next token (streaming feel)
       if(Math.random() < 0.004) this.tokenIdx = (this.tokenIdx+1)%tokens.length;
       const pulse = this.baseAlpha + Math.sin(t*this.freq+this.phase)*this.baseAlpha*0.4;
@@ -436,9 +437,8 @@ function getShortestCol(){
 let allData = [];
 const PAGE_SIZE = 12;
 
-async function loadGalleryData(){
-  const res = await fetch('gallery_data.json');
-  allData = await res.json();
+function loadGalleryData(){
+  allData = window.__GALLERY_DATA__ || [];
   document.getElementById('totalCount').textContent = allData.length;
 }
 
@@ -447,7 +447,7 @@ async function fetchPage(){
   loading = true;
   loadMore.innerHTML = '<div class="spinner"></div>';
   try {
-    if(allData.length === 0) await loadGalleryData();
+    if(allData.length === 0) loadGalleryData();
     const start = (page - 1) * PAGE_SIZE;
     const items = allData.slice(start, start + PAGE_SIZE);
     if(items.length === 0){ done = true; loadMore.innerHTML = '<div class="load-end">— END OF COLLECTION —</div>'; loading = false; return; }

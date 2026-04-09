@@ -1,4 +1,4 @@
-[
+window.__GALLERY_DATA__ = [
   {
     "filename": "0039.png",
     "index": 39,
@@ -1220,4 +1220,4 @@
     "author": "@dotey",
     "author_link": ""
   }
-]
+];

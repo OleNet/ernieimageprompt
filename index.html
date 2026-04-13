@@ -182,6 +182,14 @@
       background:rgba(136,238,136,.03); border-left:2px solid rgba(136,238,136,.25);
       padding:.6rem .8rem; border-radius:0 4px 4px 0;
     }
+    .modal-prompt-revised {
+      font-size:.88rem; color:rgba(136,238,136,.5); line-height:1.7;
+      white-space:pre-wrap; word-break:break-all;
+      user-select:text; -webkit-user-select:text;
+      background:rgba(136,238,136,.03); border-left:2px solid rgba(136,238,136,.15);
+      padding:.6rem .8rem; border-radius:0 4px 4px 0;
+      font-style:italic;
+    }
     .modal-prompt-en {
       font-size:.88rem; color:rgba(136,238,136,.6); line-height:1.7;
       white-space:pre-wrap; word-break:break-all;
@@ -288,6 +296,10 @@
       <div id="modalEnWrap" style="display:none">
         <div class="modal-label">ENGLISH PROMPT</div>
         <div class="modal-prompt-en" id="modalPromptEn"></div>
+      </div>
+      <div id="modalRevisedWrap" style="display:none">
+        <div class="modal-label">REVISED PROMPT</div>
+        <div class="modal-prompt-revised" id="modalRevisedPrompt"></div>
       </div>
       <div id="modalAuthorRow" class="modal-author-row" style="display:none">
         <span class="modal-label" style="margin:0">AUTHOR</span>
@@ -559,6 +571,13 @@ function openModal(item){
     enWrap.style.display='block';
   } else {
     enWrap.style.display='none';
+  }
+  const revisedWrap = document.getElementById('modalRevisedWrap');
+  if(item.revised_prompt && item.revised_prompt.trim()){
+    document.getElementById('modalRevisedPrompt').textContent = item.revised_prompt;
+    revisedWrap.style.display='block';
+  } else {
+    revisedWrap.style.display='none';
   }
   const src = document.getElementById('modalSource');
   if(item.source){

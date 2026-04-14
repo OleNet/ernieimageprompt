@@ -198,7 +198,17 @@
     .modal-body { padding:1.5rem 2rem 2rem; }
     .modal-title { font-family:var(--font-crt); font-size:1.5rem; color:var(--green-crt); margin-bottom:.3rem; }
     .modal-type { font-family:var(--font-mono); font-size:.7rem; color:var(--green-crt); letter-spacing:1px; text-transform:uppercase; margin-bottom:.8rem; }
-    .modal-label { font-family:var(--font-mono); font-size:.7rem; color:rgba(136,238,136,.5); letter-spacing:2px; text-transform:uppercase; margin:.8rem 0 .3rem; }
+    .modal-label { font-family:var(--font-mono); font-size:.7rem; color:rgba(136,238,136,.5); letter-spacing:2px; text-transform:uppercase; margin:.8rem 0 .3rem; display:inline-block; }
+    .copy-btn {
+      display:inline-flex; align-items:center; justify-content:center;
+      width:22px; height:22px; margin-left:.5rem; vertical-align:middle;
+      background:transparent; border:1px solid rgba(136,238,136,.25);
+      color:rgba(136,238,136,.5); border-radius:3px; cursor:pointer;
+      transition:all .2s; position:relative; top:-1px;
+    }
+    .copy-btn:hover { border-color:var(--green-crt); color:var(--green-crt); background:rgba(136,238,136,.08); }
+    .copy-btn.copied { border-color:var(--green-crt); color:var(--green-crt); }
+    .copy-btn svg { width:13px; height:13px; }
     .modal-prompt-zh {
       font-size:.88rem; color:rgba(136,238,136,.5); line-height:1.7;
       white-space:pre-wrap; word-break:break-all;
@@ -234,14 +244,21 @@
       transition:all .2s;
     }
     .modal-close:hover { border-color:var(--green-crt); color:var(--green-crt); }
+    .modal-title-row {
+      display:flex; align-items:center; justify-content:space-between; gap:.8rem; margin-bottom:.3rem;
+    }
     .lang-toggle {
-      position:absolute; top:1rem; right:3.5rem; z-index:10;
+      flex-shrink:0;
       background:rgba(10,10,15,.8); border:1px solid rgba(136,238,136,.3);
-      color:var(--green-crt); font-family:var(--font-crt); font-size:1rem;
+      color:var(--green-crt); font-family:var(--font-crt);
       padding:.15rem .55rem; border-radius:4px; cursor:pointer;
       letter-spacing:1px; transition:all .2s;
       text-shadow:0 0 6px rgba(136,238,136,.3);
+      line-height:1.2;
     }
+    .lang-toggle .lang-zh { font-size:.82rem; }
+    .lang-toggle .lang-en { font-size:.88rem; font-weight:bold; }
+    .lang-toggle .lang-sep { font-size:.72rem; opacity:.5; margin:0 1px; }
     .lang-toggle:hover {
       border-color:var(--green-crt);
       background:rgba(136,238,136,.1);
@@ -320,28 +337,30 @@
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal" id="modal">
     <button class="modal-close" id="modalClose">✕</button>
-    <button class="lang-toggle" id="langToggle">中/EN</button>
     <img class="modal-img" id="modalImg" src="" alt=""/>
     <div class="modal-body">
       <div class="modal-type" id="modalType"></div>
-      <div class="modal-title" id="modalTitle"></div>
+      <div class="modal-title-row">
+        <div class="modal-title" id="modalTitle"></div>
+        <button class="lang-toggle" id="langToggle"><span class="lang-zh">中</span><span class="lang-sep">/</span><span class="lang-en" style="opacity:.4">EN</span></button>
+      </div>
       <!-- Chinese mode (default) -->
       <div id="modalLangZh">
+        <div class="modal-label">PROMPT</div><button class="copy-btn" onclick="copyText('modalPromptZh')" title="复制"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg></button>
+        <div class="modal-prompt-revised" id="modalPromptZh"></div>
         <div id="modalRevisedWrapZh" style="display:none">
-          <div class="modal-label">PROMPT</div>
-          <div class="modal-prompt-revised" id="modalRevisedPromptZh"></div>
+          <div class="modal-label">ORIGINAL PROMPT</div><button class="copy-btn" onclick="copyText('modalRevisedPromptZh')" title="复制"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg></button>
+          <div class="modal-prompt-zh" id="modalRevisedPromptZh"></div>
         </div>
-        <div class="modal-label">ORIGINAL PROMPT</div>
-        <div class="modal-prompt-zh" id="modalPromptZh"></div>
       </div>
       <!-- English mode (hidden by default) -->
       <div id="modalLangEn" style="display:none">
+        <div class="modal-label">PROMPT</div><button class="copy-btn" onclick="copyText('modalPromptEn')" title="Copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg></button>
+        <div class="modal-prompt-revised" id="modalPromptEn"></div>
         <div id="modalRevisedWrapEn" style="display:none">
-          <div class="modal-label">PROMPT</div>
-          <div class="modal-prompt-revised" id="modalRevisedPromptEn"></div>
+          <div class="modal-label">ORIGINAL PROMPT</div><button class="copy-btn" onclick="copyText('modalRevisedPromptEn')" title="Copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg></button>
+          <div class="modal-prompt-en" id="modalRevisedPromptEn"></div>
         </div>
-        <div class="modal-label">ORIGINAL PROMPT</div>
-        <div class="modal-prompt-en" id="modalPromptEn"></div>
       </div>
       <div id="modalAuthorRow" class="modal-author-row" style="display:none">
         <span class="modal-label" style="margin:0">AUTHOR</span>
@@ -630,6 +649,21 @@ async function renderCards(items){
 /* ============================================================
    MODAL
    ============================================================ */
+function copyText(elementId){
+  const el = document.getElementById(elementId);
+  if(!el) return;
+  const text = el.textContent;
+  navigator.clipboard.writeText(text).then(()=>{
+    // Find the copy button that triggered this (it's the button right before this element)
+    const btn = el.parentElement.querySelector('.copy-btn[onclick*="'+elementId+'"]');
+    if(btn){
+      btn.classList.add('copied');
+      const orig = btn.innerHTML;
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>';
+      setTimeout(()=>{ btn.classList.remove('copied'); btn.innerHTML = orig; }, 1500);
+    }
+  });
+}
 const overlay = document.getElementById('modalOverlay');
 const modalClose = document.getElementById('modalClose');
 let currentLang = localStorage.getItem('galleryLang') || 'zh';
@@ -640,7 +674,9 @@ function applyLang(lang){
   document.getElementById('modalLangZh').style.display = lang === 'zh' ? 'block' : 'none';
   document.getElementById('modalLangEn').style.display = lang === 'en' ? 'block' : 'none';
   const btn = document.getElementById('langToggle');
-  btn.textContent = lang === 'zh' ? '中/EN' : 'EN/中';
+  const zhO = lang === 'zh' ? '1' : '.4';
+  const enO = lang === 'en' ? '1' : '.4';
+  btn.innerHTML = '<span class="lang-zh" style="opacity:'+zhO+'">中</span><span class="lang-sep">/</span><span class="lang-en" style="opacity:'+enO+'">EN</span>';
 }
 
 document.getElementById('langToggle').addEventListener('click', ()=>{
@@ -652,21 +688,21 @@ function openModal(item){
   document.getElementById('modalType').textContent = '// ' + (item.type || 'T2I').toUpperCase();
   document.getElementById('modalTitle').textContent = item.title || `#${item.index}`;
 
-  // Chinese prompts
-  document.getElementById('modalPromptZh').textContent = item.prompt;
+  // Chinese prompts: PROMPT = revised_prompt (detailed), REVISED PROMPT = user's original prompt
+  document.getElementById('modalPromptZh').textContent = item.revised_prompt || item.prompt;
   const revisedZh = document.getElementById('modalRevisedWrapZh');
-  if(item.revised_prompt && item.revised_prompt.trim()){
-    document.getElementById('modalRevisedPromptZh').textContent = item.revised_prompt;
+  if(item.prompt && item.prompt.trim() && item.revised_prompt && item.revised_prompt.trim()){
+    document.getElementById('modalRevisedPromptZh').textContent = item.prompt_zh || item.prompt;
     revisedZh.style.display = 'block';
   } else {
     revisedZh.style.display = 'none';
   }
 
-  // English prompts
-  document.getElementById('modalPromptEn').textContent = item.prompt_en || '';
+  // English prompts: PROMPT = revised_prompt_en (detailed), REVISED PROMPT = user's original prompt_en
+  document.getElementById('modalPromptEn').textContent = item.revised_prompt_en || item.prompt_en || '';
   const revisedEn = document.getElementById('modalRevisedWrapEn');
-  if(item.revised_prompt_en && item.revised_prompt_en.trim()){
-    document.getElementById('modalRevisedPromptEn').textContent = item.revised_prompt_en;
+  if(item.prompt_en && item.prompt_en.trim() && item.revised_prompt_en && item.revised_prompt_en.trim()){
+    document.getElementById('modalRevisedPromptEn').textContent = item.prompt_en;
     revisedEn.style.display = 'block';
   } else {
     revisedEn.style.display = 'none';

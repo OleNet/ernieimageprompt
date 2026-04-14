@@ -624,8 +624,8 @@ async function renderCards(items){
         ${badgeLabel ? `<span class="card-badge ${badgeClass}">${badgeLabel}</span>` : ''}
         <div class="card-nums"></div>
         <div class="card-prompt">
-          ${item.title ? `<div class="card-title">${item.title}</div>` : ''}
-          <p>${item.prompt}</p>
+          ${(item.title_en || item.title) ? `<div class="card-title">${item.title_en || item.title}</div>` : ''}
+          <p>${item.revised_prompt_en || item.prompt_en || item.prompt}</p>
         </div>
       </div>`;
 
@@ -667,6 +667,7 @@ function copyText(elementId){
 const overlay = document.getElementById('modalOverlay');
 const modalClose = document.getElementById('modalClose');
 let currentLang = localStorage.getItem('galleryLang') || 'zh';
+let currentItem = null;
 
 function applyLang(lang){
   currentLang = lang;
@@ -677,6 +678,10 @@ function applyLang(lang){
   const zhO = lang === 'zh' ? '1' : '.4';
   const enO = lang === 'en' ? '1' : '.4';
   btn.innerHTML = '<span class="lang-zh" style="opacity:'+zhO+'">中</span><span class="lang-sep">/</span><span class="lang-en" style="opacity:'+enO+'">EN</span>';
+  if(currentItem){
+    const titleEl = document.getElementById('modalTitle');
+    titleEl.textContent = lang === 'en' ? (currentItem.title_en || currentItem.title || `#${currentItem.index}`) : (currentItem.title || `#${currentItem.index}`);
+  }
 }
 
 document.getElementById('langToggle').addEventListener('click', ()=>{
@@ -684,6 +689,7 @@ document.getElementById('langToggle').addEventListener('click', ()=>{
 });
 
 function openModal(item){
+  currentItem = item;
   document.getElementById('modalImg').src = item.image || `https://nlp-sr-share.bj.bcebos.com/liujiaxiang/workfiles/ernieimageprompt/images/${item.filename}`;
   document.getElementById('modalType').textContent = '// ' + (item.type || 'T2I').toUpperCase();
   document.getElementById('modalTitle').textContent = item.title || `#${item.index}`;
@@ -720,8 +726,19 @@ function openModal(item){
   const authorRow = document.getElementById('modalAuthorRow');
   if(item.author){
     authorEl.textContent = item.author;
-    authorEl.href = item.author_link || '#';
-    authorEl.target = item.author_link ? '_blank' : '';
+    if(item.author_link){
+      authorEl.href = item.author_link;
+      authorEl.target = '_blank';
+      authorEl.style.cursor = 'pointer';
+      authorEl.style.borderBottom = '';
+      authorEl.style.pointerEvents = '';
+    } else {
+      authorEl.removeAttribute('href');
+      authorEl.removeAttribute('target');
+      authorEl.style.cursor = 'default';
+      authorEl.style.borderBottom = 'none';
+      authorEl.style.pointerEvents = 'none';
+    }
     authorRow.style.display = 'flex';
   } else {
     authorRow.style.display = 'none';

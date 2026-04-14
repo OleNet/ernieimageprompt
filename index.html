@@ -94,6 +94,30 @@
       flex:1; min-width:0; display:flex; flex-direction:column; gap:16px;
     }
 
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .nav { padding:.6rem 1rem; }
+      .nav-logo { font-size:1.1rem; letter-spacing:1px; }
+      .nav-logo span { font-size:.7rem; }
+      .hero { min-height:60vh; padding:5rem 1rem 3rem; }
+      .crt-title { white-space:normal; letter-spacing:2px; }
+      .crt-subtitle { font-size:1rem; }
+      .gallery-section { padding:2rem .8rem 3rem; }
+      .masonry { gap:10px; }
+      .masonry-col { gap:10px; }
+      .card-prompt p { font-size:.7rem; }
+      .card-title { font-size:.7rem; }
+      .modal { width:96vw; max-height:96vh; }
+      .modal-body { padding:1rem 1.2rem 1.5rem; }
+      .modal-title { font-size:1.2rem; }
+      .modal-prompt-zh, .modal-prompt-revised, .modal-prompt-en { font-size:.82rem; }
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+      .gallery-section { padding:2.5rem 1rem 3.5rem; }
+      .masonry { gap:12px; }
+      .masonry-col { gap:12px; }
+    }
+
     .card {
       margin:0;
       background:var(--bg-card); border:1px solid var(--border);
@@ -209,6 +233,19 @@
       transition:all .2s;
     }
     .modal-close:hover { border-color:var(--green-crt); color:var(--green-crt); }
+    .lang-toggle {
+      position:absolute; top:1rem; right:3.5rem; z-index:10;
+      background:rgba(10,10,15,.8); border:1px solid rgba(136,238,136,.3);
+      color:var(--green-crt); font-family:var(--font-crt); font-size:1rem;
+      padding:.15rem .55rem; border-radius:4px; cursor:pointer;
+      letter-spacing:1px; transition:all .2s;
+      text-shadow:0 0 6px rgba(136,238,136,.3);
+    }
+    .lang-toggle:hover {
+      border-color:var(--green-crt);
+      background:rgba(136,238,136,.1);
+      text-shadow:0 0 10px rgba(136,238,136,.5);
+    }
 
     /* ===== FOOTER ===== */
     footer { text-align:center; padding:2rem; font-family:var(--font-mono); font-size:.75rem; color:rgba(136,238,136,.5); border-top:1px solid var(--border); }
@@ -224,7 +261,39 @@
 
 <!-- HERO with canvas -->
 <!--
-1000 1011 100001 100 010 0 01 11 000 100001 1000 1011 100001 111 010 01 1010 0100 0 000 100001 01 10 100 100001 0 0001 0 10 100001 00 10 100001 1 0000 0 100001 1 0000 00 10 110 000 100001 01 1000 111 001 1 100001 011 0000 00 1010 0000 100001 1 0000 0 1011 100001 01 010 0 100001 11 111 000 1 100001 0 01 110 0 010 100001 00 100001 0000 01 0001 0 100001 010 0 1010 0 00 0001 0 100 100001 100 00 0001 00 10 0 100001 01 00 100 000 100001 00 10 100001 100 010 0 01 11 000 100001 011 0 100001 1010 01 10 10 111 1 100001 010 0 1010 101 111 10 100001 011 00 1 0000 100001 0010 111 010 1 001 10 0 100001 111 010 100001 0100 01 1011 100001 111 001 010 100001 01 1010 1010 111 001 10 1 100001 011 00 1 0000 100001 0010 01 11 0 100001 00 10 100001 0010 00 10 0 100001 1 0000 0 100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001 1000 111 100 1011 100001 00 000 100001 1000 001 1 100001 01 100001 010 00 0001 0 010 100001 01 10 100 100001 1 0000 0 100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001 000 111 001 0100 100001 01 100001 11 00 000 1 1011 100001 100 010 0 01 11 100001 000 111 1000 0 010 100001 1011 111 001 010 000 0 0100 0010 100001 010 0 1010 01 0100 0100 100001 1011 111 001 010 100001 000 0 10 000 0 000 100001 000 0000 01 101 0 100001 000 0100 0 0 0110 100001 0010 010 111 11 100001 1011 111 001 100001 01 10 100 100001 101 10 111 011 100001 1 0000 01 1 100001 00 1 100001 011 01 000 100001 01 100001 100 010 0 01 11 100001 1 0000 01 1 100001 1 010 111 001 1000 0100 0 100 100001 1011 111 001 100001 01 10 100 100001 10 111 011 100001 1 0000 01 1 100001 1011 111 001 100001 01 010 0 100001 1000 010 111 01 100 100001 01 011 01 101 0 100001 01 110 01 00 10 100001 010 0 110 01 010 100 100001 1 0000 0 100001 011 01 101 00 10 110 100001 011 111 010 0100 100 100001 01 000 100001 1011 111 001 100001 100 00 100 100001 1 0000 0 100001 100 010 0 01 11 
+  ██  CIPHER  ██
+  1000 1011 100001 100 010 0 01 11 000 100001 1000 1011 100001
+  111 010 01 1010 0100 0 000 100001 01 10 100 100001 0 0001 0
+  10 100001 00 10 100001 1 0000 0 100001 1 0000 00 10 110 000
+  100001 01 1000 111 001 1 100001 011 0000 00 1010 0000 100001
+  1 0000 0 1011 100001 01 010 0 100001 11 111 000 1 100001 0
+  01 110 0 010 100001 00 100001 0000 01 0001 0 100001 010 0
+  1010 0 00 0001 0 100 100001 100 00 0001 00 10 0 100001 01
+  00 100 000 100001 00 10 100001 100 010 0 01 11 000 100001
+  011 0 100001 1010 01 10 10 111 1 100001 010 0 1010 101 111
+  10 100001 011 00 1 0000 100001 0010 111 010 1 001 10 0
+  100001 111 010 100001 0100 01 1011 100001 111 001 010 100001
+  01 1010 1010 111 001 10 1 100001 011 00 1 0000 100001 0010
+  01 11 0 100001 00 10 100001 0010 00 10 0 100001 1 0000 0
+  100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001
+  1000 111 100 1011 100001 00 000 100001 1000 001 1 100001 01
+  100001 010 00 0001 0 010 100001 01 10 100 100001 1 0000 0
+  100001 0100 00 0010 0 100001 111 0010 100001 1 0000 0 100001
+  000 111 001 0100 100001 01 100001 11 00 000 1 1011 100001
+  100 010 0 01 11 100001 000 111 1000 0 010 100001 1011 111
+  001 010 000 0 0100 0010 100001 010 0 1010 01 0100 0100
+  100001 1011 111 001 010 100001 000 0 10 000 0 000 100001
+  000 0000 01 101 0 100001 000 0100 0 0 0110 100001 0010 010
+  111 11 100001 1011 111 001 100001 01 10 100 100001 101 10
+  111 011 100001 1 0000 01 1 100001 00 1 100001 011 01 000
+  100001 01 100001 100 010 0 01 11 100001 1 0000 01 1 100001
+  1 010 111 001 1000 0100 0 100001 1011 111 001 100001 01 10
+  100 100001 10 111 011 100001 1 0000 01 1 100001 1011 111
+  001 100001 01 010 0 100001 1000 010 111 01 100 100001 01
+  011 01 101 0 100001 0110 01 00 10 100001 010 0 110 01 010
+  100 100001 1 0000 0 100001 011 01 101 00 10 110 100001 011
+  111 010 0100 100 100001 01 000 100001 1011 111 001 100001
+  100 00 100 100001 1 0000 0 100001 100 010 0 01 11
 -->
 <section class="hero">
   <canvas id="heroCanvas"></canvas>
@@ -242,12 +311,7 @@
     <span class="section-tag">gallery</span>
     <span class="gallery-title">Image Prompts</span>
   </div>
-  <div class="masonry" id="masonry">
-    <div class="masonry-col" id="col0"></div>
-    <div class="masonry-col" id="col1"></div>
-    <div class="masonry-col" id="col2"></div>
-    <div class="masonry-col" id="col3"></div>
-  </div>
+  <div class="masonry" id="masonry"></div>
   <div id="loadMore"><div class="spinner"></div></div>
 </div>
 
@@ -255,19 +319,28 @@
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal" id="modal">
     <button class="modal-close" id="modalClose">✕</button>
+    <button class="lang-toggle" id="langToggle">中/EN</button>
     <img class="modal-img" id="modalImg" src="" alt=""/>
     <div class="modal-body">
       <div class="modal-type" id="modalType"></div>
       <div class="modal-title" id="modalTitle"></div>
-      <div class="modal-label">PROMPT</div>
-      <div class="modal-prompt-zh" id="modalPromptZh"></div>
-      <div id="modalEnWrap" style="display:none">
-        <div class="modal-label">ENGLISH PROMPT</div>
-        <div class="modal-prompt-en" id="modalPromptEn"></div>
+      <!-- Chinese mode (default) -->
+      <div id="modalLangZh">
+        <div class="modal-label">PROMPT</div>
+        <div class="modal-prompt-zh" id="modalPromptZh"></div>
+        <div id="modalRevisedWrapZh" style="display:none">
+          <div class="modal-label">REVISED PROMPT</div>
+          <div class="modal-prompt-revised" id="modalRevisedPromptZh"></div>
+        </div>
       </div>
-      <div id="modalRevisedWrap" style="display:none">
-        <div class="modal-label">REVISED PROMPT</div>
-        <div class="modal-prompt-revised" id="modalRevisedPrompt"></div>
+      <!-- English mode (hidden by default) -->
+      <div id="modalLangEn" style="display:none">
+        <div class="modal-label">PROMPT</div>
+        <div class="modal-prompt-en" id="modalPromptEn"></div>
+        <div id="modalRevisedWrapEn" style="display:none">
+          <div class="modal-label">REVISED PROMPT</div>
+          <div class="modal-prompt-revised" id="modalRevisedPromptEn"></div>
+        </div>
       </div>
       <div id="modalAuthorRow" class="modal-author-row" style="display:none">
         <span class="modal-label" style="margin:0">AUTHOR</span>
@@ -437,13 +510,42 @@ function attachCardEffect(card, imgEl){
    INFINITE SCROLL GALLERY
    ============================================================ */
 let page = 1, loading = false, done = false;
-const cols = [
-  document.getElementById('col0'),
-  document.getElementById('col1'),
-  document.getElementById('col2'),
-  document.getElementById('col3'),
-];
+const masonry = document.getElementById('masonry');
+let cols = [];
+let colCount = 0;
 const loadMore = document.getElementById('loadMore');
+
+function getColCount(){
+  const w = window.innerWidth;
+  if(w <= 600) return 2;
+  if(w <= 1024) return 3;
+  return 4;
+}
+
+function buildCols(){
+  const need = getColCount();
+  if(need === colCount && cols.length === need) return;
+  colCount = need;
+  // gather all existing cards in order
+  const cards = [];
+  cols.forEach(c => {
+    for(const ch of c.children) cards.push(ch);
+  });
+  masonry.innerHTML = '';
+  cols = [];
+  for(let i = 0; i < colCount; i++){
+    const div = document.createElement('div');
+    div.className = 'masonry-col';
+    masonry.appendChild(div);
+    cols.push(div);
+  }
+  // redistribute cards
+  let ci = 0;
+  for(const card of cards){
+    cols[ci % colCount].appendChild(card);
+    ci++;
+  }
+}
 
 function getShortestCol(){
   let min = Infinity, idx = 0;
@@ -498,7 +600,7 @@ async function renderCards(items){
     const badgeLabel = (item.type === 't2i' || item.type === 'editing') ? 'T2I' : (item.type || '');
     card.innerHTML = `
       <div class="card-img-wrap">
-        <img src="${item.image}" alt="${item.title||''}"/>
+        <img src="${item.image || 'https://nlp-sr-share.bj.bcebos.com/liujiaxiang/workfiles/ernieimageprompt/images/' + item.filename}" alt="${item.title||''}"/>
         ${badgeLabel ? `<span class="card-badge ${badgeClass}">${badgeLabel}</span>` : ''}
         <div class="card-nums"></div>
         <div class="card-prompt">
@@ -509,6 +611,8 @@ async function renderCards(items){
 
     card.addEventListener('mouseenter', () => card.classList.add('is-hovered'));
     card.addEventListener('mouseleave', () => card.classList.remove('is-hovered'));
+    card.addEventListener('touchstart', () => card.classList.add('is-hovered'), {passive:true});
+    card.addEventListener('touchend', () => setTimeout(()=> card.classList.remove('is-hovered'), 300), {passive:true});
 
     attachCardEffect(card, card.querySelector('img'));
     card.addEventListener('click', ()=>openModal(item));
@@ -527,26 +631,49 @@ async function renderCards(items){
    ============================================================ */
 const overlay = document.getElementById('modalOverlay');
 const modalClose = document.getElementById('modalClose');
+let currentLang = localStorage.getItem('galleryLang') || 'zh';
+
+function applyLang(lang){
+  currentLang = lang;
+  localStorage.setItem('galleryLang', lang);
+  document.getElementById('modalLangZh').style.display = lang === 'zh' ? 'block' : 'none';
+  document.getElementById('modalLangEn').style.display = lang === 'en' ? 'block' : 'none';
+  const btn = document.getElementById('langToggle');
+  btn.textContent = lang === 'zh' ? '中/EN' : 'EN/中';
+}
+
+document.getElementById('langToggle').addEventListener('click', ()=>{
+  applyLang(currentLang === 'zh' ? 'en' : 'zh');
+});
 
 function openModal(item){
-  document.getElementById('modalImg').src = item.image;
-  document.getElementById('modalType').textContent = '// T2I';
+  document.getElementById('modalImg').src = item.image || `https://nlp-sr-share.bj.bcebos.com/liujiaxiang/workfiles/ernieimageprompt/images/${item.filename}`;
+  document.getElementById('modalType').textContent = '// ' + (item.type || 'T2I').toUpperCase();
   document.getElementById('modalTitle').textContent = item.title || `#${item.index}`;
+
+  // Chinese prompts
   document.getElementById('modalPromptZh').textContent = item.prompt;
-  const enWrap = document.getElementById('modalEnWrap');
-  if(item.prompt_en && item.prompt_en.trim()){
-    document.getElementById('modalPromptEn').textContent = item.prompt_en;
-    enWrap.style.display='block';
-  } else {
-    enWrap.style.display='none';
-  }
-  const revisedWrap = document.getElementById('modalRevisedWrap');
+  const revisedZh = document.getElementById('modalRevisedWrapZh');
   if(item.revised_prompt && item.revised_prompt.trim()){
-    document.getElementById('modalRevisedPrompt').textContent = item.revised_prompt;
-    revisedWrap.style.display='block';
+    document.getElementById('modalRevisedPromptZh').textContent = item.revised_prompt;
+    revisedZh.style.display = 'block';
   } else {
-    revisedWrap.style.display='none';
+    revisedZh.style.display = 'none';
   }
+
+  // English prompts
+  document.getElementById('modalPromptEn').textContent = item.prompt_en || '';
+  const revisedEn = document.getElementById('modalRevisedWrapEn');
+  if(item.revised_prompt_en && item.revised_prompt_en.trim()){
+    document.getElementById('modalRevisedPromptEn').textContent = item.revised_prompt_en;
+    revisedEn.style.display = 'block';
+  } else {
+    revisedEn.style.display = 'none';
+  }
+
+  applyLang(currentLang);
+
+  // source
   const src = document.getElementById('modalSource');
   if(item.source){
     src.href = item.source; src.style.display='inline-flex';
@@ -588,7 +715,13 @@ window.addEventListener('scroll', ()=>{
   if(distToBottom < 300) fetchPage();
 }, { passive: true });
 
-// kick off first page
+// build responsive columns & kick off
+buildCols();
+let resizeTimer;
+window.addEventListener('resize', ()=>{
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(buildCols, 200);
+});
 fetchPage();
 </script>
 </body>
